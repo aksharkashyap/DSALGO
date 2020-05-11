@@ -1,7 +1,6 @@
 package LIST;
-//perform insertion sort on singly linked list
-//worst case almost o(n^3) when list is reverse sorted because of the back_ptr method
-public class InsertionSortList {
+
+public class InsertionSortList2 {
     Node head;
     class Node{
         Node next;
@@ -49,7 +48,7 @@ public class InsertionSortList {
     }
 
     public static void main(String[] args) {
-        InsertionSortList list = new InsertionSortList();
+        InsertionSortList2 list = new InsertionSortList2();
         Node node1 = list.new Node(4);
         Node node2 = list.new Node(2);
         Node node3 = list.new Node(1);
