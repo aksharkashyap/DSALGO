@@ -1,0 +1,34 @@
+1) 01 knapsack
+2) susbet sum probelm
+3) equal sum partition probelm
+4) count of subset sum with given sum
+5) min subset sum diff
+6) count the number of subset with given diff
+7) target sum
+
+8) unbounded knapsack
+9) rod cutting
+10) coin change problem(max num of ways)
+11) coin change problem(min number of coins)
+
+12) longest common subsequence
+13) longest common substring
+14) print longest common subsequence
+15) shortest common supersequence
+16) min num of insertion and deletion to convert string a to string b
+17) longest palindromic subsequence
+18) min num of deletion in string to maake it palindrome
+19) print shortest common supersequence
+20) longest repeating subsequence
+21) sequence pattern matching
+22) min num of insertion in a string to make it palindrome
+
+23) matrix chain multiplication (recursive/memo/dp)
+24) palindrome partitioning(recurvie/memo/dp)
+25) evaluate expression to true boolean parenthesization
+26) scrambled string
+27) egg dropping problem
+
+28) diameter of tree
+29) max path sum  - any node to any node
+30) max path sum - leaf to leaf node

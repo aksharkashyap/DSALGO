@@ -1,0 +1,17 @@
+knapsack
+subset sum
+equal sum partition
+count of subset sum with given sum(weight)
+minimum subset sum difference - imp - do it (left)
+count the number of subset with given difference // target sum ---- both are same
+
+------------------
+1)unbounded knapsack
+
+2)rod cutting problem - same as unbounded knapsack - nothing has to be changed
+  -> value - price
+  -> weight - pieces
+  -> W(capacity) - N(size of array) )(if not given fixed capacity)
+  -> dp[size+1][length+1]
+
+3)coin change problem - max num of ways, min num of coins

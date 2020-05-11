@@ -1,0 +1,42 @@
+1) matrix representation
+2) adjacency list representation
+3) bfs
+4) dfs
+5) topological sort
+6) assign directions to edges so graph remains acyclic - (use topological sort)
+7) find degree of a given vertex
+8) find mother vertex
+9) count the number of non-reachable nodes
+10) detect cycle in a graph
+11) union-find algorithm for undirected - cycle detection
+12) number of triangles in an undirected graph
+14) check if given graph is tree or not
+16) Disjktras's single source shortest path
+17) graph coloring - (vertex/edge)
+18) m-coloring problem
+19) bipartite graph
+20) kirchhoff's algo- for number of spanning tree of a graph
+21) dial's algo - optimized dijsktra for small range weights
+22) rooting a tree
+23) centre of a tree
+24) identify isomorphic tree
+25) lowest common anscestor (LCA) problem - Eulerian path method
+26) shortest and longest path in a DAG
+27) bellman ford shortest path algo
+28) floyd-warshal all-pair shortest path
+29) bridges & articulation points in a graph
+30) kosaraju's algo/tarjen's - strongly connected component
+31) travelling sales-man problem
+32) existence of eulerian paths and circuits
+33) eulerian path algo
+34) prims minimum spanning tree
+35) max-flow ford fulkerson  - network flow
+36) unweighted bipartite matching - network flow
+37) mice and owls problem - network flow
+38) elementry math problem - network flow
+39) capacity scalling - network flow
+40) dinic's algo - network flow
+41) clone a graph
+42) hamiltonian path and cycle
+43) krushkal's MST 
+44) transitive closure of a graph
