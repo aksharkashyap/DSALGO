@@ -1,0 +1,9 @@
+kth smallest
+return k largest
+sort a k sorted array
+k closest numbers
+top k frequent elements
+frequency sort
+k closest point to origin - 2d matrix - imp
+connect ropes to minimize the cost
+sum of elements bw k1 smallest and k2 smallest
