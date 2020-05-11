@@ -1,14 +1,6 @@
 import java.util.*;
-<<<<<<< HEAD
-
-class Test{
-//boss 
-//cahnegs
-=======
-//hello mr dj
 class Test{
 
->>>>>>> f8fb23e6832ce2fa50b9f8457a987a653ebd2fc0
 	public static void main(String[] args) {
 		
 		List<List<Integer>> list = new ArrayList<>();
