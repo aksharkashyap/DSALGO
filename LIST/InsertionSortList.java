@@ -1,6 +1,7 @@
 package LIST;
-//perform insertion sort on singly linked list
-//worst case almost o(n^3) when list is reverse sorted because of the back_ptr method
+//perform insertion sort on singly linked list -> with backward traversal
+//worst case almost o(n^3) when list is reverse sorted because of the back_ptr method 
+// complexity can be reduced to o(n^2) if we use forward traversal 
 public class InsertionSortList {
     Node head;
     class Node{

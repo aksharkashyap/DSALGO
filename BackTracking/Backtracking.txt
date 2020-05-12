@@ -1,0 +1,35 @@
+1) The knight's tour problem
+2) rat in a maze
+3) n-queen problem
+4) subset sum
+5) mColoring problem
+6) hamiltonian cycle
+7) sudoku
+8) solving cryptarithmetic puzzles
+9) magnet puzzle
+10) boggle
+11) Tug of war
+12) remove invalid parenthesis
+13) permutation of strings
+14) find all subsets
+15) word break problem
+16) prime numbers after prime p wth sum s
+17) rat in a maze with multiple jumps allowed
+18) find path from corner to middle cell in a maze
+19) print palindromic partitions strings
+20) shortest safe route in a path with landmines
+21) print all possible paths from top left to bottom right of mXn matrix
+22) match a pattern and string without using regular expression
+23) warndorff's algo
+24) genrate n bit gray codes
+
+misc---
+
+25) Print all paths from a given source to a destination
+26) Fill 8 numbers in grid with given conditions
+27) Count all possible paths between two vertices
+28) Minimize number of unique characters in string
+29) Find if there is a path of more than k length from a source
+30) Find Maximum number possible by doing at-most K swaps
+31) Prnt all possible strings that can be made by placing spaces
+32) Print all longest common sub-sequences in lexicographical order
