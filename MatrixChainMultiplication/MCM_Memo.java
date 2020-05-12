@@ -3,9 +3,9 @@ package MatrixChainMultiplication;
 import java.util.Arrays;
 
 public class MCM_Memo {
-    static int ans = Integer.MAX_VALUE;
-
+    
     static int solve(int[]mat,int i, int j,int[][]memo){
+        int ans = Integer.MAX_VALUE;
 
         if (i>=j) return 0;
         if(memo[i][j]!=-1)return memo[i][j];

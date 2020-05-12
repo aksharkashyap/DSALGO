@@ -1,9 +1,14 @@
 import java.util.*;
+<<<<<<< HEAD
 
 //hello mr dj
 class Test{
 
 
+=======
+class Test{
+
+>>>>>>> 275d5b168a4a8474ed1c0729fa73111b7ea76d00
 	public static void main(String[] args) {
 		
 		List<List<Integer>> list = new ArrayList<>();
