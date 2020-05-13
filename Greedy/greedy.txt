@@ -1,0 +1,30 @@
+Standard Greedy Algorithms :
+
+Activity Selection Problem
+Egyptian Fraction
+Job Sequencing Problem
+Job Sequencing Problem (Using Disjoint Set)
+Job Sequencing Problem – Loss Minimization
+Job Selection Problem – Loss Minimization Strategy | Set 2
+Huffman Coding
+Efficient Huffman Coding for sorted input
+Huffman Decoding
+Water Connection Problem
+Policemen catch thieves
+Minimum Swaps for Bracket Balancing
+Fitting Shelves Problem
+Assign Mice to Holes
+
+Approximate Greedy Algorithms for NP Complete Problems :
+
+Set cover problem
+Bin Packing Problem
+Graph Coloring
+K-centers problem
+Shortest superstring problem
+Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)
+Traveling Salesman Problem | Set 2 (Approximate using MST)
+Greedy Algorithms for Special Cases of DP problems :
+
+Fractional Knapsack Problem
+Minimum number of coins required
