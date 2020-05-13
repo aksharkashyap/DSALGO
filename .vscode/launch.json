@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RatInAMaze",
+            "request": "launch",
+            "mainClass": "BackTracking.RatInAMaze",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvaluateExpressionToTrue",
+            "request": "launch",
+            "mainClass": "MatrixChainMultiplication.EvaluateExpressionToTrue",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InsertInSortedWay",
             "request": "launch",
             "mainClass": "LIST.InsertInSortedWay",
