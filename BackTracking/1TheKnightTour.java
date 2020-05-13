@@ -2,7 +2,7 @@ package BackTracking;
 
 import java.util.Arrays;
 
-public class TheKnightTour {
+class TheKnightTour {
 
     void printSolution(int sol[][],int N) { 
         for (int x = 0; x < N; x++) { 
