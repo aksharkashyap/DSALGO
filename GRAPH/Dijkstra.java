@@ -15,7 +15,7 @@ class Dijsktra{
        return min_vertex;
    } 
 
-    void explore_neighbour(int graph[][],boolean visited[],int i,int V,int dis[]){
+    void relax_neighbour(int graph[][],boolean visited[],int i,int V,int dis[]){
         for(int j=0;j<V;j++){ //i - row and j-column
             if(!visited[j]  && graph[i][j]!=0 && dis[i]!=Integer.MAX_VALUE){
                 int temp = dis[i] + graph[i][j];
@@ -34,7 +34,7 @@ class Dijsktra{
     for(int count=0;count<V-1;count++){
         int min_dist_vertex = getMinVertex(distance,visited,V);
         visited[min_dist_vertex] = true;
-        explore_neighbour(graph,visited,min_dist_vertex,V,distance);
+        relax_neighbour(graph,visited,min_dist_vertex,V,distance);
     }
 
     for(int i : distance) 

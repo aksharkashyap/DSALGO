@@ -1,10 +1,8 @@
-16) Disjktras's single source shortest path
-21) dial's algo - optimized dijsktra for small range weights
-27) bellman ford shortest path algo
-28) floyd-warshal all-pair shortest path
-31) travelling sales-man problem
-32) prims minimum spanning tree
-33) krushkal's MST 
-20) kirchhoff's algo- for number of spanning tree of a graph
-30) kosaraju's algo/tarjen's - strongly connected component
-max-flow ford fulkerson  - network flow
+1) dial's algo - optimized dijsktra for small range weights
+2) floyd-warshal all-pair shortest path
+3) travelling sales-man problem
+4) prims minimum spanning tree
+5) krushkal's MST 
+6) kirchhoff's algo- for number of spanning tree of a graph
+7) kosaraju's algo/tarjen's - strongly connected component
+8) max-flow ford fulkerson  - network flow
