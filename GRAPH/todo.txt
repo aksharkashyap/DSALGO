@@ -1,4 +1,3 @@
-1) dial's algo - optimized dijsktra for small range weights
 2) floyd-warshal all-pair shortest path
 3) travelling sales-man problem
 4) prims minimum spanning tree
@@ -6,3 +5,4 @@
 6) kirchhoff's algo- for number of spanning tree of a graph
 7) kosaraju's algo/tarjen's - strongly connected component
 8) max-flow ford fulkerson  - network flow
+1) dial's algo - optimized dijsktra for small range weights
