@@ -1,5 +1,5 @@
 package BackTracking;
-
+// follow the second solution given below 
 class Sudoku {
     
     boolean isValidNum(int[][] board,int row, int col, int num,int N){
@@ -56,7 +56,7 @@ class Sudoku {
             }
         return false;
     }
-    
+
     public void solveSudoku(int[][] board) {
         int N = board.length;
         if(solve(board,N)){
@@ -91,3 +91,26 @@ class Sudoku {
        s.solveSudoku(grid);  
     }
 }
+
+/**recommended approach-> recursive fashion
+ *  boolean solve(char[][]board,int row,int col,char[]moves,int N){
+        if(row==N) return true; //row base case
+        if(col==N) return solve(board,row+1,0,moves,N); //col ended start with the new row
+        if(board[row][col] != '.') return solve(board,row,col+1,moves,N); //if occupied move to next
+        for(int i=0;i<moves.length;i++){
+            char move = moves[i];
+            if(isValid(board,row,col,move,N)){
+                board[row][col] = move;
+                if(solve(board,row,col+1,moves,N)) return true;
+                board[row][col] = '.';
+            }
+        }
+        return false;
+    }
+
+    public void solveSudoku(char[][] board) {
+        char[]moves = {'1','2','3','4','5','6','7','8','9'};
+        solve(board,0,0,moves,board.length);
+        print_board(board,board.length);
+    }
+ */
