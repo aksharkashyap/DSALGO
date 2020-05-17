@@ -1,0 +1,26 @@
+1) invert a binary tree
+2) Diameter of binary tree
+3) height balanced tree
+4) zigzag traversal tree 
+5) median of BST
+6) merge two BST
+7) mode in BST
+8) tree from postorder and inorder
+9) tree from inorder and preorder
+10) check for children sum property
+11) left ,right ,top, bottom view of binary tree
+12) lowest common ancestor in binary tree
+13) reverse zigzag traversal of binary tree
+14) N-ary tree( pre, post - iteratively)
+15) Binray tree / Bst / iterative approach
+16) Serialization of binary tree
+17) iterative inorder,preorder,postorder 
+18) symmetric tree
+19) hight balanced tree
+20) longest zigzag path
+21) longest path from any node to any node
+22) longest path from leaf to leaf
+23) longest path from root to leaf
+24) validate binary search tree
+25) average of levels
+26) bfs/dfs on binary , Nry tree

@@ -1,0 +1,21 @@
+1) reverse number betweeen two nodes / reverse half nodes
+2) sort numbers b/w two nodes
+3) merge-sort,quick sort,binarysearch
+4) Selection, insertion sort on linked list
+5) reverse linked list (pos1 to pos2)
+6) remove duplicate 2 - leetcode
+7) linkedlist with random pointer
+8) flatten linkedlist
+9) third node from end of linkedlist
+10) intersection,union point of linkedlist
+11) multiplication of linkedlist
+12) remove all special chars from singly linked-list
+13) clockwise rotation of linked-list
+14) sort linkedlist of 0’s 1’s and 2’s
+15) merge k sorted linkedlist
+16) insert in a sorted way
+17) middle of a linkedlist
+18) Quick sort and merge sort on Doubly linked list
+
+
+
