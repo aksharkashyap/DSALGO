@@ -1,0 +1,11 @@
+1) set bit count in a number
+2) odd/even check
+3) xor swapping
+4) find unique number using xor
+5) find 2 unique number
+6) extract ith bit from number
+7) set ith bith (1)
+8) clear ith bit (0)
+9) subsets (subsequences of a string)
+10) a>>b = a/2^b
+11) a<<b = a * 2^b
