@@ -6,6 +6,7 @@
 7) mColoring problem
 8) hamiltonian cycle
 9) travelling sales man problem
+
 9) remove invalid parenthesis
 10) word break problem
 11) prime numbers after prime p wth sum s
@@ -20,7 +21,7 @@
 20) solving cryptarithmetic puzzles
 21) magnet puzzle
 22) Tug of war
-23) permutation of strings
+23) permutation of strings 
 24) subset sum
 25) find all subsets
 

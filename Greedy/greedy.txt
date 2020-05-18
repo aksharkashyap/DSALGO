@@ -24,6 +24,7 @@ K-centers problem
 Shortest superstring problem
 Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)
 Traveling Salesman Problem | Set 2 (Approximate using MST)
+Traveling Salesman Problem | Set 3 (Greedy)
 Greedy Algorithms for Special Cases of DP problems :
 
 Fractional Knapsack Problem
