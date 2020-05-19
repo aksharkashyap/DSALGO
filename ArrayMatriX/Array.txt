@@ -1,0 +1,11 @@
+find cycle in array
+median of row-wise sorted matrix
+sort matrix & print matrix diagonal & zigzag patternn
+matrix - snake,antispiral,z form, Spiral matrix
+sum of matrix and mirror image
+median of two sorted array
+smallest of three without using comparison
+armstrong/anagram
+wave array, majority element, missing num in array
+swap odd and even bits
+ternery search

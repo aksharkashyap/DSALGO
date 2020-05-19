@@ -1,0 +1,11 @@
+1) row-column wise sorting
+2) ascending order sorting
+3) binary search on (1&2 quesn)
+4) print elements diagonally (up->down || down->up)
+5) sort elements diagonally
+6) zigzag order traversal
+7) sprial matrix
+8) anti-spiral form
+9) z form
+10) snake pattern
+11) sum of matrix and its mirror image 

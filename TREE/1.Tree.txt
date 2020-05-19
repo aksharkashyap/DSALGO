@@ -2,6 +2,7 @@
 2) Diameter of binary tree
 3) height balanced tree
 4) zigzag traversal tree 
+5) morris inorder traversal
 5) median of BST
 6) merge two BST
 7) mode in BST
