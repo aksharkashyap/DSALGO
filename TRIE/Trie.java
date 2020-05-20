@@ -1,4 +1,4 @@
-package TREE;
+package TRIE;
 // search,insert,delete - o(keylength)
 //build - o(numberOfWords * avgLengthOfWords)
 //space complexity - o(alphabetSize * numberOfKeys * keyLength)
