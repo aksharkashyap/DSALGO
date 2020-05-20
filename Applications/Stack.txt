@@ -1,0 +1,41 @@
+Stacks can be used for expression evaluation.
+Stacks can be used to check parenthesis matching in an expression.
+Stacks can be used for Conversion from one form of expression to another.
+Stacks can be used for Memory Management.
+Stack data structures are used in backtracking problems.
+Function call stack
+A stack of plates/books in a cupboard.
+Wearing/Removing Bangles.
+Support for recursion
+Used in IDEs to check for proper paranthesis matching
+Books,Clothes piled on top of each other
+Floors in a building.
+
+--> How to understand a stack practically?
+There are many real-life examples of a stack. Consider the simple example of plates stacked over one another 
+in a canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been 
+placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply
+ seen to follow LIFO/FILO order.
+
+--> Time Complexities of operations on stack:
+
+push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+
+
+
+--> Applications of stack:
+
+Balancing of symbols
+Infix to Postfix /Prefix conversion
+Redo-undo features at many places like editors, photoshop.
+Forward and backward feature in web browsers
+Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
+In Graph Algorithms like Topological Sorting and Strongly Connected Components
+
+
+--> Implementation:
+There are two ways to implement a stack:
+
+Using array
+Using linked list

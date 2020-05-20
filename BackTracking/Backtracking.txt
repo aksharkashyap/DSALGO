@@ -2,7 +2,7 @@
 2) rat in a maze
 3) n-queen problem
 4) sudoku
-5) boggle
+5) boggle(word search)
 7) mColoring problem
 8) hamiltonian cycle
 9) travelling sales man problem

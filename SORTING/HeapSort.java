@@ -32,7 +32,7 @@ import java.util.Arrays;
     }
 
     public static void main(String[] args) {
-      int arr[] = { 19, 12};
+      int[] arr = {5,2,31,3,4,5,6,5,1};
       HeapSort hs = new HeapSort();
       hs.sort(arr);
       System.out.println("Sorted array is");

@@ -1,0 +1,52 @@
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. 
+The elements in a linked list are linked using pointers as shown in the below image:
+
+Applications of linked list in computer science –
+
+1) Implementation of stacks and queues
+2) Implementation of graphs : Adjacency list representation of graphs is most popular which is uses linked list to store adjacent vertices.
+3) Dynamic memory allocation : We use linked list of free blocks.
+4) Maintaining directory of names
+5) Performing arithmetic operations on long integers
+6) Manipulation of polynomials by storing constants in the node of linked list
+7) representing sparse matrices
+
+
+Applications of linked list in real world-
+
+1) Image viewer – Previous and next images are linked, hence can be accessed by next and previous button.
+
+2) Previous and next page in web browser – We can access previous and next url searched in web browser by pressing back and next button since, 
+they are linked as linked list.
+
+3) Music Player – Songs in music player are linked to previous and next song. you can play songs either from starting or ending of the list.
+
+
+
+Applications of Circular Linked Lists:
+
+1) Useful for implementation of queue. Unlike this implementation, we don’t need to maintain two pointers for 
+front and rear if we use circular linked list. We can maintain a pointer to the last inserted node and front 
+can always be obtained as next of last.
+
+2) Circular lists are useful in applications to repeatedly go around the list. For example, when multiple 
+applications are running on a PC, it is common for the operating system to put the running applications 
+on a list and then to cycle through them, giving each of them a slice of time to execute, and then making 
+them wait while the CPU is given to another application. It is convenient for the operating system to use a 
+circular list so that when it reaches the end of the list it can cycle around to the front of the list.
+Circular Doubly Linked Lists are used for implementation of advanced data structures like Fibonacci Heap.
+
+
+An example problem:
+
+Design a data structure that supports following operations efficiently.
+
+getMin : Gets minimum
+extractMin : Removes minimum
+getMax : Gets maximum
+extractMax : Removes maximum
+insert : Inserts an item. It may be assumed that the inserted item is always greater than maximum so far. 
+For example, a valid insertion order is 10, 12, 13, 20, 50.
+Doubly linked list is the best solution here. We maintain head and tail pointers, since inserted item 
+is always greatest, we insert at tail. Deleting an item from head or tail can be done in O(1) time. 
+So all operations take O(1) time.

@@ -1,26 +1,34 @@
+import java.util.Arrays;
+//insert in a max heapify order
 class Test{
+    int TOP = -1;
+    int HEAP[];
+    int parent(int i){
+        return (i-1)/2;
+    }
+    Test(int n){
+        HEAP = new int[n];
+    }
+    void swap(int arr[], int i, int j){
+        int temp = arr[i];
+        arr[i]= arr[j];
+        arr[j] = temp;
+    }
 
-    static void solve(String str,int l,int r){
-        if(l==r){
-            //print string
-            System.out.println(str);
-        }
-        for(int i=l;i<=r;i++){
-            str = swap(str, l, i);
-            solve(str, l+1, r);
-            str = swap(str, l,i);
+    void solve(int n){
+        HEAP[++TOP] = n;
+        int curr = TOP;
+        while(HEAP[curr] > HEAP[parent(curr)]){
+            swap(HEAP,curr,parent(curr));
+            curr = parent(curr);
         }
     }
 
-    static String swap(String str, int a , int b){
-        char[]arr = str.toCharArray();
-        char temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-        return String.valueOf(arr);
-    }
     public static void main(String[] args) {
-        String str = "abc";
-        solve(str,0,str.length()-1);
+        int[] arr = {5,2,31,3,4,5,6,5,1};
+        Test ob = new Test(arr.length);
+        System.out.print(Arrays.toString(arr));
+        for(int i : arr) ob.solve(i);
+        System.out.print(Arrays.toString(ob.HEAP));
     }
 }
