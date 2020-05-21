@@ -25,3 +25,4 @@
 24) validate binary search tree
 25) average of levels
 26) bfs/dfs on binary , Nry tree
+27) binary tree pruning - LeetCode
