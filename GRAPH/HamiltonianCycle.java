@@ -47,27 +47,12 @@ class HamiltonianCycle {
     }
     public static void main(String[] args) {
         HamiltonianCycle obj = new HamiltonianCycle();
-        int graph1[][] = {
-            {0,1,0,1,0,0},
-            {1,0,1,0,1,0},
-            {0,1,0,0,0,1},
-            {1,0,0,0,1,0},
-            {0,1,0,1,0,1},
-            {0,0,1,0,1,0}
-        };
         int graph2[][] = {{0, 1, 0, 1, 0}, 
             {1, 0, 1, 1, 1}, 
             {0, 1, 0, 0, 1}, 
             {1, 1, 0, 0, 1}, 
             {0, 1, 1, 1, 0}, 
-            }; 
-        int graph3[][]={
-            {0, 1, 0, 1, 0}, 
-            {1, 0, 1, 1, 1}, 
-            {0, 1, 0, 0, 1}, 
-            {1, 1, 0, 0, 0}, 
-            {0, 1, 1, 0, 0}
-        };
+            };
         obj.h_cycle(graph2,graph2.length);
         System.out.println(obj.str);
     }
