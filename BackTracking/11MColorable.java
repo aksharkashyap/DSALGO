@@ -2,7 +2,7 @@ package BackTracking;
 
 import java.util.*;
 
-class MColorable{
+class MColorable11{
 
     static boolean isSafe(int c,int[]colors,int graph[][],int V,int N){
         for(int i=0;i<N;i++)
