@@ -26,3 +26,9 @@
 25) average of levels
 26) bfs/dfs on binary , Nry tree
 27) binary tree pruning - LeetCode
+28) spiral traversal of binary tree
+
+28) AVL tree
+29) Red black tree
+30) B tree
+31) B+ tree 
