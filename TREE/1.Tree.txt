@@ -1,17 +1,14 @@
 1) invert a binary tree
 2) Diameter of binary tree
 3) height balanced tree
-4) zigzag traversal tree 
-5) morris inorder traversal
 5) median of BST
 6) merge two BST
-7) mode in BST
+7) mode in BST (most occurring element(s))
 8) tree from postorder and inorder
 9) tree from inorder and preorder
 10) check for children sum property
 11) left ,right ,top, bottom view of binary tree
 12) lowest common ancestor in binary tree
-13) reverse zigzag traversal of binary tree
 14) N-ary tree( pre, post - iteratively)
 15) Binray tree / Bst / iterative approach
 16) Serialization of binary tree
@@ -26,9 +23,32 @@
 25) average of levels
 26) bfs/dfs on binary , Nry tree
 27) binary tree pruning - LeetCode
-28) spiral traversal of binary tree
-
+//--------------------------------------------
 28) AVL tree
 29) Red black tree
 30) B tree
 31) B+ tree 
+//---------------------------------------------
+34) parenthesis theorem
+35) minimum bottleneck spanning tree
+36) maximum xor path of binary tree
+37) Count of subtrees in a Binary Tree having bitwise OR value K
+39) Count of Fibonacci paths in a Binary tree
+39) Count of exponential paths in a Binary Tree
+40) Print all Exponential Levels of a Binary Tree
+47) m-Way search trees
+
+//traversals------------------------------------
+1) zigzag traversal tree 
+2) morris inorder traversal
+3) spiral traversal of binary tree
+4) reverse zigzag traversal of binary tree
+5) vertical order traversal
+6) diagonal traversal
+7) Diamond Tree
+8) Clockwise Triangular traversal of a Binary Tree
+9) Boundary Level order traversal of a Binary Tree
+10) Middle To Up-Down Order traversal of a Binary Tree
+11) Level order traversal in spiral form | Using Deque
+12) Vertical Zig-Zag traversal of a Tree
+13) Left-Right traversal of all the levels of Binary tree
