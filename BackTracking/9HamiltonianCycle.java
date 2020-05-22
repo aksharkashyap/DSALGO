@@ -1,4 +1,4 @@
-package GRAPH;
+package BackTracking;
 
 // traverse the vertices exactly once and get back to the starting vertex
 

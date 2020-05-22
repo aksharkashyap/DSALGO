@@ -1,8 +1,8 @@
-package GRAPH;
-
+package BackTracking;
+//this one is the optimized one
 import java.util.Arrays;
 
-public class HamiltonianCycle2 {
+class HamiltonianCycle2 {
     int V = 5;
     int pathArr[] = new int[V];
     boolean isIncluded[] = new boolean[V];
