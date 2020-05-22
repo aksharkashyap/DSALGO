@@ -1,10 +1,12 @@
+package BackTracking;
+
 import java.util.*;
 
-class Test{
+class MColorable{
 
     static boolean isSafe(int c,int[]colors,int graph[][],int V,int N){
         for(int i=0;i<N;i++)
-            if(graph[V][i] == 1 && colors[i] == c) return false; // checking neighbour
+            if(graph[V][i] == 1 && colors[i] == c) return false; // checking neighbour-> if neighbour has the same color return false
         return true;
     }
 
@@ -22,7 +24,7 @@ class Test{
 
     public static void main(String[] args) {
         int V=4;
-        int start=0;
+        int start=0; //start from 1st vertex and assign color 1 by 1 to further vertices
         int m=3;
         int colors[] = new int[V];
         int graph[][] = {
