@@ -1,5 +1,11 @@
 package LIST;
-
+/**
+ * Time Complexity: O(N)O(N) considering the list consists of NN nodes. We process each of the nodes 
+ * at most once 
+ * (we don't process the nodes after the n^{th}nth node from the beginning.
+Space Complexity: O(1)O(1) since we simply adjust some pointers in the original 
+linked list and only use O(1)O(1) additional memory for achieving the final result.
+ */
 public class ReverseBwTwo2 {
     
     public class ListNode {
