@@ -13,6 +13,7 @@
 10) sort linkedlist of 0’s 1’s and 2’s
 11) remove duplicate 2 - leetcode
 12) third node from end of linkedlist
+12) nth node from end of linkedlist
 13) linkedlist with random pointer
 14) multiplication of linkedlist
 15) clockwise rotation of linked-list

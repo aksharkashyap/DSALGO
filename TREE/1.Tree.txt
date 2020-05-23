@@ -37,6 +37,7 @@
 39) Count of exponential paths in a Binary Tree
 40) Print all Exponential Levels of a Binary Tree
 47) m-Way search trees
+48) Construct BST from given preorder traversal
 
 //traversals------------------------------------
 1) zigzag traversal tree 
@@ -52,3 +53,4 @@
 11) Level order traversal in spiral form | Using Deque
 12) Vertical Zig-Zag traversal of a Tree
 13) Left-Right traversal of all the levels of Binary tree
+14) Print path between any two nodes
