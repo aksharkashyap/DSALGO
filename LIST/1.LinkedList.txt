@@ -20,6 +20,6 @@
 16) remove all special chars from singly linked-list
 17) Quick sort and merge sort on Doubly linked list
 18) merge k sorted linkedlist
-
+19) reverse linkedlist using recursion
 
 
