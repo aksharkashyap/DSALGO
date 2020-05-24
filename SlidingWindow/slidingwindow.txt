@@ -1,0 +1,16 @@
+1) geekforgeek intro sw
+2) (Maximum of all subarrays of size k)
+3) Median of sliding window in an array
+
+4) find the longest substring of given string containing k distinct chars
+5) find all substrings of a string that are permutation of a given string
+6) longest substring of given string containing distinct chars
+7) find maximum length sequence of continuous ones
+8) find maxmimum sequence of continuous 1's that can be formed by replacing at-most k zeroes by ones
+9) find minimum sum subarray of given size k
+10) find subarray having given sum in given array of integers
+11) find the length of smallest subarray whose sum of elements is greater than the given number
+12) find count of distinct elements in every subarray of size k
+13) print all sub arrays of an array having distinct elements
+14) count the distinct absolute values in the sorted array
+15) find duplicates within given range k in array

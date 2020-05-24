@@ -1,0 +1,30 @@
+//bitmasking----------------
+1) set bit count in a number
+2) extract ith bit from number
+3) set ith bith (1)
+4) clear ith bit (0)
+5) toggle bit
+10) a>>b = a/2^b
+11) a<<b = a * 2^b
+12) set all even bits 
+13) set all odd bits
+3) xor swapping
+2) odd/even check
+4) find unique number using xor
+5) find 2 unique number
+14) Generate binary numbers between 1 to N
+9) subsets (subsequences of a string)
+-----------------------------
+
+Set union A | B
+Set intersection A & B
+Set subtraction A & ~B
+Set negation ALL_BITS ^ A or ~A
+Set bit A |= 1 << bit
+Clear bit A &= ~(1 << bit)
+Test bit (A & 1 << bit) != 0
+Extract last bit A&-A or A&~(A-1) or x^(x&(x-1))
+Remove last bit A&(A-1)
+Get all 1-bits ~0
+
+----------------------------------
