@@ -14,3 +14,68 @@
 13) print all sub arrays of an array having distinct elements
 14) count the distinct absolute values in the sorted array
 15) find duplicates within given range k in array
+16) length of the smallest substring which contains all vowels
+17) Shortest subarray to be removed to make all Array elements unique
+18) Find the subarray of size K with minimum XOR
+19) Longest subarray in which absolute difference between any two element is not greater than X
+20) Maximum count number of valley elements in a subarray of size K
+21) Maximize sum of K elements in Array by taking only corner elements
+22) Remove k corner elements to maximize remaining sum
+23) Find maximum Subsequence Sum according to given conditions
+24) Find subarray of Length K with Maximum Peak
+25) Submatrix of given size with maximum 1’s
+26) Sum of all subarrays of size K
+27) Count of subarrays having exactly K distinct elements
+28) Find subarray with given sum with negatives allowed in constant space
+29) Minimum increment operations to make K elements equal
+30) Maximum sum of K consecutive nodes in the given Linked List
+31) Count of substrings which contains a given character K times
+32) Number of sub-strings that contain the given character exactly k times
+33) Minimum cost to modify a string
+34) Minimum number of elements to be removed such that the sum of the remaining elements is equal to k
+35) Minimum length substring with exactly K distinct characters
+36) Number of sub-strings which are anagram of any sub-string of another string
+37) Find number of substrings of length k whose sum of ASCII value of characters is divisible by k
+38) Maximum sum and product of the M consecutive digits in a number
+39) Number of sub-arrays that have at least one duplicate
+40) Maximum number of Unique integers in Sub-Array of given size
+41) Sub-strings of length K containing same character
+42) Majority element in a circular array of 0’s and 1’s
+43) Lexicographically smallest and largest substring of size k
+44) Count Occurences of Anagrams
+45) Subarray whose absolute sum is closest to K
+46) Number of subarrays having sum in a given range
+47) N-bonacci Numbers
+48) Subarray with no pair sum divisible by K
+49) Number of subarrays having sum less than K
+50) Number of subarrays with given product
+51) Minimum Swaps required to group all 1’s together
+52) Maximum segment value after putting k breakpoints in a number
+53) Find the longest sub-array having exactly k odd numbers
+54) Find mean of subarray means in a given array
+55) Number of subarrays with maximum values in given range
+56) Differences between number of increasing subarrays and decreasing subarrays in k sized windows
+57) Maximum Unique Element in every subarray of size K
+58) Longest subarray not having more than K distinct elements
+59) Smallest subarray with k distinct numbers
+60) Distance of closest zero to every element
+61) Number of subarrays having product less than K
+62) Collect maximum points in an array with k moves
+63) Longest Subarray having sum of elements atmost ‘k’
+64) Length of the smallest sub-string consisting of maximum distinct characters
+65) Maximum sum subarray having sum less than or equal to given sum
+66) Convert all substrings of length ‘k’ from base ‘b’ to decimal
+67) Sum of product of all elements of sub-arrays of size k
+68) Count subarrays having total distinct elements same as original array
+69) First negative integer in every window of size k
+70) Largest sum subarray with at-least k numbers
+71) Smallest window that contains all characters of string itself
+72) Sum of minimum and maximum elements of all subarrays of size k.
+73) Find maximum of minimum for every window size in a given array
+74) Count distinct elements in every window of size k
+75) Count ways to reach the n’th stair
+76) Anagram Substring Search (Or Search for all permutations)
+77) Smallest subarray with sum greater than a given value
+78) Find subarray with given sum | Set 1 (Nonnegative Numbers)
+79) Sliding Window Maximum (Maximum of all subarrays of size k)
+80) Find the smallest window in a string containing all characters of another string
