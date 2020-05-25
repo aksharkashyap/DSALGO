@@ -1,6 +1,7 @@
 1) matrix representation
 2) adjacency list representation
 3) bfs
+3) bfs without using queue
 4) dfs
 5) topological sort
 6) assign directions to edges so graph remains acyclic - (use topological sort)
