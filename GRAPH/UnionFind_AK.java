@@ -1,4 +1,7 @@
+package GRAPH;
+
 import java.util.*;
+
 
 //disjoint set
 class UnionFIND_AK{
@@ -19,6 +22,7 @@ class UnionFIND_AK{
     }
 
     void union(int a, int b){
+
          int x = find(a);
          int y = find(b);
          if(x == y){
@@ -44,6 +48,7 @@ class UnionFIND_AK{
         return parent[a]==parent[b];
     }
     
+
     public static void main(String[] args) {
       
         UnionFIND_AK t = new UnionFIND_AK(3);
