@@ -41,8 +41,8 @@ class BottomView {
 
     void bottomview(Node root){
         horizontal_distance(root, 0); //calculate horizontal distance
-       
-        for(int vl=minHD;vl<=maxHD;vl++){
+       //for bottom-right view -> loop form maxHD to minHD
+        for(int vl=minHD;vl<=maxHD;vl++){ // bottom-left view
             max_h = Integer.MIN_VALUE;
             put = 0;
             vertical_dfs(root, 0, vl, 0);
