@@ -6,20 +6,26 @@
 5) intersection and union of linkedlist(gfg)
 6) merge-sort,quick sort,binarysearch
 7) Selection, insertion sort on linked list
+8) reverse number betweeen two nodes / reverse half nodes (1 method left)
+9) sort linkedlist of 0’s 1’s and 
+10) reverse linkedlist using recursion
+11) multiplication of number represented by a linkedlist
 
-8) reverse number betweeen two nodes / reverse half nodes
-9) sort numbers b/w two nodes
-
-10) sort linkedlist of 0’s 1’s and 2’s
+10) sort numbers b/w two nodes
 11) remove duplicate 2 - leetcode
 12) third node from end of linkedlist
 12) nth node from end of linkedlist
 13) linkedlist with random pointer
-14) multiplication of linkedlist
+
+14) Add two numbers represented as linked lists into a third list (recursivley & reverse methods)
+14) Subtract two numbers represented as linked lists into a third list
+14) Multiply two numbers represented as linked lists into a third list
 15) clockwise rotation of linked-list
 16) remove all special chars from singly linked-list
 17) Quick sort and merge sort on Doubly linked list
 18) merge k sorted linkedlist
-19) reverse linkedlist using recursion
 
 
+//Note-> Generating numbers from node
+//initially pass n=0;
+n = n*10 + root.val
