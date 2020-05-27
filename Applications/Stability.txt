@@ -1,0 +1,20 @@
+
+Stability ->
+
+Unstable
+
+1) selection sort ( find min and swap without considering the original positions)
+2) quick sort(choose pivot's position and swap without considering the original positions)
+
+3) heap sort 
+-> Order breaks during Heap Creation
+-> Order breaks during removal of root element
+
+stable
+
+1) bubble sort (swapping of adjacent nodes preserve the original position of same(duplicate) elements)
+2) insertion sort  (swapping of adjacent nodes preserve the original position of same elements)
+3) merge sort (same element in an array maintain their original positions)
+
+4) count sort -> It operates by counting the number of objects that have each distinct key value, and using arithmetic on those counts to determine the positions of each key value in the output sequence
+-> ensures Stability by inserting items from last index

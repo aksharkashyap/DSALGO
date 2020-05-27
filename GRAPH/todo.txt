@@ -1,6 +1,4 @@
 1) dial's algo - optimized dijsktra for small range weights
-2) prims minimum spanning tree
-3) krushkal's MST 
 4) max-flow ford fulkerson  - network flow
 5) kirchhoff's algo- for number of spanning tree of a graph
 6) kosaraju's algo/tarjen's - strongly connected component
