@@ -9,3 +9,4 @@ armstrong/anagram
 wave array, majority element, missing num in array
 swap odd and even bits
 ternery search
+minimum number of swaps required to sort an array

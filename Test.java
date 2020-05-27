@@ -41,7 +41,8 @@ class UnionFIND_AK{
     }
 
     boolean isFriend(int a, int b){
-        return parent[a]==parent[b];
+       // return parent[a]==parent[b];
+       return find(a) == find(b);
     }
     
     public static void main(String[] args) {
