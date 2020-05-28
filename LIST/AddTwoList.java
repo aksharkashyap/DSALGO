@@ -26,8 +26,8 @@ class AddTwoList{
         return carry;
     }
 
-    ListNode solve(ListNode h1, ListNode h2,ListNode h3, int carry){
-        ListNode dummy=h3;
+    void solve(ListNode h1, ListNode h2,ListNode h3, int carry){
+        ListNode dummy=h3; //you can return it as well
 
         while(h1!=null && h2!=null){    // run upto equal length
                 int num = h1.val + h2.val + carry;
@@ -56,8 +56,6 @@ class AddTwoList{
             carry = carry/10;
             dummy = dummy.next;
         }
-        
-        return h3;
     }
 
     public static void main(String[] args) {
@@ -72,8 +70,8 @@ class AddTwoList{
         h2.next.next = new ListNode(5);
 
         ListNode h3 = new ListNode(0);
-        ListNode head = list.solve(h1,h2,h3,0);
-        util.print(head.next);
+        list.solve(h1,h2,h3,0);
+        util.print(h3.next);
     }
 
 }

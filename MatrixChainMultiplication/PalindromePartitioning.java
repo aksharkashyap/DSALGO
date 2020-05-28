@@ -2,11 +2,8 @@ package MatrixChainMultiplication;
 
 import java.util.Arrays;
 
-import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
-
 class PalindromePartitioning{
    
-
     static boolean isPalindrome(char arr[],int i , int j){
        
         while(i<j)
