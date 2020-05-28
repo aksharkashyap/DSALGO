@@ -8,5 +8,9 @@
 8) eulerian path algo
 9) clone a graph
 10) transitive closure of a graph
+11) max-flow ford fulkerson  - network flow
+12) jhonson's algo for all pair shortest path -> v^2logv
+13) backward edge, forward edge, cross edge implimentation
+14) impliment an algo for splitwise app
 
-7) max-flow ford fulkerson  - network flow
+application of all graph, greedy algorithms practical
