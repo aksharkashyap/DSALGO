@@ -31,13 +31,16 @@
 32) existence of eulerian paths and circuits
 33) eulerian path algo
 34) prims minimum spanning tree
+35) clone a graph
+36) hamiltonian path and cycle
+37) krushkal's MST 
+38) transitive closure of a graph
+
+
+//network flow
 35) max-flow ford fulkerson  - network flow
 36) unweighted bipartite matching - network flow
 37) mice and owls problem - network flow
 38) elementry math problem - network flow
 39) capacity scalling - network flow
 40) dinic's algo - network flow
-41) clone a graph
-42) hamiltonian path and cycle
-43) krushkal's MST 
-44) transitive closure of a graph
