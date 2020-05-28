@@ -1,1 +1,11 @@
 1) reverse stack using recursion
+2 NGR - nearest greater to right | next largest element
+3 NGL - nearest greater to left
+4 NSL - nearest smaller to left
+5 NSR - nearest smaller to right
+6 stock span problem
+7 max area histogram
+8 max area rectangle in binary matrix
+9 rain water trapping
+10 minimum element in stack with extra stack
+11 minimum element in O(1) space
