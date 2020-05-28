@@ -23,7 +23,7 @@ class _1_AddTwoList{
         int num = h1 + h2 +  carry;
         int nodeVal = num % 10;
         dummy.next = new ListNode(nodeVal);
-        return num >= 10 ?  1 :  0; //carry  = num/10;
+        return num >= 10 ?  1 :  0; //or carry  = num/10; (when digit can cotain more than 1 digit)
     }
 
     void solve(ListNode h1, ListNode h2,ListNode h3, int carry){
@@ -48,7 +48,16 @@ class _1_AddTwoList{
             dummy = dummy.next;
         }
         
-        if(carry !=0) dummy.next = new ListNode(carry);
+        if(carry !=0) dummy.next = new ListNode(carry); 
+        
+        
+        /**when digit cotain more than 1 digit (if asked by the interviewer)
+         while(carry !=0){
+             int num = carry%10;
+             dummy.next = new ListNode(num); 
+             carry = carry/10;
+         }
+         */
         
     }
 
