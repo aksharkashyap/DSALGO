@@ -3,7 +3,7 @@ package LIST;
 public class LinkedListUtil {
     ListNode head;
     ListNode node1,node2,node3,node4,node5;
-    public class ListNode {
+    static public class ListNode {
         int val;
         ListNode next;
         ListNode(int val) { 
