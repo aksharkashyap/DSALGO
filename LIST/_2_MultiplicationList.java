@@ -4,7 +4,7 @@ import LIST.LinkedListUtil.ListNode;
 //given two linkedlist 
 //multiply nmber represented by them 
 
-public class MultiplicationList {
+public class _2_MultiplicationList {
     
     static void multiply(ListNode l1, ListNode l2){
  
@@ -24,8 +24,8 @@ public class MultiplicationList {
     public static void main(String[] args) {
 
         LinkedListUtil util = new LinkedListUtil();
-        ListNode list2 = util.new ListNode(4);
-        list2.next = util.new ListNode(5);
+        ListNode list2 = new ListNode(4);
+        list2.next = new ListNode(5);
         multiply(util.head,list2);
     }
 }

@@ -1,2 +1,7 @@
 detect cycle in directed graph
+flood fill
+snake and ladder
+check if graph is tree or not
+mobile numeric problem
+find max val of array using recursion
 

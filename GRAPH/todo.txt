@@ -1,5 +1,4 @@
 
-
 1) kosaraju's algo/tarjen's - strongly connected component
 2) bridges & articulation points in a graph
 3) biconnected components
@@ -14,3 +13,8 @@
 9) clone a graph
 10) transitive closure of a graph
 12) max-flow ford fulkerson  - network flow
+12) jhonson's algo for all pair shortest path -> v^2logv
+13) backward edge, forward edge, cross edge implimentation
+14) impliment an algo for splitwise app
+
+application of all graph, greedy algorithms practical
