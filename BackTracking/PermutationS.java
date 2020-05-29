@@ -38,3 +38,6 @@ class PermutationS{
 
     }
 }
+/**
+ * : O(n*n!) Note that there are n! permutations and it requires O(n) time to print a a permutation
+ */

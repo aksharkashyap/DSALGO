@@ -18,3 +18,23 @@ Google Page Ranking Algorithm.
 4) In Operating System, we come across the Resource Allocation Graph where each process and resources are 
 considered to be vertices. Edges are drawn from resources to the allocated process, or from requesting 
 process to the requested resource. If this leads to any formation of a cycle then a deadlock will occur.
+
+
+Here we will see what are the different applications of DFS and BFS algorithms of a graph?
+
+The DFS or Depth First Search is used in different places. Some common uses are −
+
+1) If we perform DFS on unweighted graph, then it will create minimum spanning tree for all pair shortest path tree
+2) We can detect cycles in a graph using DFS. If we get one back-edge during BFS, then there must be one cycle.
+3) Using DFS we can find path between two given vertices u and v.
+4) We can perform topological sorting is used to scheduling jobs from given dependencies among jobs. Topological sorting can be done using DFS algorithm.
+5) Using DFS, we can find strongly connected components of a graph. If there is a path from each vertex to every other vertex, that is strongly connected.
+
+Like DFS, the BFS (Breadth First Search) is also used in different situations. These are like below −
+
+1) In peer-to-peer network like bit-torrent, BFS is used to find all neighbor nodes
+2) Search engine crawlers are used BFS to build index. Starting from source page, it finds all links in it to get new pages
+3) Using GPS navigation system BFS is used to find neighboring places.
+4) In networking, when we want to broadcast some packets, we use the BFS algorithm.
+5) Path finding algorithm is based on BFS or DFS.
+6) BFS is used in Ford-Fulkerson algorithm to find maximum flow in a network.

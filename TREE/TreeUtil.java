@@ -1,4 +1,5 @@
 package TREE;
+import java.util.*;
 
 public class TreeUtil {
     TreeNode node1,node2,node3,node4,node5,node6;
@@ -33,5 +34,16 @@ public class TreeUtil {
         System.out.print(root.val+" ");
         tree_preorder_print(root.left);
         tree_preorder_print(root.right);
+    }
+
+    void level_order_traversal(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while(queue.size() !=0){
+            TreeNode x = queue.poll();
+            System.out.print(x.val+" ");
+            if(x.left !=null) queue.offer(x.left);
+            if(x.right !=null) queue.offer(x.right);
+        }
     }
 }

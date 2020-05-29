@@ -27,6 +27,7 @@
 29) Red black tree
 30) B tree
 31) B+ tree 
+32) Fenwick tree
 //---------------------------------------------
 34) parenthesis theorem
 35) minimum bottleneck spanning tree
