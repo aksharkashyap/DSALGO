@@ -1,0 +1,39 @@
+Basic:
+
+1) ugly numbers
+2) fibonacci numbers
+3) nth catlan numbers
+4) bell numbers( num of ways to partition a set)
+5) binomial coefficient
+6) permutation coefficient
+7) Tiling problem
+8) Tiling with dominoes
+9) gold mine problem
+10) friends pairing problem
+11) compute ncr % p
+
+
+Intermediate:
+
+1) lobb number
+2) eulerian number
+3) entringer number
+4) delannoy number
+5) recontres number
+6) super ugly number
+7) temple offerings
+8) egg dropping
+9) tile stacking problem
+10) box-stacking
+11) highway billboard problem
+12) hosoya's triangle
+13) optimal bst
+14) optimal strategy for a game
+15) multistage graph
+
+Hard:
+
+1) word wrap problem
+2) mobile numeric keypad
+3) painter's partition problem
+4) bridge and torch
