@@ -20,6 +20,9 @@
 14) Add two numbers represented as linked lists into a third list (recursivley & reverse methods)
 14) Subtract two numbers represented as linked lists into a third list
 14) Multiply two numbers represented as linked lists into a third list
+14) subtraction 
+15) division
+
 15) clockwise rotation of linked-list
 16) remove all special chars from singly linked-list
 17) Quick sort and merge sort on Doubly linked list
