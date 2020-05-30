@@ -12,3 +12,7 @@ public class SCC {
  * liked pages or games to the people in the group who have not yet liked commonly liked a page or played a 
  * game.
  */
+
+ //brute forc -> n^3
+ //kosarajun -> n two pass
+ // tarjan -> n single pass
