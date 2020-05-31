@@ -1,16 +1,17 @@
-
-1) kosaraju's algo/tarjen's - strongly connected component
+1) tarjen's - strongly connected component
 2) bridges & articulation points in a graph
 3) biconnected components
-4) flood fill algorithm
+4) clone a graph
+5) flood fill algorithm
+6) kirchhoff's algo- for number of spanning tree of a graph
+
 
 1) dial's algo - optimized dijsktra for small range weights
-2) kirchhoff's algo- for number of spanning tree of a graph
 4) number of triangles in an undirected graph
 5) shortest and longest path in a DAG
 7) existence of eulerian paths and circuits
 8) eulerian path algo
-9) clone a graph
+
 10) transitive closure of a graph
 12) max-flow ford fulkerson  - network flow
 12) jhonson's algo for all pair shortest path -> v^2logv

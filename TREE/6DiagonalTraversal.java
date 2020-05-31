@@ -15,7 +15,7 @@ class DiagonalTraversal {
             map.put(n,list);
         }
         //left to right side diagonal
-        solve(root.left,n+1); //increase the slant hight
+        solve(root.left,n+1); //increase the slant hight (Increase the vertical distance)
         solve(root.right,n+0); //if u go right then this is a diagonal movement so slant height remains same
 
 

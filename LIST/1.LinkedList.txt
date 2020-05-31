@@ -28,6 +28,9 @@
 17) Quick sort and merge sort on Doubly linked list
 18) merge k sorted linkedlist
 19) cunstruct linkedlist using 2d matrix
+20) xor linked linkedlist
+21) remove loop in linkedlist
+22) pairwise swap elements of a linkedlist
 
 //Note-> Generating numbers from node
 //initially pass n=0;

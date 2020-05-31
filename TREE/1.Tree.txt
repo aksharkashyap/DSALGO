@@ -6,11 +6,8 @@
 7) mode in BST (most occurring element(s))
 8) tree from postorder and inorder
 9) tree from inorder and preorder
-10) check for children sum property
-12) lowest common ancestor in binary tree
 14) N-ary tree( pre, post - iteratively)
 15) Binray tree / Bst / iterative approach
-16) Serialization of binary tree
 17) iterative inorder,preorder,postorder 
 18) symmetric tree
 19) hight balanced tree
@@ -22,6 +19,30 @@
 25) average of levels
 26) bfs/dfs on binary , Nry tree
 27) binary tree pruning - LeetCode
+
+//traversals------------------------------------
+1) vertical order traversal
+2) top, bottom,left,right view of binary tree
+3) print node in a bottom right view
+4) zigzag traversal tree 
+5) Diamond Tree
+6) recursive diagonal traversal
+
+
+//todo
+5) morris inorder traversal
+6) spiral traversal of binary tree
+7) reverse zigzag traversal of binary tree
+8) iterative diagonal traversal
+10) Clockwise Triangular traversal of a Binary Tree
+11) Boundary Level order traversal of a Binary Tree
+12) Middle To Up-Down Order traversal of a Binary Tree
+13) Level order traversal in spiral form | Using Deque
+14) Vertical Zig-Zag traversal of a Tree
+15) Left-Right traversal of all the levels of Binary tree
+16) Print path between any two nodes
+17) level order traversal traversal line by line using two queue
+
 //--------------------------------------------
 28) AVL tree
 29) Red black tree
@@ -38,23 +59,9 @@
 40) Print all Exponential Levels of a Binary Tree
 47) m-Way search trees
 48) Construct BST from given preorder traversal
-
-//traversals------------------------------------
-1) vertical order traversal
-2) top, bottom,left,right view of binary tree
-3) print node in a bottom right view
-4) zigzag traversal tree 
-5) Diamond Tree
-
-//todo
-5) morris inorder traversal
-6) spiral traversal of binary tree
-7) reverse zigzag traversal of binary tree
-8) diagonal traversal
-10) Clockwise Triangular traversal of a Binary Tree
-11) Boundary Level order traversal of a Binary Tree
-12) Middle To Up-Down Order traversal of a Binary Tree
-13) Level order traversal in spiral form | Using Deque
-14) Vertical Zig-Zag traversal of a Tree
-15) Left-Right traversal of all the levels of Binary tree
-16) Print path between any two nodes
+49) make binary tree from linkedlist
+59) lowest common anscestor in binary tree
+51) check if tree is isomorphic
+52) binary tree to dll
+53) Serialization of binary tree
+54) check for children sum property

@@ -14,17 +14,13 @@ sort stack using recursion
 josephus probelm
 square root implement
 rotate 2d array without using extra space
-make binary tree from linkedlist
 evaluation of postfix and prefix expression
-lowest common anscestor in binary tree
-check if tree is isomorphic
 nuts and bolts problem
 knapsack with duplicate items
 product array puzzle
 roman number to integer
 infix to postfix
 implement queue using array
-remove loop in linkedlist
 rotate by 90 degree
 convert to roman number
 rotton oranges
@@ -33,16 +29,13 @@ excel sheet problem
 next sparse binary tree
 boolean matrix problem
 pairs of prime number
-xor linked linkedlist
 move all zeroes to end of array
 gold mine problem
 ways to tile a floor
 wildcard pattern matching
 form a palindrome
-pairwise swap elements of a linkedlist
 relative sorting
 leaders in an array
 anagram palindrome
 egg dropping puzzle
-binary tree to dll
 intersection of two array
