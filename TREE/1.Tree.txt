@@ -44,12 +44,13 @@
 2) top, bottom,left,right view of binary tree
 3) print node in a bottom right view
 4) zigzag traversal tree 
+5) Diamond Tree
 
+//todo
 5) morris inorder traversal
 6) spiral traversal of binary tree
 7) reverse zigzag traversal of binary tree
 8) diagonal traversal
-9) Diamond Tree
 10) Clockwise Triangular traversal of a Binary Tree
 11) Boundary Level order traversal of a Binary Tree
 12) Middle To Up-Down Order traversal of a Binary Tree
