@@ -11,6 +11,8 @@ Basic:
 9) gold mine problem
 10) friends pairing problem
 11) compute ncr % p
+12) Maximum path sum in a triangle
+13) Minimum Sum Path in a Triangle
 
 
 Intermediate:
@@ -30,6 +32,19 @@ Intermediate:
 13) optimal bst
 14) optimal strategy for a game
 15) multistage graph
+16) fencing algorithm
+17) Wildcard Pattern Matching
+18) WildCard pattern matching having three symbols ( * , + , ? )
+19) High-effort vs. Low-effort Tasks Problem
+20) Longest Zig-Zag Subsequence
+21) Largest sum Zigzag sequence in a matrix
+22) Number of paths with exactly k coins
+23) weighted job scheduling
+24) Longest Turbulent Subarray
+25) Edit distance
+26) longest increasing Subsequence
+27) Unique Paths in a Grid
+28) word break
 
 Hard:
 
@@ -37,3 +52,9 @@ Hard:
 2) mobile numeric keypad
 3) painter's partition problem
 4) bridge and torch
+5) Collect maximum points in a grid using two traversals
+6) Minimum Cost Polygon Triangulation
+7) Longest Arithmetic Progression
+8) Longest Geometric Progression
+
+
