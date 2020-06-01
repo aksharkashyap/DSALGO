@@ -1,4 +1,4 @@
-package Applications;
+package _CP_Template;
 import java.util.*;
 import java.io.*;
 class FastReader{ 

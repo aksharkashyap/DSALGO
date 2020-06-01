@@ -1,4 +1,4 @@
-package Applications;
+package _CP_Template;
 
 //java ultra fast input
 
