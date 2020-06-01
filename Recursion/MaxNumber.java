@@ -1,10 +1,11 @@
-class Test{
+package Recursion;
+
+class MaxNumber{
 
     static int solve(int arr[],int n){
-        if(n == 0){
-            return arr[n];
-        }
-
+        if(n == -1) return -1;
+        if(n == 0) return arr[n];
+        
         int temp = solve(arr, n-1);
         return temp > arr[n] ? temp : arr[n];
     }

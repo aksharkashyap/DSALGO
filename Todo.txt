@@ -39,3 +39,9 @@ leaders in an array
 anagram palindrome
 egg dropping puzzle
 intersection of two array
+reverse first k elemnts of queue
+queue reversal
+rotate by 90
+binarry array sorting
+bit differnece
+special stack

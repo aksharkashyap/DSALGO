@@ -1,21 +1,20 @@
 1) tarjen's - strongly connected component
-2) bridges & articulation points in a graph
-3) biconnected components
-4) clone a graph
-5) flood fill algorithm
-6) kirchhoff's algo- for number of spanning tree of a graph
-
+2) bridges(cut edges)
+3) articulation points(cut vertices) in a graph
+4) biconnected components
+5) clone a graph
+6) flood fill algorithm
+7) kirchhoff's algo- for number of spanning tree of a graph
+8) jhonson's algo for all pair shortest path -> v^2logv
+9) backward edge, forward edge, cross edge implimentation
+10) shortest and longest path in a DAG
 
 1) dial's algo - optimized dijsktra for small range weights
-4) number of triangles in an undirected graph
-5) shortest and longest path in a DAG
-7) existence of eulerian paths and circuits
-8) eulerian path algo
-
-10) transitive closure of a graph
-12) max-flow ford fulkerson  - network flow
-12) jhonson's algo for all pair shortest path -> v^2logv
-13) backward edge, forward edge, cross edge implimentation
-14) impliment an algo for splitwise app
+2) number of triangles in an undirected graph
+3) existence of eulerian paths and circuits
+4) eulerian path algo
+6) transitive closure of a graph
+7) max-flow ford fulkerson  - network flow
+8) impliment an algo for splitwise app
 
 application of all graph, greedy algorithms practical

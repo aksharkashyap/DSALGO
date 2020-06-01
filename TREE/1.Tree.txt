@@ -65,3 +65,11 @@
 52) binary tree to dll
 53) Serialization of binary tree
 54) check for children sum property
+55) binary tree to cdll
+56) clone a binary tree
+57) expression tree
+58) k distance from root
+59) convert a bst to sorted doubly linkedlist without any extra space
+60) convert a sorted array to bst
+61) leaves to dll
+62) maximum width of tree

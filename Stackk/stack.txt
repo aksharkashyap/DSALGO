@@ -6,6 +6,7 @@
 6 stock span problem
 7 max area histogram
 8 max area rectangle in binary matrix
+
 9 rain water trapping
 10 minimum element in stack with extra stack
 11 minimum element in O(1) space

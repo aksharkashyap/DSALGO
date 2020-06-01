@@ -31,6 +31,9 @@
 20) xor linked linkedlist
 21) remove loop in linkedlist
 22) pairwise swap elements of a linkedlist
+23) Quick sort and merge sort on Doubly linked list
+24) delete without head pointer
+
 
 //Note-> Generating numbers from node
 //initially pass n=0;
