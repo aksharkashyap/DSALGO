@@ -23,6 +23,7 @@ class $_6_RainWaterTrapping  {
         System.out.println(ans);
     }
     
+    
 
     public static void main(String[] args) {
         int arr[]={3,0,2,0,4};

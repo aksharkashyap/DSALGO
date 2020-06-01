@@ -5,14 +5,14 @@ package Applications;
 // Working program using Reader Class 
 import java.io.DataInputStream; 
 import java.io.FileInputStream; 
-import java.io.IOException; 
+import java.io.IOException;
+/* 
 import java.io.InputStreamReader; 
 import java.util.Scanner; 
 import java.util.StringTokenizer; 
+*/
 
-class Main 
-{ 
-	static class Reader 
+class Reader 
 	{ 
 		final private int BUFFER_SIZE = 1 << 16; 
 		private DataInputStream din; 
@@ -131,8 +131,10 @@ class Main
 				return; 
 			din.close(); 
 		} 
-	} 
+}
 
+class Main 
+{ 
 	public static void main(String[] args) throws IOException 
 	{ 
 		Reader s=new Reader(); 
