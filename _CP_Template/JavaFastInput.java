@@ -8,8 +8,7 @@ class FastReader{
 		while (st == null || !st.hasMoreElements()){ 
 			try{st = new StringTokenizer(br.readLine()); } 
 			catch (IOException e){e.printStackTrace();}} 
-		return st.nextToken(); 
-	} 
+		return st.nextToken();} 
 	int nextInt(){return Integer.parseInt(next());} 
 	long nextLong(){return Long.parseLong(next());} 
 	double nextDouble(){return Double.parseDouble(next());} 
@@ -17,8 +16,7 @@ class FastReader{
 		String str = ""; 
 		try{str = br.readLine();} 
 		catch (IOException e){e.printStackTrace();} 
-		return str; 
-	}
+		return str;}
 } 
 class JavaFastInput {
 	public static void main (String[] args) throws java.lang.Exception
