@@ -38,3 +38,6 @@ Like DFS, the BFS (Breadth First Search) is also used in different situations. T
 4) In networking, when we want to broadcast some packets, we use the BFS algorithm.
 5) Path finding algorithm is based on BFS or DFS.
 6) BFS is used in Ford-Fulkerson algorithm to find maximum flow in a network.
+
+
+learn -> tree,forward,backward,cross edges in dfs
