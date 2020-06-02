@@ -1,7 +1,7 @@
 package Stackk;
 //implement stack with push(),pop(),getMin()
 import java.util.Stack;
-
+// O(n) space
 class $_7_MinStack{
     Stack<Integer> stack1 = new Stack<>();
     Stack<Integer> stack2 = new Stack<>();
@@ -39,3 +39,49 @@ class $_7_MinStack{
 
     }
 }
+
+
+//O(1) space
+
+class MinStack_2{
+    Stack<Integer> stack = new Stack<>();
+    int min=0;
+
+    void push(int x){
+        if(stack.size() == 0){
+            min = x; 
+            stack.push(x);
+        }
+        if(x < min){
+            stack.push(2 * x - min);
+            min = x;
+        }
+        else stack.push(x);
+    }
+
+    void pop(){
+        if(min > stack.peek()) min = 2* min - stack.peek();
+        stack.pop();
+    }
+
+    int getMin(){
+        return min;
+    }
+
+    int top() {
+        if(stack.peek() < min) return min;
+        return stack.peek();
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

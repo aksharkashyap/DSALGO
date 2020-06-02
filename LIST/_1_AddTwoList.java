@@ -1,4 +1,5 @@
 package LIST;
+
 import LIST.LinkedListUtil.ListNode;
 //add two list into a third list
 /**
@@ -75,6 +76,8 @@ class _1_AddTwoList{
         ListNode h3 = new ListNode(0);
         list.solve(h1,h2,h3,0);
         util.print(h3.next);
+
+        
     }
 
 }
