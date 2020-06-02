@@ -1,3 +1,9 @@
+cut edge
+cut vertices
+
+
+
+
 detect cycle in directed graph
 flood fill
 snake and ladder
