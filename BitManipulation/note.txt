@@ -28,3 +28,24 @@ Remove last bit A&(A-1)
 Get all 1-bits ~0
 
 ----------------------------------
+
+
+The following are many other interesting problems using XOR operator.
+
+Find the Missing Number
+swap two numbers without using a temporary variable
+A Memory Efficient Doubly Linked List
+Find the two non-repeating elements.
+Find the two numbers with odd occurences in an unsorted-array.
+Add two numbers without using arithmetic operators.
+Swap bits in a given number/.
+Count number of bits to be flipped to convert a to b .
+Find the element that appears once.
+Detect if two integers have opposite signs.
+
+
+1) Upper case English alphabet to lower case
+ch |= ' ';
+
+2) Lower case English alphabet to upper case
+ch &= '_’ ;

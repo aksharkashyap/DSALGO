@@ -9,3 +9,6 @@
 9) z form
 10) snake pattern
 11) sum of matrix and its mirror image 
+12) boolean matrix problem
+13) median of row-wise sorted matrix
+rotate 2d array without using extra space

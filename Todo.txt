@@ -1,6 +1,7 @@
 cut edge
 cut vertices
-
+biconnected components
+dfs edges implementation
 
 
 
@@ -17,11 +18,9 @@ sort stack using recursion
 
 josephus probelm
 square root implement
-rotate 2d array without using extra space
 evaluation of postfix and prefix expression
 nuts and bolts problem
 knapsack with duplicate items
-product array puzzle
 roman number to integer
 infix to postfix
 implement queue using array
@@ -30,8 +29,6 @@ convert to roman number
 rotton oranges
 generate gray code sequences
 excel sheet problem
-next sparse binary tree
-boolean matrix problem
 pairs of prime number
 move all zeroes to end of array
 gold mine problem
@@ -39,10 +36,8 @@ ways to tile a floor
 wildcard pattern matching
 form a palindrome
 relative sorting
-leaders in an array
 anagram palindrome
 egg dropping puzzle
-intersection of two array
 reverse first k elemnts of queue
 queue reversal
 rotate by 90
