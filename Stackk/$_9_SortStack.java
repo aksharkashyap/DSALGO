@@ -22,6 +22,7 @@ class SortStack{
                 helper(stack, x);
                 stack.push(temp);
             }
+            
             else stack.push(x);
         }
     }
