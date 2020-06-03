@@ -12,7 +12,6 @@ mobile numeric problem
 np, np hard, np complete etc
 min num of swaps required to sort an array
 stability analysis of sort algos
-sort stack using recursion
 
 ---------------------
 
