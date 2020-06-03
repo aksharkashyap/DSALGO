@@ -1,6 +1,8 @@
 package Stackk;
+
 import java.util.Stack;
 import java.util.Arrays;
+import java.util.ListIterator;
 class SortStack{
 
     static void solve(Stack<Integer> stack){
@@ -22,6 +24,19 @@ class SortStack{
             }
             else stack.push(x);
         }
+    }
+
+    static void printStack(Stack<Integer> s) 
+    { 
+       ListIterator<Integer> lt = s.listIterator(); 
+         
+       // forwarding 
+       while(lt.hasNext()) 
+           lt.next(); 
+         
+       // printing from top to bottom 
+       while(lt.hasPrevious()) 
+           System.out.print(lt.previous()+" "); 
     }
 
     public static void main(String[] args) {
