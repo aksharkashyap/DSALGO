@@ -29,7 +29,6 @@ rotton oranges
 generate gray code sequences
 excel sheet problem
 pairs of prime number
-move all zeroes to end of array
 gold mine problem
 ways to tile a floor
 wildcard pattern matching
@@ -40,6 +39,5 @@ egg dropping puzzle
 reverse first k elemnts of queue
 queue reversal
 rotate by 90
-binarry array sorting
 bit differnece
 special stack
