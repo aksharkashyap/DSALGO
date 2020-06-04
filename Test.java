@@ -1,17 +1,38 @@
-class Test{
+import java.util.*;
+import java.io.*;
 
-    static int solve(int arr[],int n){
-        if(n == 0){
-            return arr[n];
+class FastReader{
+    StringTokenizer st;
+    BufferedReader br;
+    public FastReader(){
+        br = new BufferedReader(new InputStreamReader(System.in));
+    }
+    String next(){
+        while(st == null || !st.hasMoreElements()){
+            try{
+            st = new StringTokenizer(br.readLine());
+            }
+            catch(IOException e){e.printStackTrace();}
+
         }
+        return st.nextToken();
+    }
+    int nextInt(){
+        return Integer.parseInt(next());
+    }
+    double nextDouble(){
+        return Double.parseDouble(next());
+    }
+    float nextFloat(){
+        return Float.parseFloat(next());
+    }
+    String nextLine(){
+        String str = "";
+        try{
+        str = br.readLine();
+        }
+        catch(IOException e) {e.printStackTrace();}
+        return str;
+    }
 
-        int temp = solve(arr, n-1);
-        return temp > arr[n] ? temp : arr[n];
-    }
-    public static void main(String[] args) {
-        int arr[] = {1,2,3,11,3,2,22,4,1,3};
-        int n = arr.length;
-        int max = solve(arr,n-1);
-        System.out.println(max);
-    }
 }

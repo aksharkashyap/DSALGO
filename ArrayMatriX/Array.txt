@@ -1,5 +1,4 @@
 find cycle in array
-sum of matrix and mirror image
 median of two sorted array
 smallest of three without using comparison
 armstrong/anagram
@@ -10,3 +9,5 @@ minimum number of swaps required to sort an array
 intersection of two array
 leaders in an array
 product array puzzle
+move all zeroes to end of array
+binarry array sorting

@@ -29,5 +29,20 @@ public class Kadens {
         int msf = solve(arr, n);
         System.out.println("Maximum contiguous sum is"+ " "+msf);
     }
+
+
+    public int maxSubArray(int[] arr) {
+        
+        int msf = Integer.MIN_VALUE;
+        int curr = 0;
+        
+        for(int i=0;i<arr.length;i++){
+            curr += arr[i];
+            if(curr < arr[i]) curr = arr[i];
+            if(curr > msf) msf = curr;
+        }
+        return msf;
+    }
     
 }
+

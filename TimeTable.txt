@@ -1,0 +1,13 @@
+6 to 9 Array / String / Matrix / leetcode top 100
+9 to 10 Data sciene lecture
+10 to 11 data science practice
+
+
+1 to 3  Graph
+3 to 5  dbms / os / networks / oops
+6 to 7  Myperfectice  / examly 
+7 to 9  Tree / LinkedList
+10.30 to 11.30 PM Data science lecture
+
+
+https://leetcode.com/problems/two-sum/

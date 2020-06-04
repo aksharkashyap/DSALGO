@@ -11,4 +11,5 @@
 11) sum of matrix and its mirror image 
 12) boolean matrix problem
 13) median of row-wise sorted matrix
-rotate 2d array without using extra space
+14) rotate 2d array without using extra space
+15) sum of matrix and mirror image
