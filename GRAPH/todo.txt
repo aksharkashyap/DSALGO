@@ -2,14 +2,15 @@
 2) bridges(cut edges)
 3) articulation points(cut vertices) in a graph
 4) biconnected components
+4) bfs without using queue
 5) clone a graph
 6) flood fill algorithm
 7) kirchhoff's algo- for number of spanning tree of a graph
 8) jhonson's algo for all pair shortest path -> v^2logv
-9) backward edge, forward edge, cross edge implimentation
 10) shortest and longest path in a DAG
+11) dial's algo - optimized dijsktra for small range weights
 
-1) dial's algo - optimized dijsktra for small range weights
+-------------------------------------------------------------
 2) number of triangles in an undirected graph
 3) existence of eulerian paths and circuits
 4) eulerian path algo

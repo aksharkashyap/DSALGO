@@ -8,7 +8,7 @@
 7) find degree of a given vertex
 8) find mother vertex
 9) count the number of non-reachable nodes
-10) detect cycle in a graph
+10) detect cycle in a graph directed 
 11) union-find algorithm for undirected - cycle detection
 12) number of triangles in an undirected graph
 14) check if given graph is tree or not

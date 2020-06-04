@@ -1,0 +1,34 @@
+tree edge: If v was discovered for the first time when we traversed (u,v)
+back edge: If v was already on the stack when we tried to traverse (u,v)
+forward edge: If v was already discovered while u was on the stack.(u,v)
+cross edge: Any edge that is not a tree, back, or forward edge.
+
+To better understand this, consider the following C++ pseudocode:
+
+// initially false
+bool discovered[n]; 
+
+// initially false
+bool finished[n];   
+
+vector<int> g[n];
+
+void dfs(int u) {
+    // u is on the stack now
+    discovered[u] = true;
+    for (int v: g[u]) {
+        if (finished[v]) {
+            // forward edge if u was on the stack when v was discovered
+            // cross edge otherwise
+            continue;
+        }
+        if (discovered[v]) {
+            // back edge
+            continue;
+        }
+        // tree edge
+        dfs(v);
+    }
+    finished[u] = true;
+    // u is no longer on the stack
+}
