@@ -1,67 +1,73 @@
+import java.util.Arrays;
+import java.util.Stack;
 
-import java.util.*;
-//strongly connected component
-
-class TarjensAlgo{
-    int low[], ID[];
-    int id=0;
-    boolean onStack[];
-    Deque<Integer> stack;
-    int V;
-    List<List<Integer>> graph;
-
-    TarjensAlgo(int V){
-        this.V = V;
-        graph = new ArrayList<>();
-        stack = new ArrayDeque<>();
-        onStack = new boolean[V];
-        low = new int[V];
-        ID = new int[V];
-        Arrays.fill(ID, -1);
-       
-        for(int i=0;i<V;i++) graph.add(new ArrayList<>());
+class Histogram{
+   
+    static class pair{
+        int first,second;
+        pair(int first, int second){
+            this.first = first;
+            this.second = second;
+        }
+    }
+    
+  
+    static int[] NSL(int arr[], int n){ //nearest smaller to left
+        Stack<pair> stack = new Stack<>(); 
+        int[] idx_nsl = new int[n];
+        for(int i=0;i<n;i++){
+            if(stack.size() == 0){
+                idx_nsl[i] = -1;
+            }else{
+                while(stack.size()>0 && stack.peek().second > arr[i]) stack.pop();
+                if(stack.size() == 0) idx_nsl[i] = -1;
+                else idx_nsl[i]  = stack.peek().first;
+            }
+            stack.push(new pair(i,arr[i]));
+        }
+        return idx_nsl;
     }
 
-    void addEdge(int src, int dest){
-        graph.get(src).add(dest); //directed graph
+    static int[] NSR(int arr[], int n){ //next smaller to right
+        Stack<pair> stack = new Stack<>(); 
+        int[] idx_nsr = new int[n];
+        for(int i=n-1;i>=0;i--){
+            if(stack.size() == 0){
+                idx_nsr[i] = n;
+            }else{
+                while(stack.size()>0 && stack.peek().second > arr[i]) stack.pop();
+                if(stack.size() == 0) idx_nsr[i] = n;
+                else idx_nsr[i]  = stack.peek().first;
+            }
+            stack.push(new pair(i,arr[i]));
+        }
+        return idx_nsr;
     }
 
-    void dfs(int u) {
-        stack.push(u);
-        onStack[u] = true;
-        ID[u] = low[u] = id++;
-    
-        for (int v : graph.get(u)) {
-          if (ID[v] == -1) dfs(v);
-          if (onStack[v]) low[u] = Math.min(low[u], low[v]);
-        }
-    
-        if (ID[u] == low[u]) {
-          for (int node = stack.pop(); ; node = stack.pop()) {
-            System.out.print(node +" ");
-            onStack[node] = false;
-            low[node] = ID[u];
-            if (node == u) break;
-          }
-          System.out.println();
+    static void solve_stack(int arr[], int n){
+        int[] a = NSR(arr, n);
+        int[] b = NSL(arr, n);
+        int ans[] = new int[n];
 
+        for(int i=0;i<n;i++){
+            ans[i] = (a[i] - b[i] -1) * arr[i];
         }
-      }
 
-    void solve(){
-        for(int i=0;i<V;i++)
-            if(ID[i] == -1) dfs(i);
+       // System.out.println(Arrays.toString(a));
+       // System.out.println(Arrays.toString(b));
+       // System.out.println(Arrays.toString(ans));
+        int max=0;
+        for(int i=0;i<n;i++)
+            max = Math.max(ans[i],max);
+        System.out.print(max);
+
     }
 
     public static void main(String[] args) {
-        TarjensAlgo g = new TarjensAlgo(8);
-        g.addEdge(0,1);g.addEdge(0,4);
-        g.addEdge(4,0);g.addEdge(4,5);
-        g.addEdge(5,6);g.addEdge(6,7);
-        g.addEdge(7,3);g.addEdge(3,6);
-        g.addEdge(2,6);g.addEdge(1,5);
-        g.addEdge(2,3);g.addEdge(2,1);
+        int arr[]={6,2,5,4,5,1,6};
+        solve_stack(arr, arr.length);
         
-        g.solve();
     }
 }
+
+
