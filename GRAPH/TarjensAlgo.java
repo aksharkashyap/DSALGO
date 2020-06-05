@@ -1,7 +1,7 @@
 package GRAPH;
 import java.util.*;
 //strongly connected component
-
+//low-link -> smallest node id(discovery time wise) reachable to that node
 class TarjensAlgo{
     int low_link[];
     int disc[]; //discovery time
