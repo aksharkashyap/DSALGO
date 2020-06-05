@@ -1,10 +1,11 @@
-
+package GRAPH;
 import java.util.*;
 //strongly connected component
 
 class TarjensAlgo{
-    int low[], ID[];
-    int id=0;
+    int low_link[];
+    int disc[]; //discovery time
+    int time=0;
     boolean onStack[];
     Deque<Integer> stack;
     int V;
@@ -15,10 +16,9 @@ class TarjensAlgo{
         graph = new ArrayList<>();
         stack = new ArrayDeque<>();
         onStack = new boolean[V];
-        low = new int[V];
-        ID = new int[V];
-        Arrays.fill(ID, -1);
-       
+        low_link = new int[V];
+        disc = new int[V];
+        Arrays.fill(disc, -1);
         for(int i=0;i<V;i++) graph.add(new ArrayList<>());
     }
 
@@ -26,31 +26,32 @@ class TarjensAlgo{
         graph.get(src).add(dest); //directed graph
     }
 
-    void dfs(int u) {
-        stack.push(u);
+    void dfs(int u){
+    
         onStack[u] = true;
-        ID[u] = low[u] = id++;
-    
-        for (int v : graph.get(u)) {
-          if (ID[v] == -1) dfs(v);
-          if (onStack[v]) low[u] = Math.min(low[u], low[v]);
-        }
-    
-        if (ID[u] == low[u]) {
-          for (int node = stack.pop(); ; node = stack.pop()) {
-            System.out.print(node +" ");
-            onStack[node] = false;
-            low[node] = ID[u];
-            if (node == u) break;
-          }
-          System.out.println();
+        disc[u] = low_link[u] = time++;
+        stack.push(u);
 
+        for(int v : graph.get(u)){
+            if(disc[v]==-1) dfs(v);
+            if(onStack[v]) low_link[u] = Math.min(low_link[u], low_link[v]);
         }
-      }
+
+        if(low_link[u] == disc[u]){
+            for(int x = stack.pop(); ;x=stack.pop()){
+                onStack[x] = false; 
+                System.out.print(x+" ");
+                if(x == u) break;
+            }
+            System.out.println();
+        }   
+
+    }
 
     void solve(){
         for(int i=0;i<V;i++)
-            if(ID[i] == -1) dfs(i);
+            if(disc[i]==-1) dfs(i);
+       
     }
 
     public static void main(String[] args) {
