@@ -41,8 +41,8 @@ import java.util.*;
     }
 
     void solve(){
-        int src = 0;
-        dfs(src); 
+        for(int i=0;i<V;i++)
+            if(!visited[i]) dfs(i); 
         System.out.println("Total number of bridges :"+ numOfbridges);
     }
     
