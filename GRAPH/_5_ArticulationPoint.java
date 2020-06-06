@@ -34,10 +34,10 @@ public class _5_ArticulationPoint {
                 parent[v] = u;
                 dfs(v);
                 low[u] = Math.min(low[u], low[v]);
-                if(parent[u] == -1 && children > 1) AP[u] = true;
+                if(parent[u] == -1 && children > 1) AP[u] = true; //for root node
                 if(parent[u] != -1 && low[v] > disc[u]) AP[u] = true;
             }// Update low value of u for parent function calls. 
-            else if(v != parent[u]){
+            else if(v != parent[u]){ //dont take low-link value from parent(it can happen when cycle is present, so avoid that)
                 low[u] = Math.min(low[u], disc[v]);
             }
         }
