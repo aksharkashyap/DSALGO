@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Stack;
 //STRONGLY CONNECTED COMPONENTS(directed graph)
 
-public class SCC {
+public class _2_SCC {
     //dfs+stack,transpose,pop+dfs
     Stack<Integer> stack = new Stack<>();
     boolean visited[] = new boolean[5];
@@ -57,7 +57,7 @@ public class SCC {
     }
 
     public static void main(String[] args) {
-        SCC s = new SCC();
+        _2_SCC s = new _2_SCC();
         int g[][]={
             {0,0,1,1,0},
             {1,0,0,0,0},

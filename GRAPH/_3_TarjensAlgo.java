@@ -2,7 +2,7 @@ package GRAPH;
 import java.util.*;
 //strongly connected component
 //low-link -> smallest node id(discovery time wise) reachable to that node
-class TarjensAlgo{
+class _3_TarjensAlgo{
     int low_link[];
     int disc[]; //discovery time
     int time=0;
@@ -11,7 +11,7 @@ class TarjensAlgo{
     int V;
     List<List<Integer>> graph;
 
-    TarjensAlgo(int V){
+    _3_TarjensAlgo(int V){
         this.V = V;
         graph = new ArrayList<>();
         stack = new ArrayDeque<>();
@@ -55,7 +55,7 @@ class TarjensAlgo{
     }
 
     public static void main(String[] args) {
-        TarjensAlgo g = new TarjensAlgo(8);
+        _3_TarjensAlgo g = new _3_TarjensAlgo(8);
         g.addEdge(0,1);g.addEdge(0,4);
         g.addEdge(4,0);g.addEdge(4,5);
         g.addEdge(5,6);g.addEdge(6,7);
