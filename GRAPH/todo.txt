@@ -1,6 +1,6 @@
-1) articulation points(cut vertices) in a graph
 2) biconnected components
-3) flood fill algorithm
+3) eulerian paths and circuits
+4) flood fill algorithm
 
 
 -------------------------------------------------------------
@@ -11,10 +11,8 @@
 5) jhonson's algo for all pair shortest path -> v^2logv
 6) dial's algo - optimized dijsktra for small range weights
 7) shortest and longest path in a DAG
-8) existence of eulerian paths and circuits
-9) eulerian path algo
-10) transitive closure of a graph
-11) max-flow ford fulkerson  - network flow
-12) impliment an algo for splitwise app
-
+8) transitive closure of a graph
+9) max-flow ford fulkerson  - network flow
+10) impliment an algo for splitwise app
+11) Fluery's algo for printing eulerian path
 application of all graph, greedy algorithms practical
