@@ -35,7 +35,7 @@ public class _5_ArticulationPoint {
                 dfs(v);
                 low[u] = Math.min(low[u], low[v]);
                 if(parent[u] == -1 && children > 1) AP[u] = true; //for root node
-                if(parent[u] != -1 && low[v] > disc[u]) AP[u] = true;
+                if(parent[u] != -1 && low[v] >= disc[u]) AP[u] = true;
             }// Update low value of u for parent function calls. 
             else if(v != parent[u]){ //dont take low-link value from parent(it can happen when cycle is present, so avoid that)
                 low[u] = Math.min(low[u], disc[v]);
@@ -51,12 +51,21 @@ public class _5_ArticulationPoint {
     }
     
     public static void main(String[] args) {
-        _5_ArticulationPoint g = new _5_ArticulationPoint(6);
-        g.addEdge(0,1);
-        g.addEdge(1,5);
-        g.addEdge(1,3);
-        g.addEdge(1,2);
-        g.addEdge(3,4);
+        _5_ArticulationPoint g = new _5_ArticulationPoint(12);
+        g.addEdge(0, 1); 
+        g.addEdge(1, 2); 
+        g.addEdge(1, 3); 
+        g.addEdge(2, 3);
+        g.addEdge(2, 4); 
+        g.addEdge(3, 4); 
+        g.addEdge(1, 5); 
+        g.addEdge(0, 6); 
+        g.addEdge(5, 6); 
+        g.addEdge(5, 7);
+        g.addEdge(5, 8); 
+        g.addEdge(7, 8);
+        g.addEdge(8, 9); 
+        g.addEdge(10, 11); 
 
         g.solve();
     }
