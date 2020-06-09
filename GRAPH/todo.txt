@@ -1,7 +1,4 @@
-1) biconnected components
-2) eulerian paths and circuits
-3) flood fill algorithm
-
+1) eulerian paths and circuits
 
 -------------------------------------------------------------
 1) bfs without using queue
