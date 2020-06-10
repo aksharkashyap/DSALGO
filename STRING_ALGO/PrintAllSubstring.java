@@ -41,6 +41,11 @@ public class PrintAllSubstring {
         public static void main(String[] args) 
         { 
             String str = "cat"; 
+            System.out.println("method 3");
+            subString(str.toCharArray(), str.length());
+            System.out.println("method 1");
+            SubString(str, str.length());
+            System.out.println("method 2");
             substring_(str.toCharArray(), str.length()); 
         }   
 }
