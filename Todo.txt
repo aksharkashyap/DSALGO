@@ -5,7 +5,7 @@ min num of swaps required to sort an array
 stability analysis of sort algos
 
 ---------------------
-
+print all subsequences of string
 josephus probelm
 square root implement
 evaluation of postfix and prefix expression
