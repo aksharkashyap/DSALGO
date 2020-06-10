@@ -30,19 +30,22 @@
 
 
 //todo
-5) morris inorder traversal
-6) spiral traversal of binary tree
-7) reverse zigzag traversal of binary tree
-8) iterative diagonal traversal
-10) Clockwise Triangular traversal of a Binary Tree
-11) Boundary Level order traversal of a Binary Tree
-12) Middle To Up-Down Order traversal of a Binary Tree
-13) Level order traversal in spiral form | Using Deque
-14) Vertical Zig-Zag traversal of a Tree
-15) Left-Right traversal of all the levels of Binary tree
-16) Print path between any two nodes
-17) level order traversal traversal line by line using two queue
+1) Boundary traversal of a Binary Tree
+2) morris inorder traversal
 
+3) clockwise spiral traversal of binary tree
+4) reverse clockwise spiral traversal of binary tree
+5) reverse anti clockwise spiral traversal of binary tree
+6) reverse zigzag traversal of binary tree
+7) Level order traversal in spiral form | Using Deque
+8) Vertical Zig-Zag traversal of a Tree
+
+9) Clockwise Triangular traversal of a Binary Tree
+10) Middle To Up-Down Order traversal of a Binary Tree
+11) Left-Right traversal of all the levels of Binary tree
+12) Print path between any two nodes
+13) level order traversal traversal line by line using two queue
+14) iterative diagonal traversal
 //--------------------------------------------
 28) AVL tree
 29) Red black tree
@@ -75,3 +78,4 @@
 62) maximum width of tree
 63) Path sum III (optimized) leetcode
 64) next sparse binary tree
+65) density of binary tree 

@@ -2,6 +2,7 @@ Efficient program to print all prime factors of a given number
 find GCD or HCF of two numbers
 find LCM
 Total number of divisors for a given number
+Primality test
 Sieve of Eratosthenes (prime number generation)
 Modulo arithmetic, Modulo exponentiation and Modulo inverse
 Lucas Theorem
@@ -14,3 +15,4 @@ Fast Fourier Transform for fast polynomial multiplication
 convex hull
 Pigeonhole principle
 inclusion exclusion principle
+sweep line algorithm
