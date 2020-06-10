@@ -24,7 +24,7 @@ public class PrintAllSubstring {
             }
         }
 
-        //method 3
+        //method 3 (if length wise sorting is asked then this is useful)
         static void subString(char str[], int n) { 
             for (int len = 1; len <= n; len++) { //length
                 for (int i = 0; i <= n - len; i++) { //how many elements with length 'len'   
