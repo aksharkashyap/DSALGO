@@ -1,5 +1,7 @@
 boundry traversal 7 pm
+https://www.geeksforgeeks.org/program-to-check-if-an-array-is-palindrome-or-not/
 -----------------------
+KMP algo
 check if graph is tree or not
 mobile numeric problem
 np, np hard, np complete etc
@@ -7,7 +9,7 @@ min num of swaps required to sort an array
 stability analysis of sort algos
 
 ---------------------
-print all subsequences of string
+print all subsequences(subsets) of string
 josephus probelm
 square root implement
 evaluation of postfix and prefix expression
