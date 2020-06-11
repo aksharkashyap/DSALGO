@@ -9,7 +9,9 @@
 8) find mother vertex
 9) count the number of non-reachable nodes
 10) detect cycle in a graph directed 
-11) union-find algorithm for undirected - cycle detection
+11) union-find algorithm for undirected - (application - cycle detection)
+11) cycle detection in directed graph using bfs
+11) cycle detection in undirected graph usin bfs
 12) number of triangles in an undirected graph
 14) check if given graph is tree or not
 16) Disjktras's single source shortest path
@@ -44,3 +46,10 @@
 38) elementry math problem - network flow
 39) capacity scalling - network flow
 40) dinic's algo - network flow
+
+
+
+##### cycle detection #####
+directed graph -> dfs / bfs
+undirected graph -> dfs / bfs / union find
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

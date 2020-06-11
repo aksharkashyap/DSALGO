@@ -1,7 +1,7 @@
 package GRAPH;
-
 import java.util.*;
 
+//we can also use union find algorithm to detect cyle in undirected graph
 
 //disjoint set
 class UnionFIND_AK{

@@ -1,5 +1,6 @@
 1) eulerian paths and circuits
-
+2) cycle detection in directed graph using bfs
+3) cycle detection in undirected graph usin bfs
 -------------------------------------------------------------
 1) bfs without using queue
 2) clone a graph
