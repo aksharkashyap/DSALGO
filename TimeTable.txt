@@ -1,14 +1,14 @@
-6 to 9 Array / String / Matrix / leetcode top 100
-9 to 10 Data sciene lecture
-10 to 11 data science practice
-
+6.30 to 10 Array / String / Matrix / leetcode top 100
+10 to 11 Data sciene lecture
 
 1 to 3  Graph
-3 to 4  dbms / os / networks / oops
-4 to 5  Full Stack
-6 to 7  Myperfectice  / examly 
-7 to 9  Tree / LinkedList
-10.30 to 11.30 PM Data science lecture
+3 to 5  Tree / LinkedList
+
+6 to 7  dbms / os / networks / oops
+7 to 8  Data sciene lecture
+8 to 9  Data sciene practice
+
+10.30 to 11.30 PM Full Stack
 
 
 
