@@ -1,5 +1,7 @@
+(1 to 3)
 cycle detection directed/undirected graph using BFS
-
+average of array using recursion
+segment tree, trie (revise)
 -----------------------
 KMP algo
 np, np hard, np complete etc
