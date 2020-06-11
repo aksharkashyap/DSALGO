@@ -1,14 +1,11 @@
-boundry traversal 7 pm
-https://www.geeksforgeeks.org/program-to-check-if-an-array-is-palindrome-or-not/
+cycle detection directed/undirected graph using BFS
+
 -----------------------
 KMP algo
-check if graph is tree or not
-mobile numeric problem
 np, np hard, np complete etc
-min num of swaps required to sort an array
 stability analysis of sort algos
-
 ---------------------
+mobile numeric problem
 josephus probelm
 square root implement
 evaluation of postfix and prefix expression
@@ -34,6 +31,6 @@ reverse first k elemnts of queue
 queue reversal
 rotate by 90
 bit differnece
-special stack
+min num of swaps required to sort an array
 
 https://leetcode.com/problems/counting-bits/
