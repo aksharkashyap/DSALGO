@@ -1,1 +1,14 @@
-print all subsequences(subsets) of string
+1) print all subsequences(subsets) of string
+2) print all Permutations
+3) print all substrings 
+4) print all palindromic substrings
+5) find longest palindromic substring
+
+
+--------------------------
+Complexities:
+
+1) Permutations: N!.
+2) Combinations: nCk = N! / (N−k)!k!
+3) Subsets: (2^N * N) since each element could be absent or present
+--------------------------
