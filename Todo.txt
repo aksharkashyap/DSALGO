@@ -1,4 +1,7 @@
 (1 to 3)
+hash implement
+lru cache implement
+getRandom in o(1) implement
 angle b/w hands of a clock
 graph clone, linkedlist clone
 Lowest common ancester
