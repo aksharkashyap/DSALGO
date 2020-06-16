@@ -1,17 +1,20 @@
 package LIST;
+
 import java.util.*;
 
+
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode random;
+    ListNode(int val){
+        this.val = val;
+        next=random=null;
+    }
+}
 public class CloneList {
 
-    class ListNode{
-        int val;
-        ListNode next;
-        ListNode random;
-        ListNode(int val){
-            this.val = val;
-            next=random=null;
-        }
-    }
+    
 
 /**The idea is to use Hashing. Below is algorithm.
     1. Traverse the original linked list and make a copy in terms of data.
@@ -42,4 +45,36 @@ public class CloneList {
         return map.get(head);
     }
 
+}
+
+// o(1) solution
+class CloneList2 {
+
+    public ListNode copyRandomList(ListNode head) {
+        if(head==null) return null;
+        ListNode cloneNode=null, orgNode=head;
+
+        while(orgNode != null) {
+            cloneNode = new ListNode(orgNode.val);
+            cloneNode.next = orgNode.next;
+            orgNode.next = cloneNode;
+            orgNode = cloneNode.next;
+        }
+        orgNode = head;
+        cloneNode = orgNode.next;
+        while(orgNode != null) {
+            if(orgNode.random!=null) orgNode.next.random = orgNode.random.next;
+            orgNode = orgNode.next.next;
+        }
+        orgNode = head;
+        cloneNode = orgNode.next;
+        ListNode newNode = cloneNode;
+        while(orgNode != null) {
+            orgNode.next = newNode.next;
+            if(newNode.next != null) newNode.next = newNode.next.next;
+            orgNode = orgNode.next;
+            newNode = newNode.next;
+        }
+        return cloneNode;
+    }
 }
