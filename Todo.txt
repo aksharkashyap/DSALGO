@@ -1,9 +1,10 @@
 (1 to 3)
+detect loop in linkedlist- all algorithms 
 hash implement
 lru cache implement
 getRandom in o(1) implement
 angle b/w hands of a clock
-graph clone, linkedlist clone
+graph clone
 Lowest common ancester
 cycle detection directed/undirected graph using BFS
 average of array using recursion
