@@ -25,6 +25,9 @@ public class UniqueBST_Catalan {
     }
 
 }
+/**In combinatorial mathematics, the Catalan numbers form a sequence of natural numbers that occur in various 
+   counting problems, often involving recursively-defined objects. 
+ * They are named after the Belgian mathematician Eugène Charles Catalan */
 
 /** Applications--------------------------------------
  
@@ -52,4 +55,5 @@ The number of triangles formed is n and the number of different ways that this c
 11) Cn is the number of non-isomorphic ordered trees with n + 1 vertices
 12) Cn is the number of monotonic lattice paths along the edges of a grid with n × n square cells, which do not pass above the diagonal.
 13) Cn is the number of Dyck words of length 2n
+14) Cn is the number of semiorders on n unlabeled items
  */
