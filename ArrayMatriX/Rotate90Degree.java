@@ -63,10 +63,10 @@ class Rotate90Degree3{
             // Swap elements of each cycle 
             // in clockwise direction 
             int temp = a[i][j]; 
-            a[i][j] = a[N - 1 - j][i]; 
-            a[N - 1 - j][i] = a[N - 1 - i][N - 1 - j]; 
-            a[N - 1 - i][N - 1 - j] = a[j][N - 1 - i]; 
-            a[j][N - 1 - i] = temp; 
+            a[i][j] = a[N-1-j][i]; 
+            a[N-1-j][i] = a[N-1-i][N-1-j]; 
+            a[N-1-i][N-1-j] = a[j][N-1-i]; 
+            a[j][N-1-i] = temp; 
         } 
      } 
     }
