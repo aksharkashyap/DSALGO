@@ -27,25 +27,24 @@
 4) zigzag traversal tree 
 5) Diamond Tree
 6) recursive diagonal traversal
+7) Boundary traversal of a Binary Tree
 
 
 //todo
-1) Boundary traversal of a Binary Tree
 2) morris inorder traversal
-
 3) clockwise spiral traversal of binary tree
 4) reverse clockwise spiral traversal of binary tree
 5) reverse anti clockwise spiral traversal of binary tree
 6) reverse zigzag traversal of binary tree
 7) Level order traversal in spiral form | Using Deque
 8) Vertical Zig-Zag traversal of a Tree
-
 9) Clockwise Triangular traversal of a Binary Tree
 10) Middle To Up-Down Order traversal of a Binary Tree
 11) Left-Right traversal of all the levels of Binary tree
 12) Print path between any two nodes
 13) level order traversal traversal line by line using two queue
 14) iterative diagonal traversal
+
 //--------------------------------------------
 28) AVL tree
 29) Red black tree
@@ -53,6 +52,8 @@
 31) B+ tree 
 32) Fenwick tree
 //---------------------------------------------
+
+33) lowest common anscestor
 34) parenthesis theorem
 35) minimum bottleneck spanning tree
 36) maximum xor path of binary tree
@@ -63,7 +64,6 @@
 47) m-Way search trees
 48) Construct BST from given preorder traversal
 49) make binary tree from linkedlist
-59) lowest common anscestor in binary tree
 51) check if tree is isomorphic
 52) binary tree to dll
 53) Serialization of binary tree

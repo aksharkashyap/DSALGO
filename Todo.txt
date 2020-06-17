@@ -16,8 +16,11 @@ np, np hard, np complete etc
 stability analysis of sort algos
 ---------------------
 mobile numeric problem
+factorial trailing zero
 josephus probelm
 square root implement
+pow() implement
+string to integer impliment
 evaluation of postfix and prefix expression
 nuts and bolts problem
 knapsack with duplicate items

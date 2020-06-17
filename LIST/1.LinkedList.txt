@@ -7,7 +7,7 @@
 6) merge-sort,quick sort,binarysearch
 7) Selection, insertion sort on linked list
 8) reverse number betweeen two nodes / reverse half nodes (1 method left)
-9) sort linkedlist of 0’s 1’s and 
+9) sort linkedlist of 0’s 1’s and 2's
 10) reverse linkedlist using recursion
 11) multiplication of number represented by a linkedlist
 
