@@ -2,6 +2,7 @@ package DP;
 //nth catlan number 
 //for amazing applications : https://en.wikipedia.org/wiki/Catalan_number
 // formula ->   2nCn/ n+1
+// for binary trees -> n! * 2nCn/n+1
 public class UniqueBST_Catalan {
     //Recursive
     int solve_recursive(int n){
