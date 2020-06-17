@@ -1,5 +1,6 @@
 package DP;
-//nth catlan number
+//nth catlan number 
+//for amazing applications : https://en.wikipedia.org/wiki/Catalan_number
 // formula ->   2nCn/ n+1
 public class UniqueBST {
     //Recursive
