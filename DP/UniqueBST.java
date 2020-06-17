@@ -1,6 +1,6 @@
 package DP;
 //nth catlan number
-
+// formula ->   2nCn/ n+1
 public class UniqueBST {
     //Recursive
     int solve_recursive(int n){
