@@ -5,6 +5,7 @@ lru cache implement
 getRandom in o(1) implement
 angle b/w hands of a clock
 graph clone
+
 Lowest common ancester
 cycle detection directed/undirected graph using BFS
 average of array using recursion
@@ -38,7 +39,6 @@ anagram palindrome
 egg dropping puzzle
 reverse first k elemnts of queue
 queue reversal
-rotate by 90
 bit differnece
 min num of swaps required to sort an array
 

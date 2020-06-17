@@ -1,6 +1,9 @@
 Efficient program to print all prime factors of a given number
 find GCD or HCF of two numbers
 find LCM
+bell numbers
+binomial coeff
+Pascal/Floyd triangle/ ugly/lucky number
 Total number of divisors for a given number
 Primality test
 Sieve of Eratosthenes (prime number generation)
@@ -10,7 +13,6 @@ chinese remainder theorem
 catalan numbers
 Average of a stream of numbers
 Magic Square
-Pascal/Floyd triangle/ ugly/lucky number
 Fast Fourier Transform for fast polynomial multiplication
 convex hull
 Pigeonhole principle
