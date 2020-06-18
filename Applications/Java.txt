@@ -1,0 +1,271 @@
+-------------
+Arrays
+-------------
+1) Arrays.binarySearch([]obj,key)
+1) Arrays.binarySearch([]obj,start,end,key)
+2) Arrays.sort([]obj)
+2) Arrays.sort([]obj,start,end)
+2) Array.sort([]obj,start,end,new SortBySomething()) // sortbysomething is a comparator/comparable class
+3) Arrays.fill([]obj,filling_val)
+4) Arrays.toString([]obj)
+5) Arrays.asList([]obj)
+6) Arrays.compare([]a,[]b) //compares to array lexographically
+7) Arrays.copyOf([],new_length)
+8) Arrays.copyOfRange([],start,end)
+9) Arrays.deepEquals([],[])
+10) Arrays.mismatch([],[]) //returns the index of 1st mismatched element
+11) Arrays.parallelSort([]obj) // sort the array using parallel sort
+
+
+-------------
+Array
+---------------
+1) arr.length
+2) arr.clone()
+3) arr.toString()
+4) arr.equals([]obj)
+
+
+----------------
+Character
+--------------- 
+1) Character.isLetter(char ch)  //boolean
+2) Character.isDigit(char ch)  //boolean
+3) Character.isWhiteSpace(char ch)  //boolean 
+4) Character.isUpperCase(char ch)  //boolean 
+5) Character.isLowerCase(char ch)  //boolean
+6) Character.toUpperCase(char ch)  //converts and return ascii/or uppercase (depends on input) 
+7) Character.toLowerCase(char ch)  
+8) Character.toString(char ch)
+9) Character.compare(ch1, ch2) // compares two char values numerically
+10) Character.compareTo(ch_obj1, ch_obj2) // compares two char objects numerically
+11) Character.isLetterOrDigit(char ch)
+12) Character.isTitleCase(char ch)
+13) Charcter.reverseBytes(char ch) // reverse bytes of char
+
+----------------
+Integer : java.lang.Integer.func_name()
+----------------
+
+1) Integer.parseInt(valid_string) // convert string to int
+2) Integer.toString(int b)
+3) Integer.toBinaryString(int b)
+4) Integer.valueOf(int b)
+5) Integer.intValue() //returns int value corrosponding to Integer obj.
+6) Integer.longValue() /floatValue() / doubleValue()
+7) Integer.numberOfLeadingZeroes() // sees the num as 2's complement then find leading zeroes
+8) Integer.numberOfTrailingZeroes()
+9) Integer.equals(integer_obj2) //compares equality of two integer objs
+10)Integer.compareTo(Integer_obj2) // compares on the basis of value
+11)Integer.reverse() // reverse the values 2's complement form
+12)Integer.max(int a, int b)
+13)Integer.min(int a, int b)
+14)Integer.sum(int a, int b)
+
+-------------
+Math  : java.lang.Math.func_name()
+-------------
+1)  max(double a, double b)
+2)  min(double a, double b)
+3)  ceil(double a )
+4)  floor(double a)
+5)  abs(datatype arg)
+6)  cbrt(double arg) //returns cuberoot - double
+7)  log(double arg)
+7)  log10(double arg) //bas10
+8)  exp(double arg)
+9)  pow(double _base , double _exponent)
+10) round(long/double arg) // round to the nearest value
+11) log1p(double arg) // returns log of passed argument+1 
+
+--------------------
+StringBuilder - mutable
+-------------
+1) StringBuilder str = new StringBuilder()
+2) reverse()
+3) toString()
+4) setLength(size)
+5) length()
+6) append(char/int/float/long/string/char[]/boolean/StringBuffer c)
+7) capacity() //returns current capacity
+8) charAt(indx)
+9) delete(start,end)
+10) deleteCharAt(indx)
+11) indexOf(String st)
+12) indexOf(String st, int fromindex)
+13) insert(int offset, datatype c)
+14) replace(start,end,String new_str)
+15) setCharAt(int index, char ch)
+16) subSequence(int start, int end) //returns CharSequence
+17) substring(int start)
+18) substring(int start,int end)
+19) toString()
+20) trimToSize() //Attempts to reduce storage used for the character sequence.
+21) clone()
+22) equals()
+
+
+-------------
+String -immutable
+-------------
+1) arr[] = str.toCharArray()
+2) str.toLowerCase()
+3) str.toUpperCase()
+4) str.length()
+5) str.equals(str2)
+6) str.equalsIgnoreCase()
+7) String.valueOf(item) //convert item to string type
+8) charAt(indx)
+
+-------------
+Collections
+-------------
+1) Collections.sort(list)
+2) Collections.binarySearch(list,key)
+3) Collections.reverse()
+4) Collections.reverseOrder()
+5) size()
+6) isEmpty()
+7) clear()
+8) addAll(collection_obj)
+9) removeAll(collection_obj)
+10) retainAll(collection_obj) //delete all elements except the passed argument
+11) contains(item) //boolean
+12) containsAll(collections obj //boolean
+13) toArray(collection_obj) // converts collection to obj[] 
+14) public boolean equals(Object element) //matches two collections
+15) public <T> T[] toArray(T[] a) //converts collection into array. Here, the runtime type of the returned array is that of the specified array.
+
+->Iterator interface
+---------------------------
+1) public boolean hasNext() -It returns true if the iterator has more elements otherwise it returns false.
+2) public Object next()	-It returns the element and moves the cursor pointer to the next element.
+3) public void remove()	-It removes the last elements returned by the iterator. It is less used.
+ 
+
+-------------
+HashMap
+-------------
+1) map.entrySet()
+2) map.keySet()
+3) map.values()
+4) map.getOrDefault(key,def_val)
+5) entry_set.getKey()
+6) entry_set.getValue()
+7) map.put(key,value)
+8) map.putIfAbsent(key,value)
+9) map.get(key)	-> returns null if not present
+10) iterator for(Map.Entry<TYPE,TYPE> m : m.entrySet())
+11) iterator for(TYPE m : m.keySet())
+12) iterator for(TYPE m: m.values())
+13) map.containsKey(key)
+14) map.containsValue(value)
+
+-------------
+HashSet
+-------------
+1) set.add(item)
+2) set.remove(item)  
+3) addAll(collecn c)
+4) contains(item)
+5) containsAll(collecn c)
+6) equals(object o)
+7) removeAll(collection c)
+8) toArray()
+
+-------------
+ArrayList
+-------------
+1) add(item)
+2) remove(item)
+3) clone()
+4) get(index)
+5) ensureCapacity(min_cap)
+6) indexOf(ob)
+7) lastIndexOf(ob)
+8) removeAll(collectn)
+9) removeRange(int start,int end)
+10) set(index, element)
+11) subList(from, to)
+12) toArray()
+13) trimToSize() -> trim the arraylist's size to current size
+14) toString()
+15) size()
+
+-------------
+LinkedList / ArrayDeque
+-------------
+1) add()
+2) addLast()
+3) addFirst()
+4) removeLast()
+5) removeFirst()
+6) get(index)
+7) set(index, new_item)
+8) clone()
+9) clear()
+10) element() //retrieve the head of the linkedlist but doesnt remove
+11) getFirst()
+12) getLast()
+13) indexOf(object o) //returns the indexof the first occ or -1
+14) lastIndexOf(object o) //returns the last occurance index or -1
+15) offer(E e) //add to the last
+16) offerFirst(E e) //add to the first
+17) offerLast(E e) //add to the last
+18) peek() // first element peek
+19) peekFirst()
+20) peekLast()
+21) poll() //return head or null
+22) pollFirst()
+23) pollLast()
+24) remove() //remove the head of the list
+25) removeFirstOccurrance(object o) //remove the first occurancr
+26) removeLastOccurrance(object o)
+27) size()
+28) toArray() // returns array from first->last
+29) remove(int index)
+
+-------------
+Queue
+-------------
+1) add(e)  //exception
+2) element() // same as peek but exception
+3) remove() //exception
+4) offer(e) //null
+5) peek() //if empty returns - null
+6) poll() // null
+7) size()
+8) toArray()
+9) addAll()
+10) contains()
+11) clear()
+12) equals()
+13) removeAll()
+14) retainAll()
+
+-------------
+PriorityQueue
+-------------
+1) PriorityQueue<TYPE> heap = new PriorityQueue<>() // min heap
+2) PriorityQueue<TYPE> heap = new PriorityQueue<>(Collections.reverseOrder() // maxheap
+3) PriorityQueue<TYPE> heap = new PriorityQueue<>(new Sort()) //custom comparator
+4) offer(item)
+5) poll() //returns null if empty
+6) add(item)
+7) remove() //if present true/else false
+8) peek()
+9) clear()
+10) contains(object c)
+11) size()
+12) toArray()
+13) comparator()
+
+-------------
+Stack
+-------------
+1) peek()
+2) push()
+3) pop()
+4) clone()
+5) search(ob element) //if found returns offset(starts from 1) from the top else -1
+6) empty() // checks if empty
