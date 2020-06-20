@@ -116,6 +116,23 @@ String -immutable
 6) str.equalsIgnoreCase()
 7) String.valueOf(item) //convert item to string type
 8) charAt(indx)
+9) str.indexOf('char')
+10) str.substring(start,end(exclusive))
+11) str.replaceAll("regEx","newChar");
+12) contains()
+13) concat()
+14) contentEquals()
+15) getChars()
+16) isEmpty()
+17) lastIndexOf()
+18) replaceFirst()
+19) replaceAll()
+20) replace()
+21) trim()
+22) subSequence()
+23) startsWith()
+24) split()
+25) format()
 
 -------------
 Collections
