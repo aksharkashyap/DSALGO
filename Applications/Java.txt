@@ -119,7 +119,7 @@ String -immutable
 9) str.indexOf('char')
 10) str.substring(start,end(exclusive))
 11) str.replaceAll("regEx","newChar");
-12) contains()
+12) contains('char'/"str")
 13) concat()
 14) contentEquals()
 15) getChars()
@@ -133,6 +133,8 @@ String -immutable
 23) startsWith()
 24) split()
 25) format()
+26) copyValueOf(char[] data, int offset, int  count)
+27) endsWith(String chars)
 
 -------------
 Collections
