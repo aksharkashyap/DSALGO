@@ -1,6 +1,6 @@
 package DP;
 import java.util.Arrays;
-
+//recursive
 class StoneGame {
     boolean solve(int[] piles, boolean alex, int valAlex, int valLee,int start,int end){
     
@@ -23,7 +23,7 @@ class StoneGame {
         return solve(piles, true,0,0,0,piles.length-1);
     }
 }
-
+//using minimax
 class StoneGameMinMax {
     int memo[][][];
     
