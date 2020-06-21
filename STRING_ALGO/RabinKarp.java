@@ -9,14 +9,14 @@ class RabinKarp{
 		int hash_m=0,hash_n=0;
 
 		for(int i=0;i<M-1;i++)
-			h = (h * ALPHA ) % q;
+			h = (h * ALPHA ) % q;  // The value of h would be "pow(ALPHA, M-1)%q" 
 
 		for(int i=0;i<M;i++){
-			hash_m = hash_m * ALPHA + (pat.charAt(i))%q;
-			hash_n = hash_n * ALPHA + (txt.charAt(i))%q;			
+			hash_m = (hash_m * ALPHA + (pat.charAt(i)))%q;
+			hash_n = (hash_n * ALPHA + (txt.charAt(i)))%q;			
 		}
 		int i,j;
-		for(i=0;i<N-M;i++){
+		for(i=0;i<=N-M;i++){
 
 			if(hash_m == hash_n){
 				//then compare
@@ -34,8 +34,8 @@ class RabinKarp{
 	}
 
 	public static void main(String[] args) {
-		String txt = "GEEKS FOR GEEKS"; 
-        String pat = "GEEK"; 
+		String txt = "superhero"; 
+        String pat = "hero"; 
         int q = 101; // A prime number 
         search(pat, txt, q);
 	}
