@@ -47,3 +47,4 @@ min num of swaps required to sort an array
 
 https://leetcode.com/problems/counting-bits/
 https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/
+https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/discuss/398951/Beats-100-time-and-beats-100-space.-Best-solution-out-there.-No-binary-search-needed.
