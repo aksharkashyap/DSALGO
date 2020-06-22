@@ -1,7 +1,7 @@
 6.30 to 10 Array / String / Matrix / leetcode top 100
 10 to 11 Data sciene lecture
 
-1 to 3  Graph
+1 to 3  DP
 3 to 5  Tree / LinkedList
 
 6 to 7  dbms / os / networks / oops
