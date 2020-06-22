@@ -135,7 +135,7 @@ String -immutable
 25) format()
 26) copyValueOf(char[] data, int offset, int  count)
 27) endsWith(String chars)
-
+28) String.valueOf(char[]) // convert char array to string
 -------------
 Collections
 -------------
