@@ -1,7 +1,7 @@
 package Design;
 import java.util.*;
 //gives tle for large input
-//to remove lru - reheapfy 
+//to remove lru - reheapfy at the time -> when you change time of an element 
 class LRUCache {
     int CAP;
     int TIME=0;
