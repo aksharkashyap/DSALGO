@@ -221,7 +221,7 @@ class LRUCache4 {
 
 	public LRUCache4(int capacity) 
 	{ 
-		this.cache = new LinkedHashSet<Integer>(capacity); 
+		this.cache = new LinkedHashSet<Integer>(capacity);  //it keeps order based on the insertion time
 		this.capacity = capacity; 
 	} 
 
