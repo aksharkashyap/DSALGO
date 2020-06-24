@@ -130,12 +130,6 @@ class LRUCache {
       
     }
     
-    class Sort implements Comparator<Pair>{
-        public int compare(Pair a, Pair b){
-            return a.time - b.time;
-        }
-    }
-    
     public class Pair{
         public int key,val,time;
         Pair(int k, int v, int t){
