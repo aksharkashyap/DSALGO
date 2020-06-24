@@ -137,7 +137,7 @@ class LRUCache {
     }
 }
 
-//3
+//3 (o(1))
 
 class Node { 
     int key,value; 
@@ -213,7 +213,7 @@ class LRUCache3 {
   }
 
 
-  //4
+  //4 for java
 class LRUCache4 { 
 
 	Set<Integer> cache; 
