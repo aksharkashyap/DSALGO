@@ -84,7 +84,6 @@ class LRUCache {
  class LRUCache2 {
     int CAP;
     int TIME=0;
-    PriorityQueue<Pair> heap;
     Map<Integer,Pair> map;
     public LRUCache2(int capacity) {
         map = new HashMap<>();
