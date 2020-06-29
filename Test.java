@@ -2,26 +2,30 @@ import java.util.Arrays;
 
 class Test{
 
+    static void swap(int arr[],int i, int j){
+        int temp = arr[i]; arr[i] = arr[j]; arr[j] = temp;
+    }
+    static int getPivot(int arr[], int l, int r){
+        int pos=l;
+        int pivot = r;
 
-    static void sort(int arr[],int n){
-        int max = 0;
-        int output[] = new int[n];
-        for(int v : arr) max = Math.max(v,max);
-        int count[] = new int[max+1];
+        for(int i=l;i<pivot;i++)//find pivot pos
+            if(arr[i]<=arr[pivot]) swap(arr,pos++,i);
+        
+        swap(arr,pivot,pos); // place the pivot at correct position
+        return pos;
+    }
 
-        for(int v : arr) count[v]++; //count
-        for(int i=1;i<=max;i++) count[i] += count[i-1]; //modify
-        for(int i=n-1;i>=0;i--){
-            output[count[arr[i]]-1] = arr[i]; //place values
-            count[arr[i]]--;
-        }
-
-        System.out.println(Arrays.toString(output));
-
+    static void sort(int arr[],int l, int r){
+        if(l>=r) return;
+        int mid = getPivot(arr,l,r);
+        sort(arr,l,mid-1);
+        sort(arr,mid+1,r);
     }
 
     public static void main(String[] args) {
-        int arr[] = {2,3,4,13,12,5,5};
-        sort(arr,arr.length);
+        int arr[] = {2,3,49,13,12,5,3,5,55,2,3,5,7,2,11,5};
+        sort(arr,0, arr.length-1);
+        System.out.println(Arrays.toString(arr));
     }
 }
