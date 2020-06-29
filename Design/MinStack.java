@@ -1,8 +1,8 @@
-package Stackk;
+package Design;
 //implement stack with push(),pop(),getMin()
 import java.util.Stack;
 // O(n) space
-class $_7_MinStack{
+class MinStack{
     Stack<Integer> stack1 = new Stack<>();
     Stack<Integer> stack2 = new Stack<>();
 
@@ -28,7 +28,7 @@ class $_7_MinStack{
     }
 
     public static void main(String[] args) {
-        $_7_MinStack a = new $_7_MinStack();
+        MinStack a = new MinStack();
         a.push(5);
         System.out.println(a.getMin());
         a.push(-5436);
