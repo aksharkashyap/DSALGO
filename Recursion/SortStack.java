@@ -1,4 +1,4 @@
-package Stackk;
+package Recursion;
 
 import java.util.Stack;
 import java.util.Arrays;

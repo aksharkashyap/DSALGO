@@ -5,8 +5,8 @@
 5) string to integer
 6) sorting check
 7) binary search
-8) bubble sort
 9) reverse the stack
 10) min jumps to reach end
 11) permutation of string
 12) subsequence of string 
+13) recursive bubble,insertion sort - array sort
