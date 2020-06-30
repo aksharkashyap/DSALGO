@@ -2,6 +2,7 @@ Lru cache
 min/max stack in O(1)
 ----------------------
 getRandom in O(1)
+design skiplist
 hash set / hasmap
 square root implement
 pow() implement
