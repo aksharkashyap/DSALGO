@@ -44,3 +44,31 @@ class LCA {
         return ans.node;
     }
 }
+
+/*O(n) solution | 4ms | faster than 100%
+"DFS if p or q found then simply return them
+now check whether a node itselft or its left /right subtree is giving the p and q and 
+hence store the root if true, now further propogate the nodes"
+*/
+class LCA2 {
+    TreeNode ans=null;
+    TreeNode solve(TreeNode root, TreeNode p, TreeNode q){
+        if(root == null) return root;
+        
+        TreeNode left = solve(root.left,p,q);
+        TreeNode right = solve(root.right,p,q);
+        if(left==p &&  right==q || left==q && right==p
+          || root==p && (left==q || right==q) 
+           || root==q && (left==p || right==p))  return ans = root;
+           
+        if(left==p || left==q) return left;
+        if(right==p || right==q) return right;
+        
+        return root;
+    }
+    
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        solve(root,p,q);
+        return ans;
+    }
+}

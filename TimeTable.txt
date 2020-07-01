@@ -1,11 +1,11 @@
 ----------------------------JULY--------------------------------------
 6 to 9 Array / String / leetcode top 100
-9 to 11 java (1 week) / dbms(2 week) [os/networks/html/css/javascript]
-11 to 12 revise imp programs(immitate interview)
+9 to 11  javascript / html / css / reactjs / nodejs 
+11 to 12 revise imp programs(immitate interview) / mysql
 --------------------------------------------------
 2 to 5  Tree / LinkedList / special problems
 -------------------------------------------------
-6 to 7 mysql 
+6 to 7 java (1 week) / dbms(2 week) [os/networks] 
 7 to 8 data science
 8 to 9 data science
 ------------------------------------------------
