@@ -10,6 +10,11 @@
 9) sort linkedlist of 0’s 1’s and 2's
 10) reverse linkedlist using recursion
 11) multiplication of number represented by a linkedlist
+12) cycle detection
+13) first node of cycle (with mathematical proof of floyd's)
+14) remove the cycle from linkedlist
+14) rotate linkedlist
+16) delete without head pointer
 
 10) sort numbers b/w two nodes
 11) remove duplicate 2 - leetcode
@@ -32,11 +37,9 @@
 21) remove loop in linkedlist
 22) pairwise swap elements of a linkedlist
 23) Quick sort and merge sort on Doubly linked list
+24) Odd / even linkedlist 
 
 
-25) rotate linkedlist
-26) n'th node from last
-27) delete without head pointer
 
 
 //Note-> Generating numbers from node
