@@ -138,6 +138,7 @@ String -immutable
 27) startsWith(String chars)
 28) s.getChars(srcBegin, srcEnd, dst, dstBegin) // creating string from char array (note str.split("regx")) makes String array
 29) contentEquals()
+30) String listString = String.join(", ", list); //java 8 or above
 
 -------------
 Collections
