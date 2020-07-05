@@ -61,7 +61,7 @@ Integer : java.lang.Integer.func_name()
 12) Integer.numberOfLeadingZeroes() // sees the num as 2's complement then find leading zeroes
 13) Integer.numberOfTrailingZeroes()
 14) Integer.reverse() // reverse the values 2's complement form
-
+15) Integer.bitCount(num) // count set bits
 
 -------------
 Math  : java.lang.Math.func_name()
