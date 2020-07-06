@@ -160,6 +160,12 @@ Collections
 13) toArray(collection_obj) // converts collection to obj[] 
 14) public boolean equals(Object element) //matches two collections
 15) public <T> T[] toArray(T[] a) //converts collection into array. Here, the runtime type of the returned array is that of the specified array.
+16) Collections.max(list/map/etc)
+17) Collections.min(list/map/etc)
+18) Collections.fill()
+19) Collections.indexOfSubList()
+20) Collections.replaceAll()
+
 
 ->Iterator interface
 ---------------------------
