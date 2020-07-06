@@ -319,6 +319,37 @@ BigInteger
 3) int val = b.intValue();
 4) A.gcd(BigInteger B) //inbuilt gcd 
 5) BigInteger.valueOf(int_num).isProbablePrime(1) // checking prime number returns false if number is composite
+6) BigInteger abs()
+7) BigInteger add(BigInteger val)
+8) BigInteger and(BigInteger val)
+9) int bitCount()
+10) int bitLength()
+11) BigInteger clearBit(int n)
+12) int compareTo(BigInteger val)
+13) BigInteger divide(BigInteger val)
+14) BigInteger[] divideAndRemainder(BigInteger val):
+15) boolean equals(Object x)
+16) int getLowestSetBit() //returns the index of the rightmost (lowest-order) one
+17) BigInteger max(BigInteger val)
+18) BigInteger min(BigInteger val)
+19) BigInteger mod(BigInteger m)
+20) BigInteger modInverse(BigInteger m)
+21) BigInteger multiply(BigInteger val)
+22) BigInteger negate()
+23) BigInteger nextProbablePrime()
+24) BigInteger not()
+25) BigInteger or(BigInteger val)
+26) BigInteger pow(int exponent)
+27) static BigInteger probablePrime(int bitLength, Random rnd) //probably prime, with the specified bitLength
+28) BigInteger remainder(BigInteger val)
+29) BigInteger setBit(int n)
+30) BigInteger shiftLeft(int n)
+31) BigInteger shiftRight(int n)
+32) BigInteger sqrt()
+33) BigInteger subtract(BigInteger val)
+34) boolean testBit(int n) // check the bit is set or not
+35) String toString()
+36) BigInteger xor(BigInteger val)
 
 
 ------TRICKS-------------
