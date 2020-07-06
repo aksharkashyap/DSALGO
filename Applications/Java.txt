@@ -14,7 +14,8 @@ Arrays
 8) Arrays.copyOfRange([],start,end)
 9) Arrays.deepEquals([],[])
 10) Arrays.mismatch([],[]) //returns the index of 1st mismatched element
-11) Arrays.parallelSort([]obj) // sort the array using parallel sort
+11) Arrays.equals([],[]) //compare two array
+12) Arrays.parallelSort([]obj) // sort the array using parallel sort
 
 
 -------------
@@ -104,7 +105,7 @@ StringBuilder - mutable
 20) trimToSize() //Attempts to reduce storage used for the character sequence.
 22) equals()
 23) sb.getChars(srcBegin, srcEnd, dst, dstBegin)
-
+24) Pattern.compile(" ").split(myStringBuilder)
 
 -------------
 String -immutable
@@ -139,7 +140,8 @@ String -immutable
 28) s.getChars(srcBegin, srcEnd, dst, dstBegin) // creating string from char array (note str.split("regx")) makes String array
 29) contentEquals()
 30) String listString = String.join(", ", list); //java 8 or above
-
+31) str.replaceAll("[^\\dA-Za-z ]", ""); //Replace all special character
+32) str.replaceAll("[()?:!.,;{}]+", " "); //Replace specific special character
 -------------
 Collections
 -------------

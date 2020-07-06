@@ -52,3 +52,25 @@ class FindAllAnagram2 {
         return list;
     }
 }
+
+//sldiing window
+
+class FindAllAnagram3 {
+    public List<Integer> findAnagrams(String s, String p) {
+        List<Integer> list = new ArrayList<>();
+        int m = s.length(), n = p.length();
+        if(m == 0 || n ==0 || m<n) return list; 
+        int freq_s[] = new int[26], freq_p[] = new int[26];
+   
+        for(int i=0;i<n;i++) freq_s[s.charAt(i)-97]++;
+        for(int i=0;i<n;i++) freq_p[p.charAt(i)-97]++;
+        
+        for(int i=0;i<=m-n;i++){
+            if(Arrays.equals(freq_s,freq_p)) list.add(i);
+            freq_s[s.charAt(i)-97]--;
+            if(i+n < m) freq_s[s.charAt(i+n)-97]++;
+        }
+     
+        return list;
+    }
+}

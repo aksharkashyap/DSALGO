@@ -13,7 +13,7 @@ class RabinKarp{
 		int hash_m=0,hash_n=0;
 
 		for(int i=0;i<M-1;i++)
-			h = (h * ALPHA ) % q;  // The value of h would be "pow(ALPHA, M-1)%q" 
+			h = (h * ALPHA ) % q;  // The value of h would be "pow(ALPHA, M-2)%q" 
 
 		for(int i=0;i<M;i++){
 			hash_m = (hash_m * ALPHA + (pat.charAt(i)))%q;
