@@ -43,6 +43,7 @@ Character
 11) Character.isLetterOrDigit(char ch)
 12) Character.isTitleCase(char ch)
 13) Charcter.reverseBytes(char ch) // reverse bytes of char
+14) String.valueOf(val).charAt(0) //integer to Charcter
 
 ----------------
 Integer : java.lang.Integer.func_name()
