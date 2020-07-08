@@ -377,3 +377,9 @@ return x!=0 && ((x&(x-1)) == 0);
 
 //From string to integer number
 4) num.charAt(p1) - '0' //
+
+//DP -> 
+-> always return value from base case(it will help you in memoization)
+-> start returning value from base and add the current value while returning
+(so that from that point to end point you can memoiz later)
+(dont use global variable)
