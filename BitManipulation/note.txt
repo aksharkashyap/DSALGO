@@ -6,6 +6,8 @@
 5) toggle bit
 10) a>>b = a/2^b
 11) a<<b = a * 2^b
+11) 1 << num // 1 * Pow(2,num)
+11) 1 >> num // 1 / Pow(2,num)
 12) set all even bits 
 13) set all odd bits
 3) xor swapping
@@ -49,3 +51,4 @@ ch |= ' ';
 
 2) Lower case English alphabet to upper case
 ch &= '_’ ;
+
