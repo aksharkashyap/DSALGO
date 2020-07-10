@@ -217,6 +217,7 @@ HashSet
 ArrayList
 -------------
 1) add(item)
+1) add(idx,item) // elements from the given index is shifted towards right of the list
 2) remove(item)
 3) clone()
 4) get(index)
