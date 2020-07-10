@@ -145,6 +145,7 @@ String -immutable
 30) String listString = String.join(", ", list); //java 8 or above
 31) str.replaceAll("[^\\dA-Za-z ]", ""); //Replace all special character
 32) str.replaceAll("[()?:!.,;{}]+", " "); //Replace specific special character
+33) str.codePointAt(i) //returns unicode value of the character 
 -------------
 Collections
 -------------
