@@ -163,6 +163,7 @@ Collections
 11) contains(item) //boolean
 12) containsAll(collections obj //boolean
 13) toArray(collection_obj) // converts collection to obj[] 
+13) list.toArray(new int[list.size()][2]); //list(array inside) to 2d matrix
 14) public boolean equals(Object element) //matches two collections
 15) public <T> T[] toArray(T[] a) //converts collection into array. Here, the runtime type of the returned array is that of the specified array.
 16) Collections.max(list/map/etc)
@@ -237,6 +238,7 @@ ArrayList
 -------------
 LinkedList / ArrayDeque
 -------------
+LinkedList<T> ll = new LinkedList<>();
 1) add()
 2) addLast()
 3) addFirst()
@@ -270,6 +272,7 @@ LinkedList / ArrayDeque
 -------------
 Queue
 -------------
+Queue<T>q = new LinkedList<>();
 1) add(e)  //exception
 2) element() // same as peek but exception
 3) remove() //exception
@@ -385,3 +388,8 @@ return x!=0 && ((x&(x-1)) == 0);
 -> start returning value from base and add the current value while returning
 (so that from that point to end point you can memoiz later)
 (dont use global variable)
+
+
+//---------
+LinkedList<int[]> list //list having array
+list.getLast()[idx] // accessing last element

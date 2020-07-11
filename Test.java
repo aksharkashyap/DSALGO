@@ -1,9 +1,7 @@
-import java.util.Arrays;
-
 class Test{
     public static void main(String[] args) {
-        int x = 3;
-        System.out.print(x<<1);
+        int x = -5;
+        System.out.print(Integer.toBinaryString(x));
     }
 }
 
