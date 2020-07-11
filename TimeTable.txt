@@ -12,4 +12,17 @@
 10 to 10.30 answer mark lpu
 10.30 to 11  easy leetcode
 
-
+-----------------------------------------------------------------------------
+---------------------For few days--------------------------------------------
+6 to 9 Array / String / leetcode top 100
+10 to 11 Aptitude
+11 to 12  mysql/ dbms(2 week) [os/networks] 
+--------------------------------------------------
+2 to 5  Tree / LinkedList / special problems
+-------------------------------------------------
+6 to 7 javascript / html / css
+7 to 8 data science
+8 to 9 data science
+------------------------------------------------
+10 to 10.30 answer mark lpu
+10.30 to 11  easy leetcode
