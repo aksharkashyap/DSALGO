@@ -393,3 +393,13 @@ return x!=0 && ((x&(x-1)) == 0);
 //---------
 LinkedList<int[]> list //list having array
 list.getLast()[idx] // accessing last element
+
+//Note Heap (wherre k is mentioned)
+keep k items and delete rest -> if smaller asked then remove larger (max heap) and vice versa
+
+//
+Array almost sorted- insertion and heap sort 
+Segment tree - sum , min , xor, product
+Array approach-  sorting/ two pointer/ n elements(n length)
+List - equals - order matters
+HashSet - equals - order doesn’t matter
