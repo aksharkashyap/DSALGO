@@ -109,7 +109,7 @@ StringBuilder - mutable
 22) equals()
 23) sb.getChars(srcBegin, srcEnd, dst, dstBegin)
 24) Pattern.compile(" ").split(myStringBuilder)
-
+25) sb1.compareTo(sb2) == 0)  //return true
 -------------
 String -immutable
 -------------
