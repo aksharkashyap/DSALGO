@@ -146,6 +146,7 @@ String -immutable
 31) str.replaceAll("[^\\dA-Za-z ]", ""); //Replace all special character
 32) str.replaceAll("[()?:!.,;{}]+", " "); //Replace specific special character
 33) str.codePointAt(i) //returns unicode value of the character 
+34) String s = new String(char[]) // convert char array to string
 -------------
 Collections
 -------------
