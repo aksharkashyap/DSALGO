@@ -390,6 +390,12 @@ return x!=0 && ((x&(x-1)) == 0);
 (so that from that point to end point you can memoiz later)
 (dont use global variable)
 
+// reverse half of the number
+while(x > revertedNumber) {
+            revertedNumber = revertedNumber * 10 + x % 10;
+            x /= 10;
+}
+
 
 //---------
 LinkedList<int[]> list //list having array
