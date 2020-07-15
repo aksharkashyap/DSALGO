@@ -28,10 +28,9 @@
 5) Diamond Tree
 6) recursive diagonal traversal
 7) Boundary traversal of a Binary Tree
-
+8) morris inorder traversal
 
 //todo
-2) morris inorder traversal
 3) clockwise spiral traversal of binary tree
 4) reverse clockwise spiral traversal of binary tree
 5) reverse anti clockwise spiral traversal of binary tree
