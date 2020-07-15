@@ -16,7 +16,7 @@ class FindAllAnagram {
             for(int i=0;i<=m-n;i++){
                 Arrays.fill(count_s,0);
                 for(int j=i;j<i+n;j++) count_s[s_arr[j]-97]++;
-                if(Arrays.mismatch(count_s,count_p) == -1) list.add(i);    //match count of s with p
+                if(Arrays.equals(count_s,count_p)) list.add(i);    //match count of s with p
             }
             return list;
         }
@@ -44,7 +44,7 @@ class FindAllAnagram2 {
             if(hash_s == hash_p){
                 Arrays.fill(count_s,0);
                 for(int j=i;j<i+n;j++) count_s[s_arr[j]-97]++;
-                if(Arrays.mismatch(count_s,count_p) == -1) list.add(i); 
+                if(Arrays.equals(count_s,count_p)) list.add(i); 
             }
             //role the hash
            if(i+n < m) hash_s = (hash_s - s_arr[i]) + s_arr[i+n];
