@@ -7,7 +7,7 @@ import java.util.Arrays;
  * successive numbers strictly alternate between positive and negative
  */
 
-public class WiggleSequence {
+class WiggleSequence {
         int max = Integer.MIN_VALUE;
         void solve(int start, int end, int lastWiggle,int nums[],boolean operation, int size){
             if(start >= end){
@@ -31,6 +31,24 @@ public class WiggleSequence {
             }
             return max;
         }
+}
+
+//another recursive
+ class wiggleSequence3 {
+    private int calculate(int[] nums, int index, boolean isUp) {
+        int maxcount = 0;
+        for (int i = index + 1; i < nums.length; i++) {
+            if ((isUp && nums[i] > nums[index]) || (!isUp && nums[i] < nums[index]))
+                maxcount = Math.max(maxcount, 1 + calculate(nums, i, !isUp));
+        }
+        return maxcount;
+    }
+
+    public int wiggleMaxLength(int[] nums) {
+        if (nums.length < 2)
+            return nums.length;
+        return 1 + Math.max(calculate(nums, 0, true), calculate(nums, 0, false));
+    }
 }
 
 //memoization
