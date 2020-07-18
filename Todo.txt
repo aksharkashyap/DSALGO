@@ -2,12 +2,10 @@
 detect loop in linkedlist- all algorithms 
 angle b/w hands of a clock
 graph clone
-Lowest common ancester
 cycle detection directed/undirected graph using BFS
 average of array using recursion
 iterative inorder,preorder,postorder
 -----------------------
-KMP algo
 np, np hard, np complete etc
 stability analysis of sort algos
 ---------------------
@@ -38,5 +36,5 @@ https://leetcode.com/problems/counting-bits/
 https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/
 https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/discuss/398951/Beats-100-time-and-beats-100-space.-Best-solution-out-there.-No-binary-search-needed.
 
-binary tree inorder - 3 solutions (recursive,stack based,morris )
-Minimum Falling Path Sum
+//do binary search method 
+https://leetcode.com/problems/longest-increasing-subsequence/solution/

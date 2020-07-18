@@ -1,11 +1,15 @@
+import java.util.*;
+
 class Test{
-    /**
-     * iterative pre,post,inorder traversal
-     */
+  
+    public static void main(String[] args) {
+        int arr[] = {0,0,0,0,0,0,0,0,0,0,0};
+       int x =  Arrays.binarySearch(arr,3);
+       System.out.print(x);
+    }
 }
 
 
-/**
- * https://leetcode.com/problems/longest-palindromic-substring/
- * https://leetcode.com/problems/longest-substring-without-repeating-characters/ 
- */
+  /**
+     * iterative pre,post,inorder traversal
+     */

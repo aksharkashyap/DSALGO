@@ -2,7 +2,7 @@
 Arrays
 -------------
 1) Arrays.binarySearch([]obj,key)
-1) Arrays.binarySearch([]obj,start,end,key)
+1) Arrays.binarySearch([]obj,start,end,key) //returns pos if found else->  (-(insertion point) – 1)
 2) Arrays.sort([]obj)
 2) Arrays.sort([]obj,start,end)
 2) Array.sort([]obj,start,end,new SortBySomething()) // sortbysomething is a comparator/comparable class
