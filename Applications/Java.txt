@@ -83,6 +83,7 @@ Math  : java.lang.Math.func_name()
 9)  pow(double _base , double _exponent)
 10) round(long/double arg) // round to the nearest value
 11) log1p(double arg) // returns log of passed argument+1 
+12) sqrt(double num)
 
 --------------------
 StringBuilder - mutable
@@ -156,6 +157,7 @@ Collections
 3) Collections.reverse()
 4) Collections.reverseOrder()
 4) Collections.copy()
+4) clone()
 5) size()
 6) isEmpty()
 7) clear()
@@ -167,7 +169,6 @@ Collections
 13) toArray(collection_obj) // converts collection to obj[] 
 13) list.toArray(new int[list.size()][2]); //list(array inside) to 2d matrix
 14) public boolean equals(Object element) //matches two collections
-15) public <T> T[] toArray(T[] a) //converts collection into array. Here, the runtime type of the returned array is that of the specified array.
 16) Collections.max(list/map/etc)
 17) Collections.min(list/map/etc)
 18) Collections.fill(List, value)
@@ -193,6 +194,7 @@ HashMap
 2) map.keySet()
 3) map.values()
 4) map.getOrDefault(key,def_val)
+4) map.get(key)
 5) entry_set.getKey()
 6) entry_set.getValue()
 7) map.put(key,value)
