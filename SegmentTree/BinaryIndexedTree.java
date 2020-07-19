@@ -1,5 +1,6 @@
 package SegmentTree;
-//useful in range sum queries because it uses less space(len of arr) than segment tree(4*input)
+//useful in range sum queries, kth tallest, count inversion
+// because it uses less space(len of arr) than segment tree(4*input)
 
 public class BinaryIndexedTree {
     int[] BIT = new int[7+1]; // BIT indexing starts from 1
