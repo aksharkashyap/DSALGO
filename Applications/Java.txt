@@ -438,8 +438,11 @@ LinkedHashSet - O(1) (maintains insertion order)
 -------------
 1) A LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements
 2) LinkedHashSet<T> linkedset =  new LinkedHashSet<T>();   
+3) toArray()
+4) toString()
+5) clone()
 
-3) Keeping the insertion order in both LinkedHashmap and LinkedHashset have additional associated costs, 
+6) Keeping the insertion order in both LinkedHashmap and LinkedHashset have additional associated costs, 
 both in terms of spending additional CPU cycles and needing more memory. 
 If you do not need the insertion order maintained, 
 it is recommended to use the lighter-weight HashSet and HashMap instead.
