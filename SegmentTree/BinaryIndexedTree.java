@@ -5,18 +5,18 @@ package SegmentTree;
 public class BinaryIndexedTree {
     int[] BIT = new int[7+1]; // BIT indexing starts from 1
     
-    void updateBIT(int val, int index,int n){ // child to parent propogation (left to right in arr)
+    void updateBIT(int val, int index,int n){ // update all cells that own us (left to right in arr)
         while(index < n){ 
             BIT[index]+= val;
-            index += index & (-index);
+            index += index & (-index); //move by adding lowest one bit
         }
     }
 
-    int getSum(int index){ //parent to child ( right to left in arr)
+    int getSum(int index){ //update all cells that we own ( right to left in arr) [if i can accomadate 2 cells then i will direcly take u to the 4th cell]
         int sum=0; 
-        while(index>0){
+        while(index>0){ //loop runs exactly number of off/unset/0 bits
             sum += BIT[index];
-            index -= index & (-index);
+            index -= index & (-index); //Integer.lowestOneBit(index); //move by removing lowest one bit
         }
         return sum;
     }

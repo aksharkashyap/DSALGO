@@ -66,6 +66,7 @@ Integer : java.lang.Integer.func_name()
 15) Integer.bitCount(num) // count set bits
 16) Integer.toString(num, 2) // binary representation of a number
 17) Integer.toString(num, 8) // octal representation of a number
+18) Integer.lowestOneBit(num) // rightmost bit in value format (equals to num&(-num))
 
 -------------
 Math  : java.lang.Math.func_name()
