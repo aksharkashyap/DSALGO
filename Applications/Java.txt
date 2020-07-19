@@ -321,6 +321,128 @@ Stack & Deque(double ended queue)
 8) Stack<DataType> stack = new Stack<>();  
 
 -------------
+TreeSet - O(logN) all operations
+-------------
+1) Its a sorted set by default based on the natural order(1/A/a, 2/B/b, 3/C/c...)
+2) TreeSet<T> ts = new TreeSet<T>(); 
+3) TreeSet ts = new TreeSet(Comparator comp); // we can specify custom sorting order
+4) first()
+4) last()
+5) add()
+6) addAll()
+7) isEmpty()
+8) clear()
+9) clone()
+10) contains()
+11) remove()
+12) size()
+13) ts.tailSet(Object element) // returns treeset having val >= element
+13) ts.headSet(Object element) // returns treeset having strictly < element
+14) toArray()
+15) toString()
+16) equals
+17) pollFirst()
+18) pollLast()
+19) subSet(low, high); //returns subset of a given range 
+20) ts.higher(num) // gives least greater value than specified number or null 
+21) floor(num) // returns greatest val less than or equals to given num or throw exception nullpointer
+22) ceil(num)  // returns greatest val greater than or equals
+23) Set<String> hashSetToTreeSet = new TreeSet<>(setobj); //hashset to treeset
+
+23) HashSet allows null object. TreeSet doesn’t allow null Object and throw NullPointerException, 
+Why, because TreeSet uses compareTo() method to compare keys and compareTo() will throw java.lang.NullPointerException.
+
+
+24) TreeSet is implemented using a Self Balancing Binary Search Tree (Red-Black Tree)
+
+25) TreeSet takes O(Log n) for search, insert and delete and other operations
+
+26) TreeSet is backed by TreeMap in Java.
+
+27) HashSet uses equals() method to compare two object in Set 
+and for detecting duplicates. TreeSet uses compareTo() method for same purpose.
+
+28) If you want a sorted Set then it is better to add elements to HashSet and then convert 
+it into TreeSet rather than creating a TreeSet and adding elements to it.
+
+29) When one need to perform read/write operations frequently, then TreeSet is a good choice.
+
+30) LinkedHashSet is another data structure that is between these two. It provides time complexities 
+like HashSet and maintains order of insertion (Note that this is not sorted order, but the order in which 
+elements are inserted)
+
+31) The sorted list given by TreeSet is always in ascending order.
+
+-------------
+TreeMap - O(logN)
+-------------
+1) TreeMap in Java does not allow null keys (like Map) and thus a 
+NullPointerException is thrown. However, multiple null values can be associated with different keys.
+2) A TreeMap is based upon a redblack tree data structure
+3) TreeMap<T1,T2> tm = new TreeMap<>(new CustomSort()) // external specification of the sorting order
+
+4) firstKey() //Returns the first (lowest) key currently
+5) lastKey() //returns last key of the map
+
+6) lowerKey(key) //greatest key strictly less than specified key
+7) higherKey(key) //least key strictly greater than the given key, or null
+
+8) lowerEntry(key) //greatest key-value strictly less than specified key
+9) higherEntry(key) //return the least key-value pair strictly greater than the given key
+
+10) pollFirstEntry()
+11) pollLastEntry()
+
+12) headMap(key) //get all the pairs of the map strictly less than the parameter key_value
+13) subMap(startkey, endkey){
+    i) Note: If startKey is equal to the endKey then a Null Map is returned.
+    ii) return the part or portion of the map defined by the specified range of keys in the parameter.
+    iii) Any changes made in one or the other map will reflect the change in the other map.
+}
+
+14) firstEntry() //returns lowest key-value mapping
+15) firstKey() //returns lowest key
+
+16) floorEntry(key) //returns a key-value mapping associated with the greatest key <=  the given key, or null
+17) floorKey(key) //greatest key <= to given key
+
+18) ceilingEntry(key)
+19) ceilingKey(key) //returns least >= specified key else null
+
+20) descendingMap() //reverse sorted
+21) descendingKeySet()
+
+22) containsKey(key)
+23) containsValue(val)
+
+-------------
+LinkedHashMap - O(1) (maintains insertion order)
+-------------
+1) It may have one null key and multiple null values
+2) It is same as HashMap with an additional feature that it maintains insertion order
+3) LinkedHashMap is non synchronized
+
+//removing eldest entry if size reaches specified MAX
+4) LinkedHashMap<Integer, String> hm =  
+        new LinkedHashMap<Integer, String>() { 
+            protected boolean removeEldestEntry(Map.Entry<Integer, String> eldest) 
+            { 
+                return size() > MAX; 
+            } 
+        }; 
+
+-------------
+LinkedHashSet - O(1) (maintains insertion order)
+-------------
+1) A LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements
+2) LinkedHashSet<T> linkedset =  new LinkedHashSet<T>();   
+
+3) Keeping the insertion order in both LinkedHashmap and LinkedHashset have additional associated costs, 
+both in terms of spending additional CPU cycles and needing more memory. 
+If you do not need the insertion order maintained, 
+it is recommended to use the lighter-weight HashSet and HashMap instead.
+
+-------------
 BigInteger
 -------------
 1) int a = 5;
