@@ -25,7 +25,6 @@ gold mine problem
 ways to tile a floor
 wildcard pattern matching
 form a palindrome
-anagram palindrome
 egg dropping puzzle
 reverse first k elemnts of queue
 queue reversal
@@ -38,3 +37,15 @@ https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-chara
 
 //do binary search method 
 https://leetcode.com/problems/longest-increasing-subsequence/solution/
+
+
+
+//Target
+1) pre,in,post iterative traversal
+2) bfs without using queue
+3) cycle detection directed/undirected graph using BFS
+4) clockwise spiral traversal of binary tree
+5) reverse clockwise spiral traversal of binary tree
+6) reverse anti clockwise spiral traversal of binary tree
+7) reverse zigzag traversal of binary tree
+8) Level order traversal in spiral form | Using Deque

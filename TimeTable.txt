@@ -14,15 +14,14 @@
 
 -----------------------------------------------------------------------------
 ---------------------For few days--------------------------------------------
-6 to 9 Array / String / leetcode top 100
+6.30 to 9 leetcode / Tree / LinkedList / special problems
 10 to 11 Aptitude
-11 to 12  mysql/ dbms(2 week) [os/networks] 
+11 to 12 mysql/ dbms[os/networks] 
 --------------------------------------------------
-2 to 5  Tree / LinkedList / special problems
+2 to 5  web development
 -------------------------------------------------
 6 to 7 javascript / html / css
 7 to 8 data science
 8 to 9 data science
 ------------------------------------------------
-10 to 10.30 answer mark lpu
-10.30 to 11  easy leetcode
+10.15 to 11.15 web development
