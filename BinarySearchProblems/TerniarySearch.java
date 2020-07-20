@@ -1,5 +1,6 @@
 package BinarySearchProblems;
 
+//log(base3)n
 class TerniarySearch{
 
     static int search(int start, int end, int arr[], int key){
