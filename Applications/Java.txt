@@ -45,6 +45,13 @@ Character
 13) Charcter.reverseBytes(char ch) // reverse bytes of char
 14) String.valueOf(val).charAt(0) //integer to Charcter
 
+15) (char) (num+48) , gives char-> where 1<=num<=9   (eg. 9 becomes '9')
+16) (char) (num - 10 + 65) gives A,B...Z , where 10<=num<=35 ( eg 10 Becomes A)
+17) (char) (num - 10 + 97) gives a,b...z , where 10<=num<=35 ( eg 10 Becomes a)
+
+18) ch |= ' ' // Upper case English alphabet to lower case
+19) ch &= '_’  // Lower case English alphabet to upper case
+
 ----------------
 Integer : java.lang.Integer.func_name()
 ----------------
@@ -538,3 +545,5 @@ Segment tree - sum , min , xor, product
 Array approach-  sorting/ two pointer/ n elements(n length)
 List - equals - order matters
 HashSet - equals - order doesn’t matter
+
+
