@@ -245,6 +245,8 @@ ArrayList
 14) toString()
 15) size()
 16) List.of(new TreeNode(0))  // return immutable list
+17) toArray
+18) list.toArray(new String[0]) //list to string array
 
 -------------
 LinkedList / ArrayDeque
