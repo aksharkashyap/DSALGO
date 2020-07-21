@@ -15,8 +15,7 @@
 -----------------------------------------------------------------------------
 ---------------------For few days--------------------------------------------
 6.30 to 9 leetcode / Tree / LinkedList / special problems
-10 to 11 Aptitude
-11 to 12 mysql/ dbms[os/networks] 
+10 to 12  Aptitude / mysql/ dbms[os/networks] 
 --------------------------------------------------
 2 to 5  web development
 -------------------------------------------------
