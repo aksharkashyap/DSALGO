@@ -17,10 +17,10 @@
 6.30 to 9 leetcode / Tree / LinkedList / special problems
 10 to 12  Aptitude / mysql/ dbms[os/networks] 
 --------------------------------------------------
-2 to 5  web development
+2 to 5  web development / javascript / html / css
 -------------------------------------------------
-6 to 7 javascript / html / css
+6 to 7  leetcode
 7 to 8 data science
 8 to 9 data science
 ------------------------------------------------
-10.15 to 11.15 web development
+10.15 to 11.15 web
