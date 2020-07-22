@@ -39,7 +39,7 @@ https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-chara
 https://leetcode.com/problems/longest-increasing-subsequence/solution/
 
 
-// do hashmap(key,count) and two pointer method
+// do hashmap(key,count) method
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 
