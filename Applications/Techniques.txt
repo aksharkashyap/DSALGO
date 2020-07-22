@@ -1,0 +1,60 @@
+My Problem solving techniques:
+
+------------------
+1) BINARY SEARCH
+------------------
+i) you want to search something / target / missing value etc
+ii) changing order of the input doesnt affect the solution
+iii) linear searching is clearly visible
+iv) think about sorting
+v) think of binary search
+
+------------------
+2) STACK
+------------------
+i) you see two loops in brute force
+ii) inner is dependent upon outer
+iii) ups and downs(dips) in a graph
+iv) you want to retain something by eliminating some items (maybe in certain order)
+
+------------------
+3) HEAP (PRIORITY QUEUE)
+------------------
+i) K'th largest/smallest 
+ii) there is a feel of sorting (nlogn) we can reduce it to nlogk
+iii) you want to retain k largest elements, then use min heap 
+iv) you want to retain k smallest elements, then use max heap 
+v) dont keep more than k elements in heap, just remove them accordingly(min,max)
+
+------------------
+4) Array
+------------------
+i) Count sort 
+ii) Two pointer
+iii) stack 
+iv) hashmap, hashset
+v) binary search, linear search
+vi) GREEDY approach
+vii) sliding window
+viii) prefix sum array
+------------------
+4) Recursion
+------------------
+i) backtracking
+ii) quick sort
+iii) divide and conquer
+iv) memoization, DP 
+
+------------------
+5) String
+------------------
+i) remember every inbuilt methods like (substring, indexOf)
+ii) use StringBuilder for all modification operations and remember methods like reverse, deleteCharAt, insert etc
+iii) count sort for frequency count
+iv) Anagram
+v) sorting
+vi) partition using Recursion
+vii) Trie, hashmap
+viii) Rolling hash, KMP, Z-algorithm
+ix) LPS(longest prefix suffix) array
+x) Recursion 
