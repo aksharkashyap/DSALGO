@@ -10,7 +10,6 @@ np, np hard, np complete etc
 stability analysis of sort algos
 ---------------------
 mobile numeric problem
-factorial trailing zero
 josephus probelm
 nuts and bolts problem
 knapsack with duplicate items
