@@ -1,0 +1,6 @@
+1) it uses k-way sorting
+2) Sorting the data when all of the data doesnt fit into ram at a single time
+eg.sorting 5gb of data in 1gb of ram 
+
+3) video link
+https://www.youtube.com/watch?time_continue=489&v=Bp7fGofslng&feature=emb_logo
