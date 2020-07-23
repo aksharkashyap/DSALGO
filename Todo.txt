@@ -42,6 +42,9 @@ https://leetcode.com/problems/longest-increasing-subsequence/solution/
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 
+// some tope questions companywise
+https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-rightbar#amazon
+
 //Target
 1) pre,in,post iterative traversal
 2) bfs without using queue
