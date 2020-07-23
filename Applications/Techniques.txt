@@ -58,3 +58,5 @@ vii) Trie, hashmap
 viii) Rolling hash, KMP, Z-algorithm
 ix) LPS(longest prefix suffix) array
 x) Recursion 
+xi) backtracking
+xii) removing duplicate(we can avoid processing it) by sorting
