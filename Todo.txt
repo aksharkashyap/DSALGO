@@ -42,6 +42,10 @@ https://leetcode.com/problems/longest-increasing-subsequence/solution/
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 
+//bottom up dp 
+scramble string
+
+
 // some tope questions companywise
 https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-rightbar#amazon
 
