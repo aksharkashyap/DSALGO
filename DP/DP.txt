@@ -29,6 +29,10 @@
 26) scrambled string
 27) egg dropping problem
 
+
+//DP ON TREE QUESTIONS
+
 28) diameter of tree
-29) max path sum  - any node to any node
+29) max path sum  - any node to any node  https://leetcode.com/problems/binary-tree-maximum-path-sum/
 30) max path sum - leaf to leaf node
+31) longest univalue path - https://leetcode.com/problems/longest-univalue-path/
