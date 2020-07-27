@@ -1,0 +1,1029 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MatrixSortRowColWise<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "ArrayMatriX.MatrixSortRowColWise",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintDiagonally<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "ArrayMatriX.PrintDiagonally",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortMatrix<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "ArrayMatriX.SortMatrix",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PermutationS<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BackTracking.PermutationS",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllocateMinPages<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.AllocateMinPages",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindCeil<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.FindCeil",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindFirstOccInfiniteSortedArray<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.FindFirstOccInfiniteSortedArray",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindFloor<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.FindFloor",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstAndLastOcurrence<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.FirstAndLastOcurrence",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InfiniteSortedArray<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.InfiniteSortedArray",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextAlphabeticalElement<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.NextAlphabeticalElement",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumOfTimesArrayRotated<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.NumOfTimesArrayRotated",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PeakElement<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.PeakElement",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseSortedArray<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.ReverseSortedArray",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RowColumnSortedMatrix<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.RowColumnSortedMatrix",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchNearlySortedArray<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BinarySearchProblems.SearchNearlySortedArray",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitMagic<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "BitManipulation.BitMagic",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Kadens<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "DP.Kadens",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LCS<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "DP.LCS",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LIS<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "DP.LIS",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ladder<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "DP.Ladder",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinStack<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Design.MinStack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BellmanFord<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.BellmanFord",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bfs2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.Bfs2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BfsGraph<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.BfsGraph",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CycleInDirectedGraph<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.CycleInDirectedGraph",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CycleInUndirectedGraph<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.CycleInUndirectedGraph",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dfs2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.Dfs2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DfsGraph<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.DfsGraph",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dijsktra<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.Dijsktra",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FloydWarshal<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.FloydWarshal",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphColoring<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.GraphColoring",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KrushkalMST<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.KrushkalMST",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MColoring<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.MColoring",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimsMST<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.PrimsMST",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Topological2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.Topological2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnionFIND_AK<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.UnionFIND_AK",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnionFind<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH.UnionFind",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_1_SnakeNLadder<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._1_SnakeNLadder",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_2_SCC<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._2_SCC",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_3_TarjensAlgo<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._3_TarjensAlgo",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_4_Bridges<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._4_Bridges",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_5_ArticulationPoint<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._5_ArticulationPoint",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_6_BiconnectedComponents<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "GRAPH._6_BiconnectedComponents",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConnectRopes<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "HeapVariations.ConnectRopes",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KClosestElements<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "HeapVariations.KClosestElements",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KSortedArray<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "HeapVariations.KSortedArray",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST_Delete<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.BST_Delete",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST_Search<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.BST_Search",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BTLeafCount<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.BTLeafCount",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeDel<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.BinaryTreeDel",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Catalan<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Catalan",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph2D<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Graph2D",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphLL<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.GraphLL",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Heap<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Heap",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapEx<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.HeapEx",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Heapp<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Heapp",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeightHeap<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.HeightHeap",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.InsertionSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSortPrac<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.InsertionSortPrac",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.MergeList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinStack<VisualStudio_47de3b05>(1)",
+            "request": "launch",
+            "mainClass": "Java.MinStack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumPermutation<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.NumPermutation",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OccuranceNum<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.OccuranceNum",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PathSum<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.PathSum",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permute<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Permute",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseSpecial<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.ReverseSpecial",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseStringE<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.ReverseStringE",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-S<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.S",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Solution",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Stackk<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.Stackk",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumLeafBT<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Java.SumLeafBT",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinChangeProb1<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.CoinChangeProb1",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinChangeProblem2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.CoinChangeProblem2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountOfSubsetSum<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.CountOfSubsetSum",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountSubsetWithGivenDiff<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.CountSubsetWithGivenDiff",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Knapsack<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.Knapsack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnapsackMemo<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.KnapsackMemo",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinSubsetSumDiff<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.MinSubsetSumDiff",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubsetSum<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.SubsetSum",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnboundedKnapsack<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "KnapsackVariation.UnboundedKnapsack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearchLinkedList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.BinarySearchLinkedList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlattenList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.FlattenList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertInSortedWay<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.InsertInSortedWay",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSortList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.InsertionSortList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSortList2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.InsertionSortList2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListHalfReverse<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.LinkedListHalfReverse",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSortLinkedList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.MergeSortLinkedList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PriorityQueueEx<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.PriorityQueueEx",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSortList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.QuickSortList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Reverse1ToN<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.Reverse1ToN",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseBetweenTwo<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.ReverseBetweenTwo",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseListRecursion<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST.ReverseListRecursion",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_1_AddTwoList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST._1_AddTwoList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_2_MultiplicationList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST._2_MultiplicationList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_3_MultiplyList<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LIST._3_MultiplyList",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Lcs<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.Lcs",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonSubstring<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.LongestCommonSubstring",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestPalindromicSubsequence<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.LongestPalindromicSubsequence",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestRepeatingSubsequence<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.LongestRepeatingSubsequence",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinInsertionDeletion<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.MinInsertionDeletion",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SequencePatternMatching<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.SequencePatternMatching",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortestCommonSupersequence<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "LcsVaratiations.ShortestCommonSupersequence",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MCM_Memo<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "MatrixChainMultiplication.MCM_Memo",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromePartitioning<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "MatrixChainMultiplication.PalindromePartitioning",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RevereseStack<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Recursion.RevereseStack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bubble<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.Bubble",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BucketSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.BucketSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.CountSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.HeapSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Insertion<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.Insertion",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSortEx<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.MergeSortEx",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyQuickSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.MyQuickSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Q_Test<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.Q_Test",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RadixSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.RadixSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomisedQuickSort<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.RandomisedQuickSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Selection<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.Selection",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Selection2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SORTING.Selection2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AnagramSubstringSearch<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.AnagramSubstringSearch",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GFG<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.GFG",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NaivePatternSearch<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.NaivePatternSearch",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintAllSubstring<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.PrintAllSubstring",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RabinKarp<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.RabinKarp",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-STRING_ALGO<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.STRING_ALGO",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SegmentTree<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "SegmentTree.SegmentTree",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-$_1_NLE<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.$_1_NLE",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-$_3_StockSpan<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.$_3_StockSpan",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-$_6_RainWaterTrapping<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.$_6_RainWaterTrapping",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-$_8_ReverseStack<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.$_8_ReverseStack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Histogram<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.Histogram",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MABR<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.MABR",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextGreaterRight<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.NextGreaterRight",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StockSpan<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Stackk.StockSpan",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeFromInPost<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TREE.BinaryTreeFromInPost",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeFromInPre<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TREE.BinaryTreeFromInPre",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeightBalancedTree<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TREE.HeightBalancedTree",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeightBalancedTreeEfficent<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TREE.HeightBalancedTreeEfficent",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZigZag2<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TREE.ZigZag2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Trie<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "TRIE.Trie",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GSD_LCM_Two<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "_CP.GSD_LCM_Two",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SieveOfErato<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "_CP.SieveOfErato",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Codechef<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "_CP_Template.Codechef",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaFastInput<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "_CP_Template.JavaFastInput",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<VisualStudio_47de3b05>",
+            "request": "launch",
+            "mainClass": "_CP_Template.Main",
+            "projectName": "VisualStudio_47de3b05"
+        }
+    ]
+}
