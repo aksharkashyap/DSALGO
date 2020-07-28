@@ -18,3 +18,21 @@ convex hull
 Pigeonhole principle
 inclusion exclusion principle
 sweep line algorithm
+
+
+Must Know : Algorithms  src: https://www.geeksforgeeks.org/math-in-competitive-programming/?ref=leftbar-rightbar
+
+1) https://www.geeksforgeeks.org/factorial-large-number/
+2) http://www.geeksforgeeks.org/basic-and-extended-euclidean-algorithms/
+3) http://www.geeksforgeeks.org/lcm-gq/
+4) https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/
+5) http://www.geeksforgeeks.org/sieve-of-eratosthenes/
+6) https://www.geeksforgeeks.org/segmented-sieve/
+7) https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/
+8) https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
+9) https://www.geeksforgeeks.org/compute-ncr-p-set-2-lucas-theorem/
+10) https://www.geeksforgeeks.org/chinese-remainder-theorem-set-1-introduction/
+11) https://www.geeksforgeeks.org/mathematics-sequence-series-and-summations/
+12) https://www.geeksforgeeks.org/program-nth-catalan-number/
+13) https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/
+14) https://www.geeksforgeeks.org/inclusion-exclusion-various-applications/
