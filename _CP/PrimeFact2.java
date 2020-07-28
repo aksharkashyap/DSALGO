@@ -1,6 +1,7 @@
-import java.util.*;
+package _CP;
 
-class Test{
+import java.util.*;
+class PrimeFactorization2{
 
     static int getFactor(int num, int p){
         if(num % p != 0) return num;
@@ -19,11 +20,5 @@ class Test{
         getFactor(n,2); 
         n = go(n,3,(int)Math.sqrt(n));
         if (n > 2) System.out.print(n); 
-    } 
-
-    
+    }  
 }
-
-/**
- * iterative inorder,postoder,pre
- */
