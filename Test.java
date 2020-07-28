@@ -1,27 +1,29 @@
-import java.util.Arrays;
+import java.util.*;
+
 class Test{
+  
+   static void bucketSort(double[] arr, int size){
+      List<List<Double>> bucket = new ArrayList<>();
+      size = (int) Math.sqrt(size);
 
-   static void countSort(int[] arr, int k){
+      for(int i=0;i<size;i++) bucket.add(new ArrayList<>());
 
-         int[] count = new int[10];
-         int output[] = new int[arr.length];
+      for(int i=0;i<arr.length;i++) bucket.get((int)(arr[i] * size)).add(arr[i]);
 
-         for(int i=0;i<arr.length;i++) count[(arr[i]/k) % 10]++;
-         
-         for(int i=1;i<10;i++) count[i] += count[i-1]; //prefix sum
+      for(int i=0;i<size;i++) Collections.sort(bucket.get(i));
 
-         for(int i=arr.length-1;i>=0;i--) output[--count[(arr[i]/k) % 10]] = arr[i];
 
-         int i=0; for(int v : output) arr[i++] = v;
+      System.out.println(bucket);
+
+      int k=0; for(List<Double> v : bucket){
+         for(double val : v) arr[k++] = val;
+      }
    }
 
     public static void main(String[] args) {
       
-      int arr[] = {1234,2134,9853,245,1322};
-      int max = 9853; //max element
-      for(int i=1; (max/i) >0; i=i*10){ // we need to do -> div by k mod 10 to extract digits 
-           countSort(arr, i);
-      }
+      double arr[] = {0.5,0.1,0.5,0.2,0.42,0.41,0.53};
+      bucketSort(arr,arr.length);
       System.out.print(Arrays.toString(arr));
     }
 }
