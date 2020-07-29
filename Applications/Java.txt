@@ -305,10 +305,14 @@ Queue<T>q = new LinkedList<>();
 -------------
 PriorityQueue
 -------------
+NOTE: 
+a.idx - b.idx (min priority)
+b.idx - a.idx (max priority)
+-------
 1) PriorityQueue<TYPE> heap = new PriorityQueue<>() // min heap
 2) PriorityQueue<TYPE> heap = new PriorityQueue<>(Collections.reverseOrder() // maxheap
 3) PriorityQueue<TYPE> heap = new PriorityQueue<>(new Sort()) //custom comparator
-3) PriorityQueue<TYPE> heap = new PriorityQueue<>(str,(a,b) -> a.length() - b.length()) //custom comparator example lambda expression
+3) PriorityQueue<TYPE> heap = new PriorityQueue<>((String a, String b) -> a.length() - b.length()) //custom comparator example lambda expression
 4) offer(item)
 5) poll() //returns null if empty
 6) add(item)
