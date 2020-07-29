@@ -1,6 +1,6 @@
 package _CP;
 //euclid method
-class GSD_LCM_Two{
+class GCD_LCM_Two{
     
     static int gcd(int a, int b){
 
