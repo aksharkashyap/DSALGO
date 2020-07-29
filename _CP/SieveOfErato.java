@@ -7,7 +7,7 @@ class SieveOfErato{
         boolean prime[] = new boolean[n+1];
         Arrays.fill(prime,true);
 
-        for(int i=2; i<Math.sqrt(n);i++){
+        for(int i=2; i<=Math.sqrt(n);i++){
             if(prime[i]){
                 for(int j = i*i; j<n; j+=i)
                     prime[j] = false;

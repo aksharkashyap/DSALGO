@@ -11,7 +11,7 @@ class PrimeFactorization{
        isPrime[0] = isPrime[1] = false;
        for(int i=2;i<=Math.sqrt(val);i++){
           if(!isPrime[i]) continue;
-          for(int j=i; i*j<=val; j++) isPrime[i*j] = false; 
+          for(int j=i*i; j<=val; j+=i) isPrime[j] = false; 
        }
     }
  
