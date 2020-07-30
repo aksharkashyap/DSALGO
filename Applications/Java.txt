@@ -185,7 +185,7 @@ Collections
 22) Collections.rotate() 
 23) Collections.frequency()
 24) Collections.emptyList() //returns an empty list
-
+25) myset.stream().collect(Collectors.toList()) //collection to arraylist
 
 ->Iterator interface
 ---------------------------
