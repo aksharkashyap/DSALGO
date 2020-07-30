@@ -63,3 +63,15 @@ xii) removing duplicate(we can avoid processing it) by sorting
 xiii) if you can replace only 1 char, then storing the frequency and comparison of two 
       strings wont work here unless permutation is allowed[eg- lest and lose] replace t with e
       and count frequency it will return true(both matching) but without permutation it wont match
+
+
+
+------------------
+6) BACKTRACKING
+------------------
+i) DFS
+ii) some word search matrix problems
+iii) finding subsets, all possibilities 
+iv) in problems like word search II , instead of creating visited matrix,
+     you can modify the data of the mat[x][y] temporarily to make it act as a visited matrix
+     to some value like 0/ # which are not being used 
