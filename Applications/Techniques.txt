@@ -36,7 +36,7 @@ iv) hashmap, hashset
 v) binary search, linear search
 vi) GREEDY approach
 vii) sliding window
-viii) prefix sum array
+viii) prefix,suffix sum array
 ------------------
 4) Recursion
 ------------------
@@ -60,3 +60,6 @@ ix) LPS(longest prefix suffix) array
 x) Recursion 
 xi) backtracking
 xii) removing duplicate(we can avoid processing it) by sorting
+xiii) if you can replace only 1 char, then storing the frequency and comparison of two 
+      strings wont work here unless permutation is allowed[eg- lest and lose] replace t with e
+      and count frequency it will return true(both matching) but without permutation it wont match
