@@ -75,3 +75,12 @@ iii) finding subsets, all possibilities
 iv) in problems like word search II , instead of creating visited matrix,
      you can modify the data of the mat[x][y] temporarily to make it act as a visited matrix
      to some value like 0/ # which are not being used 
+
+
+------------------
+7) QUEUE
+------------------
+1) to process data in some order
+2) to avoid keeping pointers (to keep track of unprocessd data)
+3) to deserialize binary tree (it avoids keeping pointers by removing processed data)
+4) BFS (level by level visit)
