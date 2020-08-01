@@ -1,18 +1,21 @@
 import java.util.*;
 
-class Test{
-    static int solve_jp(int n, int k){
-        if(n==1) return 1;
-        int person_going_to_be_killed = ((solve_jp(n-1,k) +k-1) % n);
-        System.out.print(person_going_to_be_killed +" ");
-        int passTheSwordTonextAlivePerson =  person_going_to_be_killed + 1;
-        return passTheSwordTonextAlivePerson;
-    }
-
-    public static void main(String[] args) {
-        int n = 5; //people
-        int k = 2; // count k people including yourself(curr pos) and kill k'th person
-        System.out.print(solve_jp(n,k));
+//Prison cell after n days
+class Test {
+    //brute force
+    public int[] prisonAfterNDays(int[] cells, int N) {
+        int len = cells.length;
+        int temp[] = new int[cells.length];
+        
+        while(N-- > 0){
+            Arrays.fill(temp,0);
+            for(int i=1;i<len-1;i++){
+                if(cells[i-1]==0 && cells[i+1] == 0 || cells[i-1]==1 && cells[i+1] == 1 ) temp[i] = 1;
+                else temp[i] = 0;
+            }
+            cells = Arrays.copyOf(temp,temp.length);
+        }
+        return cells;
     }
 }
 
