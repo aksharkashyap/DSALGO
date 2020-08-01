@@ -156,6 +156,7 @@ String -immutable
 32) str.replaceAll("[()?:!.,;{}]+", " "); //Replace specific special character
 33) str.codePointAt(i) //returns unicode value of the character 
 34) String s = new String(char[]) // convert char array to string
+35) [boolean] s.matches(regx) //  to peform regx on string [eg-> "[A-Z]*"]
 -------------
 Collections
 -------------
