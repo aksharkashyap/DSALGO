@@ -84,3 +84,11 @@ iv) in problems like word search II , instead of creating visited matrix,
 2) to avoid keeping pointers (to keep track of unprocessd data)
 3) to deserialize binary tree (it avoids keeping pointers by removing processed data)
 4) BFS (level by level visit)
+
+
+------------------
+8) BFS
+------------------
+1) when you need to find shortest path
+2) snake and ladder
+3) level order traversal
