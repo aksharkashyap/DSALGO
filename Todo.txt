@@ -36,6 +36,7 @@ https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-chara
 
 //do binary search method 
 https://leetcode.com/problems/longest-increasing-subsequence/solution/
+median of two sorted array
 
 
 // do hashmap(key,count) method
@@ -58,3 +59,32 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 6) reverse anti clockwise spiral traversal of binary tree
 7) reverse zigzag traversal of binary tree
 8) Level order traversal in spiral form | Using Deque
+
+
+//TODO amazon (after this , see page 6)
+
+https://leetcode.com/problems/restore-ip-addresses/
+https://leetcode.com/problems/kth-largest-element-in-a-stream/
+https://leetcode.com/problems/coin-change/
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+https://leetcode.com/problems/concatenated-words/
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+https://leetcode.com/problems/word-break-ii/
+https://leetcode.com/problems/serialize-and-deserialize-bst/
+https://leetcode.com/problems/game-of-life/
+https://leetcode.com/problems/peeking-iterator/
+https://leetcode.com/problems/integer-to-roman/
+https://leetcode.com/problems/jump-game-ii/
+https://leetcode.com/problems/max-area-of-island/
+https://leetcode.com/problems/maximal-square/
+https://leetcode.com/problems/course-schedule-ii/
+https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+https://leetcode.com/problems/minimum-window-substring/
+
+Q-> doubly linkedlist using single pointer
+
+Q-> Difference between Comparator and Comparable. Given a user-defined class Employee and list of employees, 
+sort the list according to the age of employees. What you will use to sort, comparator or comparable and Why? 
+How will you decide when to use comparable and when to use comparator
+
+Q-> Internal working of HashMap in java. When to override equals() and when to override hashCode() method
