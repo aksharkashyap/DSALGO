@@ -92,3 +92,23 @@ iv) in problems like word search II , instead of creating visited matrix,
 1) when you need to find shortest path
 2) snake and ladder
 3) level order traversal
+
+
+------------------
+9) Numbers
+------------------
+1) Extra attention to leading zeroes
+2) when dealing with strings (check invalid inputs) to integer
+3) sieve of eratothenis, segmented sieve, lcm, gcd
+4) modulo operation 
+5) some bitmasking techniques(set bit,remove bit etc)
+
+
+------------------
+10) DP / memoization
+------------------
+1) look for variables which are changing after every call 
+2) you can memoize these variables
+3) if you are adding some value to the returned function then(dont return Integer.MAX/MIN_VALUE)
+   because it will cause overflow and you will get wrong answer
+   you can return (Integer.MIN/MAX_VALUE) /2 or similar to it

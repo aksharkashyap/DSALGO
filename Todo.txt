@@ -61,9 +61,6 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 
 
 //TODO amazon (after this , see page 6)
-
-https://leetcode.com/problems/kth-largest-element-in-a-stream/
-https://leetcode.com/problems/coin-change/
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 https://leetcode.com/problems/concatenated-words/
 https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
