@@ -1,6 +1,0 @@
- //arraylist remove by value
-
- list.remove(new Integer(arr[i]));
-
- // Fill from index 1 to index 4. 
-Arrays.fill(ar, 1, 5, 10); 
