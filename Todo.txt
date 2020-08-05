@@ -62,7 +62,6 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 
 //TODO amazon (after this , see page 6)
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
-https://leetcode.com/problems/concatenated-words/
 https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 https://leetcode.com/problems/word-break-ii/
 https://leetcode.com/problems/serialize-and-deserialize-bst/

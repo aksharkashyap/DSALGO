@@ -6,6 +6,7 @@ Arrays
 2) Arrays.sort([]obj)
 2) Arrays.sort([]obj,start,end)
 2) Array.sort([]obj,start,end,new SortBySomething()) // sortbysomething is a comparator/comparable class
+2) Arrays.sort(words, (a,b) -> a.length() - b.length()); //String[] words
 3) Arrays.fill([]obj,filling_val)
 4) Arrays.toString([]obj)
 5) Arrays.asList([]obj)
