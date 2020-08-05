@@ -22,7 +22,6 @@ excel sheet problem
 pairs of prime number
 gold mine problem
 ways to tile a floor
-wildcard pattern matching
 form a palindrome
 egg dropping puzzle
 reverse first k elemnts of queue
@@ -63,7 +62,6 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 
 //TODO amazon (after this , see page 6)
 
-https://leetcode.com/problems/restore-ip-addresses/
 https://leetcode.com/problems/kth-largest-element-in-a-stream/
 https://leetcode.com/problems/coin-change/
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
