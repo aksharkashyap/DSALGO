@@ -112,3 +112,12 @@ iv) in problems like word search II , instead of creating visited matrix,
 3) if you are adding some value to the returned function then(dont return Integer.MAX/MIN_VALUE)
    because it will cause overflow and you will get wrong answer
    you can return (Integer.MIN/MAX_VALUE) /2 or similar to it
+
+
+------------------
+11) Substring / subarray type of questions
+------------------
+i) you can think of modifying kaden's algorithm (eg keywords-> maxSofar, longest, count array, reset when fails)
+ii) brute force sliding window
+iii) optimized sliding window (generally in linear time), maybe by using two poiters
+iv) character mapping using hashmap or array 
