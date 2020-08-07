@@ -61,13 +61,10 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 
 
 //TODO amazon (after this , see page 6)
-https://leetcode.com/problems/word-break-ii/
-https://leetcode.com/problems/game-of-life/
 https://leetcode.com/problems/peeking-iterator/
 https://leetcode.com/problems/jump-game-ii/
 https://leetcode.com/problems/max-area-of-island/
 https://leetcode.com/problems/maximal-square/
-https://leetcode.com/problems/course-schedule-ii/
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 https://leetcode.com/problems/minimum-window-substring/
 

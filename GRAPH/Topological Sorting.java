@@ -23,8 +23,7 @@ class TopologicalSort{
         Integer i;
         while(itr.hasNext()){
              i = itr.next();
-             if(!visited[i])
-                    sortUtil(i, stack, visited);
+             if(!visited[i]) sortUtil(i, stack, visited);
         }
         stack.push(v);
        

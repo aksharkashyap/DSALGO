@@ -17,7 +17,7 @@ Arrays
 10) Arrays.mismatch([],[]) //returns the index of 1st mismatched element
 11) Arrays.equals([],[]) //compare two array
 12) Arrays.parallelSort([]obj) // sort the array using parallel sort
-
+13) Arrays.copyOf(matrix,m*n); //clone a 2d array
 
 -------------
 Array
@@ -26,7 +26,7 @@ Array
 2) arr.clone() //slow than copyOf
 3) arr.toString()
 4) arr.equals([]obj)
-
+5) return new int[]{} //return empty array
 
 ----------------
 Character
