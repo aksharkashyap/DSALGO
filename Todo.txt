@@ -71,6 +71,11 @@ https://leetcode.com/problems/course-schedule-ii/
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 https://leetcode.com/problems/minimum-window-substring/
 
+
+//TODO (ans link) https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/discuss/143798/1ms-beat-100-simple-Java-dfs-with(without)-hashmap-including-explanation
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
+
 Q-> doubly linkedlist using single pointer
 
 Q-> Difference between Comparator and Comparable. Given a user-defined class Employee and list of employees, 
@@ -78,3 +83,4 @@ sort the list according to the age of employees. What you will use to sort, comp
 How will you decide when to use comparable and when to use comparator
 
 Q-> Internal working of HashMap in java. When to override equals() and when to override hashCode() method
+
