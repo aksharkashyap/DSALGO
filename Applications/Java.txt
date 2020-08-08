@@ -563,3 +563,6 @@ HashSet - equals - order doesn’t matter
 
  // Fill from index 1 to index 4. 
 Arrays.fill(ar, 1, 5, 10); 
+
+//The only applicable modifier for local variable is final. 
+By mistake if we trying to apply any other modifier then we will get compile time error.
