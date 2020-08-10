@@ -1,5 +1,7 @@
 My Problem solving techniques:
 
+Note: While solving any problem always handle corner cases.
+
 ------------------
 1) BINARY SEARCH
 ------------------
@@ -64,7 +66,10 @@ xiii) if you can replace only 1 char, then storing the frequency and comparison 
       strings wont work here unless permutation is allowed[eg- lest and lose] replace t with e
       and count frequency it will return true(both matching) but without permutation it wont match
 
+count array size:
+xiv) a-z [26], ascii [128], unicode[256]
 
+xix) if you are getting tle in recursive question , maybe u need to store intermediate results using hashmap
 
 ------------------
 6) BACKTRACKING
@@ -121,3 +126,7 @@ i) you can think of modifying kaden's algorithm (eg keywords-> maxSofar, longest
 ii) brute force sliding window
 iii) optimized sliding window (generally in linear time), maybe by using two poiters
 iv) character mapping using hashmap or array 
+
+
+
+https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems

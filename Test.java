@@ -1,16 +1,26 @@
+import java.io.*;
 import java.util.*;
 
-class Test{
+ class Test {
+    
+    static int solve(int h, int p){
+        while(p>0 && h>0){
+            h = h-p;
+            p = (int) Math.ceil(p/2);
+        }
+        return h>0 ? 0 : 1;
+    }
+    
     public static void main(String[] args) {
-        int b[] = {44,48,77,88};
-        int a[] = {1,32,46,47,78,80};
-        int alen = a.length;
-        int blen = b.length;
-        merge(a,b,alen,blen-1);
-        System.out.print(Arrays.toString(a) + " " + Arrays.toString(b));
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+            int h = sc.nextInt();
+            int p = sc.nextInt();
+            System.out.println(solve(h,p));
+        }
     }
 }
-
 /**
  * iterative inorder,postoder,pre
  */
