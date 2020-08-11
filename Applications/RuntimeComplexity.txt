@@ -10,3 +10,7 @@ Length of input(<=)           worst accepted algo
 10^6 (1M)            ->       O(n * logn)
 10^8 (100M)          ->       O(n)
 10^18                ->       O(logn)
+
+
+#amortized time complexity 
+https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/

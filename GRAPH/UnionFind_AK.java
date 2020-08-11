@@ -1,8 +1,12 @@
 package GRAPH;
 import java.util.*;
-
+//Below is the link to understand union by rank and path compression
+//https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/#:~:text=The%20idea%20of%20path%20compression,nodes%20under%20x%20also%20compresses.&text=Following%20is%20union%20by%20rank,a%20cycle%20in%20a%20graph.
 //we can also use union find algorithm to detect cyle in undirected graph
 
+//this method is useful when the worst case happens(skewd graph(becomes linkedlist)) then O(n) find operation
+//but by using path compression it will become O(logn)
+//and combining both strategy the time complexity further reduces to almost constant(amortized)
 //disjoint set
 class UnionFIND_AK{
     int V;
@@ -28,7 +32,7 @@ class UnionFIND_AK{
          if(x == y){
              return;
          }
-
+         //union by rank
          if(size[x] >= size[y]){
             parent[y] = x;
             size[x] += size[y];
@@ -41,7 +45,7 @@ class UnionFIND_AK{
 
     int find(int x){
         if(x == parent[x]) return x;
-        return parent[x] = find(parent[x]);
+        return parent[x] = find(parent[x]); //path compression 
     }
 
     boolean isFriend(int a, int b){
