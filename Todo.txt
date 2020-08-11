@@ -60,12 +60,7 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 8) Level order traversal in spiral form | Using Deque
 
 
-//TODO amazon (after this , see page 6)
-https://leetcode.com/problems/peeking-iterator/
-https://leetcode.com/problems/max-area-of-island/
-https://leetcode.com/problems/maximal-square/
-
-
+//TODO amazon (after this , see page 7)
 
 
 //TODO (ans link) https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/discuss/143798/1ms-beat-100-simple-Java-dfs-with(without)-hashmap-including-explanation
