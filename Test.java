@@ -2,43 +2,43 @@ import java.io.*;
 import java.util.*;
 
  class Test {
+    List<List<Integer>> graph = new ArrayList<>();
+    int V;
+    int[] parent;
+    int[] size;
+    int components;
 
-    static boolean isPalindrome(String s){
-        int i=0;
-        int j=s.length()-1;
-        while(i<j){
-            if(s.charAt(i++) != s.charAt(j--)) return false;
+    void init_graph(int v){
+        V = v;
+        components = v;
+        parent = new int[v];
+        size = new int[v];
+        Arrays.fill(size,1);
+        for(int i=0;i<v;i++) parent[i] = i;
+        for(int i=0;i<v;i++) graph.add(new ArrayList<>());
+    }
+
+    int find(int v){
+        if(v == parent[v]) return v;
+        return parent[v] = find(parent[v]);
+    }
+
+    void union(int a, int b){
+        int p1 = find(a);
+        int p2 = find(b);
+        if(p1 == p2) return;
+        if(size[p1]<size[p2]){
+            size[p2] += size[p1];
+            parent[p1] = p2;
         }
-        return true;
-    }
-    
-    static boolean halindrome(String s){
-        if(s.length()<2) return false;
-        boolean c1 = isPalindrome(s);
-        int mid = (s.length()-1)/2;
-        boolean c2 = halindrome(s.substring(0,mid));
-        boolean c3 = halindrome(s.substring(mid,s.length()));
-        //odd
-        boolean d2 = halindrome(s.substring(0,mid));
-        boolean d3 = halindrome(s.substring(mid+1,s.length()));
-
-        if(s.length()%2 == 0) return c1 || c2 || c3;
-        return c1 || d2 || d3;
-    }
-
-    static int solve(int n, String[] str){
-        int count=0;
-        for(int i=0;i<n;i++){
-            if(halindrome(str[i])) count++;
+        else{
+            size[p1] += size[p2];
+            parent[p2] = p1;
         }
-        return count;
+        components--;
     }
-    
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String arr[] = {"Hello","Hi"};
-        System.out.println(solve(n,arr));
         
     }
 }
