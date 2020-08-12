@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Dijsktra_heap",
+            "request": "launch",
+            "mainClass": "GRAPH.Dijsktra_heap",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "Test",
