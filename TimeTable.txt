@@ -1,8 +1,8 @@
 ---------------------August-----------------------
-7 to 9 revisit some algos/questions
+7 to 9 Leetcode (1 question)
 10 to 12  Aptitude / Android
 --------------------------------------------------
-2 to 5  Leetcode
+2 to 5  Leetcode (2 question 1.30 min each)
 --------------------------------------------------
 7 to 9 Javascript / html / css 
 10 to 12 os/networks/dbms/oops/java / applications of data structure
