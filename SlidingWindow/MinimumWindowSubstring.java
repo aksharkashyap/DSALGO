@@ -1,6 +1,42 @@
 package SlidingWindow;
 import java.util.*;
 
+/* sliding window
+1. Use two pointers: start and end to represent a window.
+2. Move end to find a valid window.
+3. When a valid window is found, move start to find a smaller window. */
+
+class MWS {
+    public String minWindow(String s, String p) {
+        int[] need = new int[128];
+        char[] a = s.toCharArray();
+        for(char ch : p.toCharArray()) need[ch]++;
+        
+        int start=0, n=s.length();
+        int min = Integer.MAX_VALUE;
+        int l=0,r=0,missing=p.length();
+        
+        for(int i=0;i<n;i++){
+            if(need[a[i]]>0) missing--;
+            need[a[i]]--;
+            
+            while(missing==0){
+                if(i-start+1 < min){
+                    l = start;
+                    r = i;
+                    min = i - start + 1;
+                }
+                need[a[start]]++;
+                if(need[a[start]]>0) missing++;
+                start++;
+            }
+        }
+        
+        return min==Integer.MAX_VALUE ? "" : s.substring(l,r+1);
+    }
+}
+
+
 //brute force optimized
 class MinWinSub{
     public String minWindow(String s, String t) {
@@ -35,9 +71,3 @@ class MinWinSub{
         return len == s.length()+2 ? "" : s.substring(start,end+1);
     }
 }
-
-
-/* sliding window
-1. Use two pointers: start and end to represent a window.
-2. Move end to find a valid window.
-3. When a valid window is found, move start to find a smaller window. */
