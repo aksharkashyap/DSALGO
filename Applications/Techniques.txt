@@ -108,6 +108,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 4) modulo operation 
 5) some bitmasking techniques(set bit,remove bit etc)
 6) a % b (always check b cant be 0)
+7) ap,gp, number theory formulas will help
 
 
 ------------------

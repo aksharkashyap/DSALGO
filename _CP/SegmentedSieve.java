@@ -1,12 +1,16 @@
 package _CP;
 
-/**Print the primes in the given range
- * as array size cant be greater than around 10^6 , if range is greater than this we cant use simple sieve
- * so we need to use segmented sieve given the conditon that range (L-R+1) always lies in <= 10^6
+import java.util.Arrays;
+
+/**
+ * Print the primes in the given range as array size cant be greater than around
+ * 10^6 , if range is greater than this we cant use simple sieve so we need to
+ * use segmented sieve given the conditon that range (L-R+1) always lies in <=
+ * 10^6
  * 
- * calculate primes till root(R) and letter we will make false all of their multiples in the given range
- * why root(R), because if a number is non prime then it will have 
- * one of its root x <= root(n) and another y >= root(n)
+ * calculate primes till root(R) and letter we will make false all of their
+ * multiples in the given range why root(R), because if a number is non prime
+ * then it will have one of its root x <= root(n) and another y >= root(n)
  */
 
 class SS{

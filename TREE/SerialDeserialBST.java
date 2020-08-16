@@ -2,7 +2,7 @@ package TREE;
 import TREE.TreeUtil.TreeNode;
 import java.util.*;
 
-public class Codec {
+ class Codec {
     //use upper and lower boundaries to check whether we should add null
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {

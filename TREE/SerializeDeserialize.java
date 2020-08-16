@@ -1,9 +1,11 @@
 package TREE;
-import TreeUtil.TreeNode;
+
 import java.util.*;
 
+import TREE.TreeUtil.TreeNode;
+
 class SerializeDeserialize{
-    void se_help(StringBuilder sb, TreeNode root){
+    void se_help(StringBuilder sb, TREE.TreeUtil.TreeNode root){
         if(root == null){sb.append("#,"); return;}
         sb.append(root.val+",");
         se_help(sb,root.left);

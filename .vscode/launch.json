@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Election",
+            "request": "launch",
+            "mainClass": "TCS.Election",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ModularFastExponentiation",
+            "request": "launch",
+            "mainClass": "_CP.ModularFastExponentiation",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FastExponentiation",
+            "request": "launch",
+            "mainClass": "_CP.FastExponentiation",
+            "projectName": "VisualStudio_f1baeed1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Dijsktra_heap",
             "request": "launch",
             "mainClass": "GRAPH.Dijsktra_heap",

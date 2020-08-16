@@ -70,12 +70,12 @@ Integer : java.lang.Integer.func_name()
 11) Integer.toBinaryString(int b)
 12) Integer.numberOfLeadingZeroes() // sees the num as 2's complement then find leading zeroes
 13) Integer.numberOfTrailingZeroes()
-14) Integer.reverse() // reverse the values 2's complement form
+14) Integer.reverse() // reverse the values 2's complement form (reverse bits)
 15) Integer.bitCount(num) // count set bits
 16) Integer.toString(num, 2) // binary representation of a number
 17) Integer.toString(num, 8) // octal representation of a number
 18) Integer.lowestOneBit(num) // rightmost bit in value format (equals to num&(-num))
-
+19)In Java, the compiler represents the signed(both +ve/-ve values) integers using 2's complement notation.
 -------------
 Math  : java.lang.Math.func_name()
 -------------
