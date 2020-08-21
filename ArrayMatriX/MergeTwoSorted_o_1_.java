@@ -1,4 +1,4 @@
-package ArrayMatrix;
+package ArrayMatriX;
 import java.util.*;
 
 //insertion sort based

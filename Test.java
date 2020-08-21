@@ -1,28 +1,28 @@
-//package _CP_Template;
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+class Test{
 
-class Codechef
-{   
-  
-    public int scoreOfParentheses(String s) {
-		int mult = 1;
-		int score = 0;
-		for (int i = 0; i < s.length(); i++) {
-			char c = s.charAt(i);
-			if (c == '(') {
-				if (s.charAt(i+1) == '(') {
-					mult *= 2;
-				} else {
-					score += mult;
-					i++;
-				} 
-			} else {
-				mult = mult/2;
+	public static void main(String[] args) {
+		String str = "abcabcabcabcabccc";
+		char[] arr = str.toCharArray();
+		int max=0;
+		StringBuilder ans = new StringBuilder("");
+		for(int i=0;i<arr.length;i++){
+			StringBuilder sb = new StringBuilder("");
+			int count[] = new int[26];
+			int len=0;
+			for(int j=i;j<arr.length;j++){
+				count[arr[j]-97]++;
+				if(count[arr[j]-97] == 1) len++;
+				sb.append(arr[j]);
+				if(len==2){
+					if(j-i>=max){
+						ans = sb;
+						max = j-i;
+					}
+				}
+				else if(len>2) break;
 			}
 		}
-		return score;
+		System.out.println(ans.toString());
 	}
 }
