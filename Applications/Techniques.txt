@@ -129,6 +129,11 @@ ii) brute force sliding window
 iii) optimized sliding window (generally in linear time), maybe by using two poiters
 iv) character mapping using hashmap or array 
 
+------------------
+12) Sliding Window
+------------------
+i) questions like longest/smallest substring with variations
+
 
 
 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems

@@ -50,8 +50,10 @@ Character
 16) (char) (num - 10 + 65) gives A,B...Z , where 10<=num<=35 ( eg 10 Becomes A)
 17) (char) (num - 10 + 97) gives a,b...z , where 10<=num<=35 ( eg 10 Becomes a)
 
-18) ch |= ' ' // Upper case English alphabet to lower case
-19) ch &= '_’  // Lower case English alphabet to upper case
+18) (char) (ch | 32)  // Upper case English alphabet to lower case
+19) (char) (ch & ~32)  // Lower case English alphabet to upper case
+20) if((ch & 32) == 0)  // 
+21) 'val' - '0' // char to integer
 
 ----------------
 Integer : java.lang.Integer.func_name()
@@ -160,6 +162,8 @@ String -immutable
 35) [boolean] s.matches(regx) //  to peform regx on string [eg-> "[A-Z]*"]
 36) str.split("\\.") /split by dot
 37) str.replaceFirst("\\s++$","")   // remove trailing spaces [$ -> from end]
+38) repeated = new String(new char[n]).replace("\0", s);  //string repeat 
+39) repeated = s.repeat(n) // works only for java 11
 -------------
 Collections
 -------------
