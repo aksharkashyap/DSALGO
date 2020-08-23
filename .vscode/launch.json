@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - KMP",
+            "request": "launch",
+            "mainClass": "STRING_ALGO.KMP",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Codechef",
             "request": "launch",
             "mainClass": "Codechef",

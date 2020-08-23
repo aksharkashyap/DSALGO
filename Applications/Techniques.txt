@@ -109,7 +109,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 5) some bitmasking techniques(set bit,remove bit etc)
 6) a % b (always check b cant be 0)
 7) ap,gp, number theory formulas will help
-
+8) Fisher yates shuffle to generate equal probable permutation of a given sequence in O(n) 
 
 ------------------
 10) DP / memoization
