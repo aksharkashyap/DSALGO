@@ -71,7 +71,7 @@ xiv) a-z [26], ascii [128], unicode[256]
 
 xix) if you are getting tle in recursive question , maybe u need to store intermediate results using hashmap
 
-xx) Palindrome - a number can be made(permutation) palindrome if at most one digit has an odd frequency
+xx) Palindrome - a number can be made(permutation) palindrome if at most(<=1) one digit has an odd frequency
 ------------------
 6) BACKTRACKING
 ------------------
