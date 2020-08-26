@@ -72,6 +72,7 @@ xiv) a-z [26], ascii [128], unicode[256]
 xix) if you are getting tle in recursive question , maybe u need to store intermediate results using hashmap
 
 xx) Palindrome - a number can be made(permutation) palindrome if at most(<=1) one digit has an odd frequency
+
 ------------------
 6) BACKTRACKING
 ------------------
@@ -111,7 +112,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 6) a % b (always check b cant be 0)
 7) ap,gp, number theory formulas will help
 8) Fisher yates shuffle to generate equal probable permutation of a given sequence in O(n) 
-
+9) Dont forget to handle 0's
 ------------------
 10) DP / memoization
 ------------------
@@ -120,6 +121,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 3) if you are adding some value to the returned function then(dont return Integer.MAX/MIN_VALUE)
    because it will cause overflow and you will get wrong answer
    you can return (Integer.MIN/MAX_VALUE) /2 or similar to it
+4) dont use global variable if you think you can convert your recursive solution to memoized solution(i.e. avoid Void return type)
 
 
 ------------------
