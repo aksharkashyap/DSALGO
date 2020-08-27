@@ -122,7 +122,7 @@ iv) in problems like word search II , instead of creating visited matrix,
    because it will cause overflow and you will get wrong answer
    you can return (Integer.MIN/MAX_VALUE) /2 or similar to it
 4) dont use global variable if you think you can convert your recursive solution to memoized solution(i.e. avoid Void return type)
-
+5) you have to think about smaller inputs / how you will make use of these smaller subtasks to achive the final solution
 
 ------------------
 11) Substring / subarray type of questions
@@ -136,7 +136,7 @@ iv) character mapping using hashmap or array
 12) Sliding Window
 ------------------
 i) questions like longest/smallest substring with variations
-
+ii) monotonic deque/stack can be used in some questions
 
 
 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems

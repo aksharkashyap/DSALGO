@@ -79,3 +79,25 @@
 78) Find subarray with given sum | Set 1 (Nonnegative Numbers)
 79) Sliding Window Maximum (Maximum of all subarrays of size k)
 80) Find the smallest window in a string containing all characters of another string
+
+//Sliding window deque/stack monotonic concepts (complete increaing/decreasing)-> 
+https://medium.com/@gregsh9.5/monotonic-queue-notes-980a019d5793
+Next Greater Element I
+Next Greater Element II
+Online Stock Span
+Shortest Unsorted Continuous Subarray
+Trapping Rain Water
+Best Time to Buy and Sell Stock II
+Sum of Subarray Minimums
+Sum of Subsequence Widths
+Count Unique Characters of All Substrings of a Given String
+Remove Duplicate Letters
+Remove K Digits
+Sum of Subarray Minimums
+Max Chunks To Make Sorted II
+Create Maximum Number
+Minimum Cost Tree From Leaf Values
+Sliding Window Maximum
+Score of Parentheses
+Increasing Triplet Subsequence
+Map
