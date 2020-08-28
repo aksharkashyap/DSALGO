@@ -1,6 +1,8 @@
 My Problem solving techniques:
 
-Note: While solving any problem always handle corner cases.
+Note: 
+1) While solving any problem always handle corner cases.
+2) Try to break the hard problem to a small subproblems
 
 ------------------
 1) BINARY SEARCH
@@ -113,6 +115,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 7) ap,gp, number theory formulas will help
 8) Fisher yates shuffle to generate equal probable permutation of a given sequence in O(n) 
 9) Dont forget to handle 0's
+
 ------------------
 10) DP / memoization
 ------------------
@@ -123,6 +126,9 @@ iv) in problems like word search II , instead of creating visited matrix,
    you can return (Integer.MIN/MAX_VALUE) /2 or similar to it
 4) dont use global variable if you think you can convert your recursive solution to memoized solution(i.e. avoid Void return type)
 5) you have to think about smaller inputs / how you will make use of these smaller subtasks to achive the final solution
+6) for wildcard matching / regular expression matching only focus 1 chracter / symbole at a time 
+   and then pass the remaining substring to the next iteration, also the terminating conditon is when pattern length becomes zero
+   then string length must also be zero so return true 
 
 ------------------
 11) Substring / subarray type of questions

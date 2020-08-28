@@ -7,14 +7,11 @@ class Test{
 }
 
 /*
-https://leetcode.com/problems/regular-expression-matching/
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-https://leetcode.com/problems/remove-invalid-parentheses/
 https://leetcode.com/problems/next-permutation/
 https://leetcode.com/problems/accounts-merge/
 https://leetcode.com/problems/clone-graph/
 https://leetcode.com/problems/trapping-rain-water/
-https://leetcode.com/problems/friends-of-appropriate-ages/
 https://leetcode.com/problems/multiply-strings/
 https://leetcode.com/problems/palindrome-pairs/
 https://leetcode.com/problems/longest-valid-parentheses/
