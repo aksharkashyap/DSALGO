@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EgyptianFraction",
+            "request": "launch",
+            "mainClass": "Greedy.EgyptianFraction",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CycleSort",
+            "request": "launch",
+            "mainClass": "SORTING.CycleSort",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KMP",
             "request": "launch",
             "mainClass": "STRING_ALGO.KMP",
