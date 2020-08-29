@@ -12,7 +12,7 @@ class LongestValidParanthesis {
             if(s.charAt(i)=='(') left++;
             else if(left>0){
                 dp[i] = dp[i-1] + 2; //current length
-                dp[i] += (i-dp[i]) >= 0 /*checking for valid index*/ ? dp[i-dp[i]] : 0; //check for the previous contiguous valid length and add to the curr length
+                dp[i] += (i-dp[i]) >= 0 /*checking for valid index*/ ? dp[i-dp[i]] : 0; //previous contiguous valid length + curr length
                 max = Math.max(max,dp[i]);
                 left--;
             }
