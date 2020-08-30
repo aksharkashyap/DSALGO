@@ -33,5 +33,4 @@ https://leetcode.com/problems/unique-paths-ii/
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/
-https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 */

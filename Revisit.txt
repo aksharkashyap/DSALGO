@@ -24,3 +24,6 @@ https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 #Integer to roman number
 https://leetcode.com/problems/integer-to-roman/
+
+#accounts merge(dfs/unionfind)
+https://leetcode.com/problems/accounts-merge/

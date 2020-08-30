@@ -18,7 +18,7 @@ class ShortestSubarrayWithSumAtleastK {
          }
  
          while (!startIndices.isEmpty() && prefixSum[startIndices.peekLast()] >= prefixSum[endIdx]) {
-             startIndices.pollLast(); //to keep the queue in increasing order
+             startIndices.pollLast(); //to keep the queue in increasing order of starting points (reason : P[y]-k >= p[x])
          }
  
          startIndices.addLast(endIdx); // add the endIdx to queue, since it may used as a start index later
