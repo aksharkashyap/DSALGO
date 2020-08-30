@@ -141,10 +141,12 @@ iv) character mapping using hashmap or array
 ------------------
 12) Sliding Window
 ------------------
-i) questions like longest/smallest substring with variations
+i) questions like longest/smallest substring with variations, here the main keyword is substring
 ii) monotonic deque/stack can be used in some questions
-
-
+iii) on what basis you will slide a window ?
+iv) any preprocessing required ?
+v) how you will decide when to contract and when to expand the window ?
+vi) if you want to maintain a single number like max/min/sum/multiplication in a window then think of using monotonic stack/deque/prefixsum
 ------------------
 13) sorting
 ------------------
@@ -154,3 +156,11 @@ ii) cyclic sort for numbers from 1 to n [O(n) time and O(1) space and n-1 swaps]
    instead of substring by 1 we can substract by minimum number)
 
 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+
+iii) prefix sum of +ve numbers gives a sorted sequence (useful for binary search in some cases)
+
+------------------
+14) Graph
+------------------
+i) if strings are given then you can map them to integer for simple calculation
+ii asking for merging/ some common relation -> dfs,unionfind,scc may be applied

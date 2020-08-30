@@ -3,47 +3,24 @@ detect loop in linkedlist- all algorithms
 angle b/w hands of a clock
 graph clone
 cycle detection directed/undirected graph using BFS
-average of array using recursion
 iterative inorder,preorder,postorder
 -----------------------
 np, np hard, np complete etc
 stability analysis of sort algos
 ---------------------
 mobile numeric problem
-josephus probelm
 nuts and bolts problem
 knapsack with duplicate items
-roman number to integer
 infix to postfix
-convert to roman number
 rotton oranges
 generate gray code sequences
 excel sheet problem
 pairs of prime number
-gold mine problem
-ways to tile a floor
-form a palindrome
 egg dropping puzzle
 reverse first k elemnts of queue
 queue reversal
 bit differnece
 min num of swaps required to sort an array
-
-https://leetcode.com/problems/counting-bits/
-https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/
-https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/discuss/398951/Beats-100-time-and-beats-100-space.-Best-solution-out-there.-No-binary-search-needed.
-
-//do binary search method 
-https://leetcode.com/problems/longest-increasing-subsequence/solution/
-median of two sorted array
-
-
-// do hashmap(key,count) method
-https://leetcode.com/problems/intersection-of-two-arrays-ii/
-
-
-//bottom up dp 
-scramble string
 
 
 // some tope questions companywise
@@ -52,7 +29,6 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 //Target
 1) pre,in,post iterative traversal
 2) bfs without using queue
-3) cycle detection directed/undirected graph using BFS
 4) clockwise spiral traversal of binary tree
 5) reverse clockwise spiral traversal of binary tree
 6) reverse anti clockwise spiral traversal of binary tree
@@ -60,14 +36,11 @@ https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-ri
 8) Level order traversal in spiral form | Using Deque
 
 
-//TODO amazon (after this , see page 7)
-
 
 //TODO (ans link) https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/discuss/143798/1ms-beat-100-simple-Java-dfs-with(without)-hashmap-including-explanation
 https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
-#one of the toughest questions
-//https://leetcode.com/problems/find-the-closest-palindrome/
+
 
 Q-> doubly linkedlist using single pointer
 
