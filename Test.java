@@ -1,36 +1,73 @@
-class Test{
+import java.util.*;
+
+class BT3{
+	Node root;
+	static class Node{
+		int val;
+		Node left,right;
+		Node(int val){
+			this.val = val;
+			left=right=null;
+		}
+	}
+
+	void bfs(Node root){
+		if(root == null) return;
+		Deque<Integer> dq = new LinkedList<>();
+		Queue<Node> q = new LinkedList<>();
+		q.offer(root);
+		while(q.size()>0){
+			int size = q.size();
+			while(size-- > 0){
+				Node node = q.poll();
+				dq.offerLast(node.val);
+				if(node.left != null) q.offer(node.left);
+				if(node.right != null) q.offer(node.right);
+			}
+			if(dq.size()==1) System.out.print(dq.pollFirst()+" "); //handles first level
+			while(dq.size()>0) System.out.print(dq.pollFirst() +" "+dq.pollLast() +" ");
+		}
+	}
+
+
 	public static void main(String[] args) {
-		int x = '9' -'0';
-		System.out.println(x);
+		BT3 tree = new BT3(); 
+		tree.root = new Node(1); 
+		tree.root.left = new Node(2); 
+		tree.root.right = new Node(3); 
+
+		tree.root.left.left = new Node(4); 
+		tree.root.left.right = new Node(5); 
+		tree.root.right.left = new Node(6); 
+		tree.root.right.right = new Node(7); 
+
+		tree.root.left.left.left = new Node(8); 
+		tree.root.left.left.right = new Node(9); 
+		tree.root.left.right.left = new Node(10); 
+		tree.root.left.right.right = new Node(11); 
+		tree.root.right.left.left = new Node(12); 
+		tree.root.right.left.right = new Node(13); 
+		tree.root.right.right.left = new Node(14); 
+		tree.root.right.right.right = new Node(15); 
+
+		tree.root.left.left.left.left = new Node(16); 
+		tree.root.left.left.left.right = new Node(17); 
+		tree.root.left.left.right.left = new Node(18); 
+		tree.root.left.left.right.right = new Node(19); 
+		tree.root.left.right.left.left = new Node(20); 
+		tree.root.left.right.left.right = new Node(21); 
+		tree.root.left.right.right.left = new Node(22); 
+		tree.root.left.right.right.right = new Node(23); 
+		tree.root.right.left.left.left = new Node(24); 
+		tree.root.right.left.left.right = new Node(25); 
+		tree.root.right.left.right.left = new Node(26); 
+		tree.root.right.left.right.right = new Node(27); 
+		tree.root.right.right.left.left = new Node(28); 
+		tree.root.right.right.left.right = new Node(29); 
+		tree.root.right.right.right.left = new Node(30); 
+		tree.root.right.right.right.right = new Node(31);
+
+		tree.bfs(tree.root);
 	}
 }
 
-/*
-sort 0 1
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-https://leetcode.com/problems/next-permutation/
-https://leetcode.com/problems/clone-graph/
-https://leetcode.com/problems/trapping-rain-water/
-https://leetcode.com/problems/multiply-strings/
-https://leetcode.com/problems/palindrome-pairs/
-https://leetcode.com/problems/permutation-in-string/
-https://leetcode.com/problems/frog-jump/
-https://leetcode.com/problems/interval-list-intersections/
-https://leetcode.com/problems/n-queens/
-https://leetcode.com/problems/insert-interval/
-https://leetcode.com/problems/recover-binary-search-tree/
-https://leetcode.com/problems/longest-consecutive-sequence/
-https://leetcode.com/problems/roman-to-integer/
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-https://leetcode.com/problems/knight-dialer/
-https://leetcode.com/problems/brick-wall/
-https://leetcode.com/problems/check-completeness-of-a-binary-tree/
-https://leetcode.com/problems/battleships-in-a-board/
-https://leetcode.com/problems/add-two-numbers/
-https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
-https://leetcode.com/problems/split-linked-list-in-parts/
-https://leetcode.com/problems/unique-paths-ii/
-https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
-https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
-https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/
-*/

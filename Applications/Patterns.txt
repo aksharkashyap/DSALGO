@@ -12,3 +12,4 @@ https://leetcode.com/problems/binary-subarrays-with-sum
 https://leetcode.com/problems/subarrays-with-k-different-integers
 https://leetcode.com/problems/fruit-into-baskets
 https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k
+https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC%2B%2BPython-Sliding-Window

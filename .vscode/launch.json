@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BT3",
+            "request": "launch",
+            "mainClass": "BT3",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EgyptianFraction",
             "request": "launch",
             "mainClass": "Greedy.EgyptianFraction",
