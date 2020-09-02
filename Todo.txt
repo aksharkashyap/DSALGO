@@ -65,7 +65,6 @@ https://leetcode.com/problems/interval-list-intersections/
 https://leetcode.com/problems/n-queens/
 https://leetcode.com/problems/insert-interval/
 https://leetcode.com/problems/recover-binary-search-tree/
-https://leetcode.com/problems/longest-consecutive-sequence/
 https://leetcode.com/problems/roman-to-integer/
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 https://leetcode.com/problems/knight-dialer/
@@ -77,7 +76,6 @@ https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list
 https://leetcode.com/problems/split-linked-list-in-parts/
 https://leetcode.com/problems/unique-paths-ii/
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
-https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/
 */
 

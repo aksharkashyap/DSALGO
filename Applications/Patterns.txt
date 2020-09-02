@@ -1,15 +1,16 @@
 --------------
 Sliding window -> monotonic deque pattern
 --------------
-https://leetcode.com/problems/sliding-window-maximum
-https://leetcode.com/problems/constrained-subsequence-sum
-https://leetcode.com/problems/minimum-size-subarray-sum
 https://leetcode.com/problems/count-number-of-nice-subarrays
+https://leetcode.com/problems/sliding-window-maximum
+https://leetcode.com/problems/minimum-size-subarray-sum
+https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+-----
+https://leetcode.com/problems/constrained-subsequence-sum
 https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 https://leetcode.com/problems/replace-the-substring-for-balanced-string
 https://leetcode.com/problems/max-consecutive-ones-iii
 https://leetcode.com/problems/binary-subarrays-with-sum
 https://leetcode.com/problems/subarrays-with-k-different-integers
 https://leetcode.com/problems/fruit-into-baskets
-https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k
-https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC%2B%2BPython-Sliding-Window
+

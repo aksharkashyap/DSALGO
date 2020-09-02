@@ -1,8 +1,10 @@
-import java.util.*;
-
-class Test {
-	public List<Integer> pancakeSort(int[] A) {
-		List<Integer> list = new ArrayList<>();
+package SORTING;
+import java.util.ArrayList;
+//max 2*n filps
+//start with greatest number and fix it to its correct position by 2 filps (find and flip o,num to take it in front then flip 0 to n to take it to the last)
+class PancakeSorting {
+	public ArrayList<Integer> pancakeSort(int[] A) {
+		ArrayList<Integer> list = new ArrayList<>();
 		for(int n=A.length;n>0;n--){
 			int i=0;
 			while(i<n&& A[i]!=n) i++;
@@ -25,9 +27,9 @@ class Test {
 		A[j] = temp;
 	}
 	public static void main(String[] args){
-		Test obj = new Test();
+		PancakeSorting obj = new PancakeSorting();
 		int[]a = {1,2,3,4};
-		List<Integer> v = obj.pancakeSort(a);
+		ArrayList<Integer> v = obj.pancakeSort(a);
 		//System.out.print(Arrays.toString(a));
 		System.out.print(v);
 	}

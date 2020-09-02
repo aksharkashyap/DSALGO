@@ -164,3 +164,11 @@ iii) prefix sum of +ve numbers gives a sorted sequence (useful for binary search
 ------------------
 i) if strings are given then you can map them to integer for simple calculation
 ii asking for merging/ some common relation -> dfs,unionfind,scc may be applied
+
+------------------
+15) Tree
+------------------
+i) different type of traversal techniques will help alot (refer GFG)
+ii) hight of a skewed tree will be O(n)
+iii) hight of binary tree will be O(n) because in the worst case it can become skewed 
+iv) height of a self balanced tree O(logn) because it never becomes skewed 

@@ -27,3 +27,6 @@ https://leetcode.com/problems/integer-to-roman/
 
 #accounts merge(dfs/unionfind)
 https://leetcode.com/problems/accounts-merge/
+
+#Integer break(mathematical solution )logn
+https://leetcode.com/problems/integer-break
