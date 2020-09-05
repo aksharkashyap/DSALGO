@@ -30,3 +30,6 @@ https://leetcode.com/problems/accounts-merge/
 
 #Integer break(mathematical solution )logn
 https://leetcode.com/problems/integer-break
+
+#trapping rain water(stack and two pointer based solution)
+https://leetcode.com/problems/trapping-rain-water/solution/

@@ -72,5 +72,6 @@ https://leetcode.com/problems/split-linked-list-in-parts/
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+https://leetcode.com/problems/repeated-substring-pattern/
 */
 
