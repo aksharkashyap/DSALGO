@@ -2,29 +2,22 @@ import java.util.*;
 
 class Test {
 
+
+	static void repeatingMissing(int arr[], int n){
+		Arrays.sort(arr);
+		for(int i=1;i<n;i++)
+		{
+			if(arr[i-1] == arr[i]){
+				System.out.print(arr[i]+1 + " " + arr[i]);
+				break;
+			}
+		}
+	}
+
 	public static void main(String[] args){
 	
 		Scanner sc = new Scanner(System.in);
-		int h = sc.nextInt();
-		int i=2;
-		int num=1;
-		int space=h;
-		if(h==2) System.out.print("*");
-		else{
-			for(int k=space+1;k>=0;k--) System.out.print(" "); space--;
-			System.out.println("*");
-			while(i<h){
-				for(int k=space;k>=0;k--) System.out.print("  "); space--;
-				System.out.print("*"+"  ");
-				for(int j=num;j>0;j--) System.out.print("+"+"  ");
-				System.out.println("*" +"  ");
-				num+=2;
-				i++;
-				System.out.println();
-			}
-			System.out.print("  ");
-			for(int j=num+2;j>0;j--) System.out.print("*"+"   ");
-		}
+		repeatingMissing(new int[]{4,2,5,3,3},5);
 
 	}
 }

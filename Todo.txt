@@ -66,5 +66,6 @@ https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-charac
 https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 https://leetcode.com/problems/repeated-substring-pattern/
+https://leetcode.com/problems/n-queens/
 */
 
