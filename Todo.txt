@@ -53,13 +53,13 @@ https://leetcode.com/problems/add-two-numbers/
 https://leetcode.com/problems/recover-binary-search-tree/
 https://leetcode.com/problems/multiply-strings/
 https://leetcode.com/problems/palindrome-pairs/
+https://leetcode.com/problems/split-linked-list-in-parts/
 
 https://leetcode.com/problems/permutation-in-string/
 https://leetcode.com/problems/frog-jump/
 https://leetcode.com/problems/interval-list-intersections/
 
 https://leetcode.com/problems/insert-interval/
-https://leetcode.com/problems/knight-dialer/
 https://leetcode.com/problems/brick-wall/
 
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/

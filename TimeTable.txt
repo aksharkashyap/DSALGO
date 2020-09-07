@@ -1,12 +1,11 @@
 ---------------------August-----------------------
 7 to 7.30 meditation
 7.30 to 9.30 Leetcode (1 question)
-10 to 12  Leetcode (1 question)
+10 to 12 C MCQ
 --------------------------------------------------
-2 to 4 Leetcode (1 question)
+2 to 4 Aptitude imp topics
 4 to 5 Theory(os/dbms/networks/sql)
 --------------------------------------------------
-6 to 8 Javascript / html / css 
-8 to 9 Standard algorithm (1) 
-10.30 to 12.30 LPU stuff
+6 to 9 Javascript / html / css 
+10 to 12 Leetcode (1 question)
 --------------------------------------------------

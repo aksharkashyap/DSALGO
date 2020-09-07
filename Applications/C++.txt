@@ -1,0 +1,9 @@
+----------
+Iterator
+----------
+1) for(auto &x : myvector) cout<<x
+
+2) vector<int>::iterator it; //declare
+   for(it = v.begin(); it<v.end(); it++) cout<< *it;
+
+
