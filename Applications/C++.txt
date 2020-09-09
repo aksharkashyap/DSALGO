@@ -1,9 +1,17 @@
 ----------
-Iterator
+Remember these stuffs
 ----------
 1) for(auto &x : myvector) cout<<x
 
 2) vector<int>::iterator it; //declare
    for(it = v.begin(); it<v.end(); it++) cout<< *it;
+
+3) sort(v.begin(),v.end())
+
+4) v.size()
+
+5) stlib.h
+   i) int val = atoi("100"); //convert string to int
+   ii) itoa(val,char *arr,base) //integer to string
 
 

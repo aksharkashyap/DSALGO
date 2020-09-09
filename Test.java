@@ -4,14 +4,8 @@ class Test {
 
 
 	static void repeatingMissing(int arr[], int n){
-		Arrays.sort(arr);
-		for(int i=1;i<n;i++)
-		{
-			if(arr[i-1] == arr[i]){
-				System.out.print(arr[i]+1 + " " + arr[i]);
-				break;
-			}
-		}
+		char a = 'A';
+		System.out.print(a | ' ');
 	}
 
 	public static void main(String[] args){

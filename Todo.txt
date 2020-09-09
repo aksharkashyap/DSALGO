@@ -46,9 +46,10 @@ Q-> Internal working of HashMap in java. When to override equals() and when to o
 
 /*
 sort 0 1
-https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+
 https://leetcode.com/problems/battleships-in-a-board/
 https://leetcode.com/problems/add-two-numbers/
+https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 
 https://leetcode.com/problems/recover-binary-search-tree/
 https://leetcode.com/problems/multiply-strings/
@@ -61,6 +62,7 @@ https://leetcode.com/problems/interval-list-intersections/
 
 https://leetcode.com/problems/insert-interval/
 https://leetcode.com/problems/brick-wall/
+https://leetcode.com/problems/knight-dialer/
 
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 https://www.geeksforgeeks.org/count-inversions-array-set-3-using-bit/

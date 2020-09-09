@@ -14,3 +14,11 @@ https://leetcode.com/problems/binary-subarrays-with-sum
 https://leetcode.com/problems/subarrays-with-k-different-integers
 https://leetcode.com/problems/fruit-into-baskets
 
+
+-----------------------------------------------
+Prefix sum -> 2d matrix (sum of each ractangle) at (i,j)
+-----------------------------------------------
+https://leetcode.com/problems/matrix-block-sum/
+https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
+https://leetcode.com/problems/range-sum-query-2d-immutable/
+https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
