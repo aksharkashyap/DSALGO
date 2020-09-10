@@ -1,7 +1,7 @@
-import java.util.*;
+package ArrayMatriX;
 
-class Test {
-//find missing and repeating number in an array of size [1 to n]
+class MissingAndRepeating {
+    //find missing and repeating number in an array of size [1 to n]
 	static void repeatingMissing(int arr[], int n){
 		int a=0,b=0;
 		for(int i=0;i<n;i++){	//find repeating number
@@ -19,10 +19,6 @@ class Test {
 	}
 
 	public static void main(String[] args){
-	
-		Scanner sc = new Scanner(System.in);
 		repeatingMissing(new int[]{1,2,3,5,5},5);
-
 	}
 }
-
