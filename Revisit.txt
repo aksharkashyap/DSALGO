@@ -33,3 +33,6 @@ https://leetcode.com/problems/integer-break
 
 #trapping rain water(stack and two pointer based solution)
 https://leetcode.com/problems/trapping-rain-water/solution/
+
+# do the optimized way 
+https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
