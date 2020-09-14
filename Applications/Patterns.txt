@@ -6,6 +6,8 @@ https://leetcode.com/problems/sliding-window-maximum
 https://leetcode.com/problems/minimum-size-subarray-sum
 https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 -----
+https://leetcode.com/problems/permutation-in-string/
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 https://leetcode.com/problems/constrained-subsequence-sum
 https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 https://leetcode.com/problems/replace-the-substring-for-balanced-string
