@@ -5,7 +5,7 @@ Arrays
 1) Arrays.binarySearch([]obj,start,end,key) //returns pos if found else->  (-(insertion point) – 1)
 2) Arrays.sort([]obj)
 2) Arrays.sort([]obj,start,end)
-2) Array.sort([]obj,start,end,new SortBySomething()) // sortbysomething is a comparator/comparable class
+2) Arrays.sort([]obj,start,end,new SortBySomething()) // sortbysomething is a comparator/comparable class
 2) Arrays.sort(words, (a,b) -> a.length() - b.length()); //String[] words
 3) Arrays.fill([]obj,filling_val)
 4) Arrays.toString([]obj)
@@ -164,15 +164,15 @@ String -immutable
 37) str.replaceFirst("\\s++$","")   // remove trailing spaces [$ -> from end]
 38) repeated = new String(new char[n]).replace("\0", s);  //string repeat 
 39) repeated = s.repeat(n) // works only for java 11
+40) str.split("(?<=\\G.{3})") //split the string into equal size array of length 3
 -------------
 Collections
 -------------
 1) Collections.sort(list)
 2) Collections.binarySearch(list,key)
-3) Collections.reverse()
+3) Collections.reverse(list)
 4) Collections.reverseOrder()
-4) Collections.copy()
-4) clone()
+4) Collections.copy(dest,src)
 5) size()
 6) isEmpty()
 7) clear()
@@ -572,3 +572,6 @@ Arrays.fill(ar, 1, 5, 10);
 
 //The only applicable modifier for local variable is final. 
 By mistake if we trying to apply any other modifier then we will get compile time error.
+
+//check given number[start,end) is in the range [a,b)
+    b > start && a < end

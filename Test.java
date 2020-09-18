@@ -4,10 +4,9 @@ class Test {
 
 	public static void main(String[] args){
 
-		char d = '8';
-		System.out.print(val(d));
-	}
+		System.out.println(Arrays.toString("barfoothefoobarman".split("(?<=\\G.{3})")));
 
+	}
 	static int val(char ch){return ch-48;}
 }
 
