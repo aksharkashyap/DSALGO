@@ -1,24 +1,14 @@
 import java.util.*;
+import java.io.*;
 
-class Student{
-	int a;
-	String b;
-	Student(int a, String b){
-		this.a=a;
-		this.b=b;
-	}
-	@Override
-	public String toString(){
-		return a +" "+b;
-	}
-}
-
+// do question on comparator and comparablee
 class Test {
-	public static void main(String[] args){
-		List<Student> v = new ArrayList<>();
-		Student s = new Student(1,"hi");
-		System.out.print(s);
+	
+	public static void main(String[] args) throws IOException {
+		FileReader fr = new FileReader("hello.txt");
+		int ch;
+		while((ch=fr.read()) != -1) {
+			System.out.print((char)ch);
+		}
 	}
-	static int val(char ch){return ch-48;}
 }
-

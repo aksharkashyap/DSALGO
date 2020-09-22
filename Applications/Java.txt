@@ -575,3 +575,6 @@ By mistake if we trying to apply any other modifier then we will get compile tim
 
 //check given number[start,end) is in the range [a,b)
     b > start && a < end
+
+//comparator -> return 1 for ascending and -1 for descending 
+// a.compareTo(b) //a will be compared to b

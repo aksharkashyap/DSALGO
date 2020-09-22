@@ -157,9 +157,7 @@ https://leetcode.com/problems/combination-sum-iv/
 https://leetcode.com/problems/implement-stack-using-queues/
 https://leetcode.com/problems/palindrome-partitioning/
 https://leetcode.com/problems/network-delay-time/
-https://leetcode.com/problems/rotate-array/
-https://leetcode.com/problems/rotting-oranges/
-https://leetcode.com/problems/gas-station/
+https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 //--------------------------------------------------------------------------------------
 https://leetcode.com/problems/number-of-atoms/
