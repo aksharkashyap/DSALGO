@@ -56,7 +56,6 @@ https://practice.geeksforgeeks.org/problems/stickler-theif/0#:~:text=Stickler%20
 https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
 https://www.geeksforgeeks.org/painters-partition-problem/
 https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
-
 https://leetcode.com/problems/shift-2d-grid/
 https://leetcode.com/problems/shortest-path-with-alternating-colors/
 https://leetcode.com/problems/number-of-equivalent-domino-pairs/
@@ -157,7 +156,6 @@ https://leetcode.com/problems/combination-sum-iv/
 https://leetcode.com/problems/implement-stack-using-queues/
 https://leetcode.com/problems/palindrome-partitioning/
 https://leetcode.com/problems/network-delay-time/
-https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 //--------------------------------------------------------------------------------------
 https://leetcode.com/problems/number-of-atoms/
