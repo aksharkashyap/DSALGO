@@ -71,8 +71,9 @@ class RabinKarp{
 
 	public static void main(String[] args) {
 		String txt = "superhero"; 
-        String pat = "hero"; 
+        String pat = "super"; 
         int q = 101; // A prime number 
-        search(pat, txt, q);
+		search(pat, txt, q);
+		rabin_karp_simple(txt,pat);
 	}
 }

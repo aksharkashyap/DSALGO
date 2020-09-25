@@ -2,42 +2,47 @@ import java.util.*;
 import java.io.*;
 
 // do question on comparator and comparablee
-class Test {
-	
-	static void solve(String str, String pat){
-		int m = str.length();
-		int n = pat.length();
-		int p = 53;
-		int power_of_p = 1;
-		int MOD = (int) 1e9+9;
-		int str_hash = 0, pat_hash = 0;
+import java.util.*;
+import java.lang.*;
 
-		for(int i=0;i<n;i++){
-			str_hash = (str_hash + (str.charAt(i)-'a'+1) * power_of_p) % MOD;
-			pat_hash = (pat_hash + (pat.charAt(i)-'a'+1) * power_of_p) % MOD;
-			if(i<n-1) power_of_p = (p * power_of_p ) % MOD;
+class Test
+{
+ public static void main (String[] args) throws java.lang.Exception
+	{
+    	FastReader s=new FastReader();
+		while(true){
+			int t = s.nextInt();
+			if(t==42)break;
+			System.out.println(t);
 		}
-
-		for(int i=0;i<=m-n;i++){
-			
-			if(str_hash == pat_hash){
-				int j=0;
-				while(j<n && str.charAt(i+j) == pat.charAt(j)) j++;
-				if(j == n) System.out.println(i);
-			}
-			if(i+n < m){
-				str_hash = (str_hash - (str.charAt(i)-'a'+1)) % MOD; //remove left
-				str_hash = (str_hash / p ) % MOD; // shift power 
-				str_hash = (str_hash + (str.charAt(i+n)-'a'+1) * power_of_p) % MOD; // add right
-			}
-			if(str_hash < 0) str_hash += MOD;
-		}
-		
 	}
-	public static void main(String[] args) throws IOException {
 	
-		String str = "abcabcabcabcabcdfsababababfjsdf";
-		String pat = "ab";
-		solve(str,pat);
-	}
+	static class FastReader{ 
+		BufferedReader br; StringTokenizer st; 
+		public FastReader(){ br = new BufferedReader(new InputStreamReader(System.in));} 
+		String next(){ 
+			while (st == null || !st.hasMoreElements()){ 
+				try{st = new StringTokenizer(br.readLine()); } 
+				catch (IOException e){e.printStackTrace();}} 
+			return st.nextToken(); 
+		} 
+		int nextInt(){return Integer.parseInt(next());} 
+		long nextLong(){return Long.parseLong(next());} 
+		double nextDouble(){return Double.parseDouble(next());} 
+		String nextLine(){ 
+			String str = ""; 
+			try{str = br.readLine();} 
+			catch (IOException e){e.printStackTrace();} 
+			return str; 
+		} 
+    }
 }
+
+
+/**
+ * 2 to 5 OS
+ * 6 to 9 DBMS, networks,sql
+ * 10 to 12 projects story
+ * morning 7 to 11 html,css,javascript basics
+ * dopeher amazon previous questions 
+ */
