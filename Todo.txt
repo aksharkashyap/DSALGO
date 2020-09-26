@@ -110,7 +110,6 @@ https://leetcode.com/problems/gray-code/
 https://leetcode.com/problems/solve-the-equation/
 https://leetcode.com/problems/fraction-to-recurring-decimal/
 https://leetcode.com/problems/shortest-path-in-binary-matrix/
-https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/diagonal-traverse/
 https://leetcode.com/problems/divide-two-integers/
 https://leetcode.com/problems/find-the-shortest-superstring/

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PfSieve",
+            "request": "launch",
+            "mainClass": "_CP.PfSieve",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BT3",
             "request": "launch",
             "mainClass": "BT3",

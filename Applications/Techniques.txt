@@ -101,7 +101,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 1) when you need to find shortest path
 2) snake and ladder
 3) level order traversal
-
+4) simulataneous DFS wali feeling from many cells then u can think of applying BFS
 
 ------------------
 9) Numbers
