@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
+class Codechef_test
 {   
     static void solve(int arr[], int n){
 
