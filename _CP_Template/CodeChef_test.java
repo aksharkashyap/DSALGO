@@ -6,19 +6,32 @@ import java.io.*;
 
 class Codechef_test
 {   
-    static void solve(int arr[], int n){
-
-    }
 
     public static void main (String[] args) throws java.lang.Exception
 	{
     	FastReader fs = new FastReader(); 
-		int t = fs.nextInt(); 
-		while (t-- > 0) 
-		{ 	int n = fs.nextInt(); 
-		    int arr[] = arrayInput(fs, n);
-			solve(arr,arr.length);
-		} 
+		int n = fs.nextInt();
+		int t = fs.nextInt();
+		String s = fs.nextLine();
+		Queue<Character> q = new LinkedList<>();
+		for(int i=0;i<n;i++) q.offer(s.charAt(i));
+		while(q.size()>0){
+			int size = q.size();
+			while(size-- > 0){
+				char a = q.poll();
+				if((size!=0 && a==q.peek()) || a=='G' || (a=='B' && size==0) ) q.offer(a);
+				else{
+					q.offer(q.poll());
+					q.offer(a);
+					size--;
+				} 
+			}
+			t--;
+			if(t == 0) break;
+		}
+		StringBuilder sb = new StringBuilder();
+		while(q.size()>0) sb.append(q.poll());
+		print(sb);
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}

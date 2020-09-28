@@ -10,7 +10,11 @@ class Test
 	static void print(int n){System.out.println(n);}
 	static void print(long n){System.out.println(n);}
 }
-
+/*
+In a Medical Laboratory, you have 240 Injections, one of which is for Anesthesia for a rat. After injecting, one rat 
+fainted exactly in 24 hours. You have 5 rats whom you are willing to sacrifice in order to determine which 
+injections contains the Anesthesia. How do you achieve this in 48 hours ?
+*/
 
 /**
  * 2 to 5 OS

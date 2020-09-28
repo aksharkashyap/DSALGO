@@ -41,6 +41,14 @@ v) binary search, linear search
 vi) GREEDY approach
 vii) sliding window
 viii) prefix,suffix sum array
+
+------------------
+5) Matrix
+------------------
+i) while making different type of traversal make sure to handle boundry cases
+   and cases where non-square matrix is present, handle cases like (1 row, multiple columns)
+   (1 col, multiple rows)
+
 ------------------
 4) Recursion
 ------------------
