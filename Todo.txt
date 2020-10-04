@@ -57,7 +57,6 @@ https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
 https://www.geeksforgeeks.org/painters-partition-problem/
 https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
 https://leetcode.com/problems/shift-2d-grid/
-https://leetcode.com/problems/shortest-path-with-alternating-colors/
 https://leetcode.com/problems/number-of-equivalent-domino-pairs/
 https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 https://leetcode.com/problems/distant-barcodes/
@@ -81,7 +80,6 @@ https://leetcode.com/problems/car-pooling/
 https://leetcode.com/problems/vowel-spellchecker/
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/most-profit-assigning-work/
-https://leetcode.com/problems/word-pattern/
 https://leetcode.com/problems/minimum-area-rectangle/
 https://leetcode.com/problems/open-the-lock/
 https://leetcode.com/problems/split-array-into-fibonacci-sequence/
@@ -110,7 +108,6 @@ https://leetcode.com/problems/gray-code/
 https://leetcode.com/problems/solve-the-equation/
 https://leetcode.com/problems/fraction-to-recurring-decimal/
 https://leetcode.com/problems/shortest-path-in-binary-matrix/
-https://leetcode.com/problems/diagonal-traverse/
 https://leetcode.com/problems/divide-two-integers/
 https://leetcode.com/problems/find-the-shortest-superstring/
 https://leetcode.com/problems/132-pattern/
@@ -147,9 +144,6 @@ https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 https://leetcode.com/problems/my-calendar-ii/
 https://leetcode.com/problems/bulls-and-cows/
 https://leetcode.com/problems/knight-probability-in-chessboard/
-https://leetcode.com/problems/combination-sum-iv/
-https://leetcode.com/problems/network-delay-time/
-https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 //--------------------------------------------------------------------------------------
 https://leetcode.com/problems/number-of-atoms/
 https://leetcode.com/problems/recover-binary-search-tree/

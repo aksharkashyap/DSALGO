@@ -4,34 +4,22 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef_test
+public class CodeChef_test
 {   
 
     public static void main (String[] args) throws java.lang.Exception
 	{
-    	FastReader fs = new FastReader(); 
-		int n = fs.nextInt();
+		FastReader fs = new FastReader();
 		int t = fs.nextInt();
-		String s = fs.nextLine();
-		Queue<Character> q = new LinkedList<>();
-		for(int i=0;i<n;i++) q.offer(s.charAt(i));
-		while(q.size()>0){
-			int size = q.size();
-			while(size-- > 0){
-				char a = q.poll();
-				if((size!=0 && a==q.peek()) || a=='G' || (a=='B' && size==0) ) q.offer(a);
-				else{
-					q.offer(q.poll());
-					q.offer(a);
-					size--;
-				} 
-			}
-			t--;
-			if(t == 0) break;
+		while(t-- > 0){
+			int n = fs.nextInt(); //number of elements
+			int x = fs.nextInt(); 
+			int p = fs.nextInt();  // we need to make (p'th smallest element == x) in min operation
+			int k = fs.nextInt();  // replace the k'th smallest element with any integer
+			int[]arr = arrayInput(fs, n);
+
+			//if(cant) print(-1);
 		}
-		StringBuilder sb = new StringBuilder();
-		while(q.size()>0) sb.append(q.poll());
-		print(sb);
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}
@@ -42,13 +30,25 @@ class Codechef_test
 	static final int MOD = (int) 1e9+7;
 	static final int INT_MAX = Integer.MAX_VALUE;
 	static final int INT_MIN = Integer.MIN_VALUE;
-    
+	static void swap(int[]arr, int a, int b){
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b] = temp;
+	}
 	static int[] arrayInput(FastReader fs, int n){
 		int[] arr = new int[n];
 		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
 		return arr;
 	}
-	
+	static void ruffleSort(int arr[]){
+        for (int i = 0; i < arr.length; i++){ 
+            int t = (int) Math.random() * arr.length; 
+            int x = arr[t]; 
+            arr[t] = arr[i]; 
+            arr[i] = x; 
+		}
+		Arrays.sort(arr);
+    } 
 	static class FastReader{ 
 		BufferedReader br; StringTokenizer st; 
 		public FastReader(){ br = new BufferedReader(new InputStreamReader(System.in));} 

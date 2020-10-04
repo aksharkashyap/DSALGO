@@ -1,25 +1,24 @@
-// do question on comparator and comparablee
-class Test
-{
- 	public static void main(String[] args) {
-		int x = 1000000;
-	 	System.out.print(x);
-	 }
-	 
-	static void print(String s){System.out.println(s);}
-	static void print(int n){System.out.println(n);}
-	static void print(long n){System.out.println(n);}
-}
-/*
-In a Medical Laboratory, you have 240 Injections, one of which is for Anesthesia for a rat. After injecting, one rat 
-fainted exactly in 24 hours. You have 5 rats whom you are willing to sacrifice in order to determine which 
-injections contains the Anesthesia. How do you achieve this in 48 hours ?
-*/
+import java.util.*;
+class solution{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[]scores = new int[n];
+		for(int i=0;i<n;i++) scores[i] = sc.nextInt();
 
-/**
- * 2 to 5 OS
- * 6 to 9 DBMS, networks,sql
- * 10 to 12 projects story
- * morning 7 to 11 html,css,javascript basics
- * dopeher amazon previous questions 
- */
+		for(int i=0;i<n;i++){
+			int mult=0;
+			if(scores[i] < 38) System.out.println(scores[i]);
+			else{
+				if(scores[i] % 5 ==0) mult = scores[i] + 5;
+				else{
+					mult = scores[i] + (5 - (scores[i] % 5));
+				}
+				int grade = mult - scores[i];
+				if(grade < 3) System.out.println(mult);
+				else if(scores[i] < 38) System.out.println(scores[i]);
+			}
+		}
+		sc.close();
+	}
+}

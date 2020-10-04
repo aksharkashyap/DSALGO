@@ -51,7 +51,9 @@ Character
 17) (char) (num - 10 + 97) gives a,b...z , where 10<=num<=35 ( eg 10 Becomes a)
 
 18) (char) (ch | 32)  // Upper case English alphabet to lower case
+18) (char) (ch | ' ') // upper to lower
 19) (char) (ch & ~32)  // Lower case English alphabet to upper case
+19) (char) (ch & '_')   // lower to uper
 20) if((ch & 32) == 0)  // 
 21) 'val' - '0' // char to integer
 

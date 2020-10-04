@@ -49,6 +49,8 @@ i) while making different type of traversal make sure to handle boundry cases
    and cases where non-square matrix is present, handle cases like (1 row, multiple columns)
    (1 col, multiple rows)
 
+2) Length of Diagonal of a matrix - Min(total_rows,total_cols)
+
 ------------------
 4) Recursion
 ------------------
@@ -110,6 +112,9 @@ iv) in problems like word search II , instead of creating visited matrix,
 2) snake and ladder
 3) level order traversal
 4) simulataneous DFS wali feeling from many cells then u can think of applying BFS
+5) note that some BFS problems looks like a DFS problem initially, so properly analyze by taking diff cases
+6) parallel edges -> then u can think of bfs
+7) when u want to visit already visited node with different conditon https://leetcode.com/problems/shortest-path-with-alternating-colors/
 
 ------------------
 9) Numbers
