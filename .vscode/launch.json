@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - atm",
+            "request": "launch",
+            "mainClass": "atm",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - solution",
             "request": "launch",
             "mainClass": "solution",

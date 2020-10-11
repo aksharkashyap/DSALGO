@@ -8,50 +8,31 @@ class Heap{
     int Heap[] = new int[10];
     int ptr=0;
     
-    Heap()
-        {
-            Heap[0] = Integer.MAX_VALUE;
-        } 
-    
-    int parent(int pos){
-        return (pos)/2;
-    }
-    int left_child(int pos){
-        return 2*pos;
-    }
-    int right_child(int pos)
-    {
-        return 2*pos+1;
-    }
+    Heap(){ Heap[0] = Integer.MAX_VALUE; } 
+    int parent(int pos){ return (pos)/2; }
+    int left_child(int pos){ return 2*pos; }
+    int right_child(int pos){ return 2*pos+1; }
 
-    void heapify(int pos,int n)
-    {
+    void heapify(int pos,int n){
         int largest = pos;
         int l = left_child(pos);
         int r = right_child(pos);
 
-        if(l<=n && Heap[l] > Heap[pos])
-            largest = l;
-        if(r<=n && Heap[r] > Heap[pos])
-            largest = r;
+        if(l<=n && Heap[l] > Heap[pos]) largest = l;
+        if(r<=n && Heap[r] > Heap[pos]) largest = r;
         
-        if(largest !=pos)
-        {
-            int temp = Heap[pos];
-            Heap[pos] = Heap[largest];
-            Heap[largest] = temp;
+        if(largest !=pos){
+            swap(pos, largest);
             heapify(largest, n);
         }
     }
 
-    void delete()
-    {
+    void delete(){
         Heap[0] = Heap[ptr--];
         heapify(0,ptr);
     }
 
-    void swap(int current, int parent)
-    {
+    void swap(int current, int parent){
         int temp;
         temp = Heap[current];
         Heap[current] = Heap[parent];
@@ -67,6 +48,10 @@ class Heap{
                 current = parent(current);
             }
 
+    }
+
+    int peek(){
+        return Heap[0];
     }
 
    void print(){
@@ -95,7 +80,9 @@ class Heap{
         h.insert(20);
         h.print();
         h.delete();
-        System.out.print("\n");
+        System.out.println();
+        System.out.println("peek " + h.peek());
+        System.out.println();
         h.print();
     }
 

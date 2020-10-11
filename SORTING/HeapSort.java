@@ -2,15 +2,22 @@ package SORTING;
 
 import java.util.Arrays;
   class HeapSort{
-    public void sort(int arr[]){
-      int n = arr.length;
+    
+    public void buildHeap(int arr[]){
+        int n = arr.length;
+        //building max heap of arr elements
         for(int i = (n/2) - 1; i >= 0 ; i--)
             heapify(arr,n,i);
+    }
+
+    public void sortHeap(int arr[], int n){
+        //sorting the array
         for(int i=n-1;i>=0;i--){
           swap(arr,0,i);
           heapify(arr,i,0);
         }
     }
+
     private void heapify(int arr[],int n,int i){
       int largest = i;
       int left = 2 * i + 1;
@@ -34,7 +41,8 @@ import java.util.Arrays;
     public static void main(String[] args) {
       int[] arr = {5,2,31,3,4,5,6,5,1};
       HeapSort hs = new HeapSort();
-      hs.sort(arr);
+      hs.buildHeap(arr);
+      hs.sortHeap(arr, arr.length);
       System.out.println("Sorted array is");
       System.out.println(Arrays.toString(arr));
     }

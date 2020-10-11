@@ -1,36 +1,48 @@
+import java.util.Arrays;
 
+class Test {
 
-//[10,12,14,15]
+    void buildHeap(int[]arr, int n){
 
-class PriorityQueue{
-	int N;
-	int[] HEAP;
-	PriorityQueue(int n){
-		N = n;
-		HEAP = new int[n];
-	}
-	void build_heap(int[]arr){
+        int idx = (n / 2 ) -1;
 
-	}
+        while(idx >= 0){
+            heapify(arr, idx, n);
+            idx--;
+        }
 
-	void heapify(int i){
-		int left = 2 * i;
-		int right = 2 * i + 1;
-	}
+        for(int i=n-1;i>=0;i--){
+            swap(arr,0,i);
+            heapify(arr,0,i);
+          }
+    }
 
-	public static void main(String[] args){
-		
-		int[] arr = {10,12,14,15};
-		int n = arr.length;
-		PriorityQueue pq = new PriorityQueue(n);
-		pq.build_heap(arr);
-	}
+    void heapify(int arr[], int idx, int n){ //max heap
+
+        int left = 2*idx + 1;
+        int right = 2*idx + 2;
+
+        int largest = idx;
+
+        if(left < n && arr[left] > arr[largest]) largest = left;
+        if(right < n && arr[right] > arr[largest]) largest = right;
+
+        if(largest != idx){
+            swap(arr, idx, largest);
+            heapify(arr, largest, n);
+        }
+    }
+
+    void swap(int[]arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    public static void main(String[] args) {
+        Test obj = new Test();
+        int[]arr = {15,2,34,4,5};
+        obj.buildHeap(arr, arr.length);
+        System.out.print(Arrays.toString(arr));
+    }
 }
-
-/*
-[1,2,3,4,5]
-
-	 1
-   2   3
-
-*/
