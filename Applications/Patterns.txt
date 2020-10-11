@@ -25,3 +25,14 @@ https://leetcode.com/problems/range-sum-query-2d-immutable
 https://leetcode.com/problems/matrix-block-sum
 https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza
 https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+
+
+
+----------------
+Interval overlap problems
+----------------
+56 Merge Intervals <- very similar😈
+435 Non-overlapping Intervals <- very similar😈
+252 Meeting Rooms
+253 Meeting Rooms II
+https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons

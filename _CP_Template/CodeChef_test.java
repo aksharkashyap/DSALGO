@@ -10,15 +10,30 @@ public class CodeChef_test
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
+		
 		int t = fs.nextInt();
 		while(t-- > 0){
-			int n = fs.nextInt(); //number of elements
-			int x = fs.nextInt(); 
-			int p = fs.nextInt();  // we need to make (p'th smallest element == x) in min operation
-			int k = fs.nextInt();  // replace the k'th smallest element with any integer
-			int[]arr = arrayInput(fs, n);
-
-			//if(cant) print(-1);
+			int n = fs.nextInt();
+			int x = fs.nextInt();
+			int p = fs.nextInt(); //make pth smallest integer equals to x
+			int k = fs.nextInt(); //replace k'th smallest integer
+			int[] arr = arrayInput(fs, n);
+			int i=0;
+			for(;i<n;i++) if(arr[i] == x) break;
+			if(i!=n){
+				sort(arr);
+				int curr=1;
+				for(int j=0;j<n;j++){
+					if(arr[j] == x) break;
+					curr++;
+				}
+				int required = p - curr;
+				if(curr-1 + required < n){
+					print(required);
+				}
+				else print(-1);
+			}
+			else print(-1);
 		}
 	}
 	//-------------------------------------------------
@@ -40,7 +55,7 @@ public class CodeChef_test
 		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
 		return arr;
 	}
-	static void ruffleSort(int arr[]){
+	static void sort(int arr[]){
         for (int i = 0; i < arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
             int x = arr[t]; 

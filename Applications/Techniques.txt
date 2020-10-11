@@ -128,6 +128,7 @@ iv) in problems like word search II , instead of creating visited matrix,
 7) ap,gp, number theory formulas will help
 8) Fisher yates shuffle to generate equal probable permutation of a given sequence in O(n) 
 9) Dont forget to handle 0's
+10) prevN = (int)Math.floor(Math.sqrt(x)) // Get the previous or current perfect square (ex 4->2, 5->2)
 
 ------------------
 10) DP / memoization

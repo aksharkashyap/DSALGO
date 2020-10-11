@@ -1,13 +1,15 @@
 ---------------------August-----------------------
 7 to 7.30 meditation
-7.30 to 8.30 C/C++
-8.30 to 9.30 Aptitude
-10 to 11 Aptitude
-11 to 12 SQL/ DBMS
+7.30 to 8.30 Leetcode
+8.30 to 9.30 Os / Networks
+10 to 11 SQL / DBMS 
+11 to 12 Java OOPS / generics / file handling / exception handling / Threads / stringbuffer vs builder / serialization / thread safe
 --------------------------------------------------
-2 to 5 LEETCODE
+2 to 3 LEETCODE
+3 to 5 Aptitude
 --------------------------------------------------
-6.30 to 7.30 Theory(os/networks)
-7.30 to 9 Javascript / html / css 
-10 to 12 Leetcode (1 question)
+6.30 to 7.30 Javascript, html, css
+7.30 to 8 C++ 
+8.0 to 9 Leetcode 
+10 to 12 HR Questions
 --------------------------------------------------

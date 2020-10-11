@@ -46,3 +46,11 @@ https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 https://leetcode.com/problems/maximum-product-subarray/
 
 https://leetcode.com/problems/shortest-path-with-alternating-colors/
+
+https://leetcode.com/problems/my-calendar-ii/
+
+https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+
+https://leetcode.com/problems/find-duplicate-file-in-system/
+
+next pemutation, permutation sequence
