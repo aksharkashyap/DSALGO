@@ -11,30 +11,31 @@ public class CodeChef_test
 	{
 		FastReader fs = new FastReader();
 		
-		int t = fs.nextInt();
-		while(t-- > 0){
+	//	int t = fs.nextInt();
+	//	while(t-- > 0){
 			int n = fs.nextInt();
-			int x = fs.nextInt();
-			int p = fs.nextInt(); //make pth smallest integer equals to x
-			int k = fs.nextInt(); //replace k'th smallest integer
 			int[] arr = arrayInput(fs, n);
-			int i=0;
-			for(;i<n;i++) if(arr[i] == x) break;
-			if(i!=n){
-				sort(arr);
-				int curr=1;
-				for(int j=0;j<n;j++){
-					if(arr[j] == x) break;
-					curr++;
-				}
-				int required = p - curr;
-				if(curr-1 + required < n){
-					print(required);
-				}
-				else print(-1);
+			int max = Integer.MIN_VALUE, idx_max = -1;
+			for(int i=0;i<n;i++) if(max < arr[i]){
+				max = arr[i];
+				idx_max = i;
 			}
-			else print(-1);
-		}
+			int oprn = 0;
+			while(idx_max > 0){
+				swap(arr, idx_max, idx_max-1);
+				idx_max--;
+				oprn += 1;
+			}
+
+			int min = Integer.MAX_VALUE, idx_min = -1;
+			for(int i=0;i<n;i++) if(min >= arr[i]){
+				min = arr[i];
+				idx_min = i;
+			}
+			if(idx_min != -1) oprn += n - idx_min - 1;
+			print(oprn);
+
+	//}
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}

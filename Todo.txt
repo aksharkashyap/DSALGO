@@ -53,10 +53,13 @@ https://practice.geeksforgeeks.org/problems/search-in-a-matrix/0
 https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 https://practice.geeksforgeeks.org/problems/stickler-theif/0#:~:text=Stickler%20the%20thief%20wants%20to,maximize%20the%20amount%20he%20loots.
 //delete middle of stack in O(1)
+https://leetcode.com/problems/evaluate-division/
+https://leetcode.com/problems/add-two-numbers/
+https://leetcode.com/problems/unique-binary-search-trees-ii/
 https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
 https://www.geeksforgeeks.org/painters-partition-problem/
 https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
-https://leetcode.com/problems/shift-2d-grid/
+https://www.geeksforgeeks.org/minimum-flips-make-1s-left-0s-right-set-2
 https://leetcode.com/problems/number-of-equivalent-domino-pairs/
 https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 https://leetcode.com/problems/distant-barcodes/
@@ -119,21 +122,17 @@ https://leetcode.com/problems/pascals-triangle-ii/
 https://leetcode.com/problems/isomorphic-strings/
 https://leetcode.com/problems/subsets-ii/
 https://leetcode.com/problems/task-scheduler/
-https://leetcode.com/problems/majority-element-ii/
 https://leetcode.com/problems/surrounded-regions/
 https://leetcode.com/problems/single-number-ii/
-https://leetcode.com/problems/sqrtx/
 https://leetcode.com/problems/permutations-ii/
 https://leetcode.com/problems/fruit-into-baskets/
 https://leetcode.com/problems/summary-ranges/
 https://leetcode.com/problems/lemonade-change/
 https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/valid-triangle-number/
-https://leetcode.com/problems/evaluate-division/
-https://leetcode.com/problems/zigzag-conversion/
-https://leetcode.com/problems/add-two-numbers/
-https://leetcode.com/problems/unique-binary-search-trees-ii/
-https://www.geeksforgeeks.org/minimum-flips-make-1s-left-0s-right-set-2
+https://leetcode.com/problems/shift-2d-grid/
+distance between two nodes 
+
 //--------------------------------------------------------------------------------------
 https://leetcode.com/problems/number-of-atoms/
 https://leetcode.com/problems/recover-binary-search-tree/
