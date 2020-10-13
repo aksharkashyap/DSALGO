@@ -7,35 +7,38 @@ import java.io.*;
 public class CodeChef_test
 {   
 
+	static int rem=0,t=0,g=0;
+	static int solve(int a[], int target, int[]ans){
+		if(target == 0){
+			if(t!=g) System.out.println();
+			for(int x : ans) System.out.print(x+" ");
+			return 1;
+		}
+
+		for(int i=0;i<3;i++){
+			if(target - a[i] >= 0){
+				ans[i] += 1; 
+				if(solve(a, target-a[i],ans) == 1) return 1;
+				ans[i] -= 1;
+			}
+		}
+		return -1;
+	}
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
 		
-	//	int t = fs.nextInt();
-	//	while(t-- > 0){
-			int n = fs.nextInt();
-			int[] arr = arrayInput(fs, n);
-			int max = Integer.MIN_VALUE, idx_max = -1;
-			for(int i=0;i<n;i++) if(max < arr[i]){
-				max = arr[i];
-				idx_max = i;
+		int g = fs.nextInt();
+		t = g;
+		while(t-- > 0){
+			int target = fs.nextInt();
+			int arr[] = {3,5,7};
+			int ans[] = {0,0,0};
+			if(solve(arr,target,ans) == -1){
+				if(t!=g) System.out.println();
+				System.out.print(-1);
 			}
-			int oprn = 0;
-			while(idx_max > 0){
-				swap(arr, idx_max, idx_max-1);
-				idx_max--;
-				oprn += 1;
-			}
-
-			int min = Integer.MAX_VALUE, idx_min = -1;
-			for(int i=0;i<n;i++) if(min >= arr[i]){
-				min = arr[i];
-				idx_min = i;
-			}
-			if(idx_min != -1) oprn += n - idx_min - 1;
-			print(oprn);
-
-	//}
+		}
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}
