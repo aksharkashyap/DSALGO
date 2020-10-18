@@ -1,7 +1,6 @@
-import java.io.*;
+import java.util.*;
 
 class MyException extends Exception{
-
     MyException(String s){
         super(s);
     }
@@ -9,17 +8,8 @@ class MyException extends Exception{
 
 class Test { 
     public static void main(String[] args) {
-        int a = 5;
-        int b = 0;
-         try{
-            throw new MyException("Handled");
-
-         }
-         catch(Exception e){
-             System.out.println(e.getMessage());
-         }
-         finally{
-
-         }
+        List<Integer> v = new ArrayList<>();
+        v.addAll(Arrays.asList(1,2,3,4,5));
+        System.out.print(v.get(8));
     }
 }
