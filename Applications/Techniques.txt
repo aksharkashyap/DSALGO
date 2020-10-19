@@ -115,7 +115,9 @@ iv) in problems like word search II , instead of creating visited matrix,
 5) note that some BFS problems looks like a DFS problem initially, so properly analyze by taking diff cases
 6) parallel edges -> then u can think of bfs
 7) when u want to visit already visited node with different conditon https://leetcode.com/problems/shortest-path-with-alternating-colors/
-
+8) if u r finding min distance then mark the neighbors as visited (as soon as you enque it)[dont follow popped item visited approach]
+   because it will save from extra entries (which are at larget distance), so while enquing it in queue mark them visited there only
+   in this way once u encounter the destination vertex, u can directly return the answer from there
 ------------------
 9) Numbers
 ------------------
