@@ -7,35 +7,10 @@ iterative inorder,preorder,postorder
 np, np hard, np complete etc
 stability analysis of sort algos
 ---------------------
-mobile numeric problem
-nuts and bolts problem
-knapsack with duplicate items
-infix to postfix
-rotton oranges
-generate gray code sequences
-excel sheet problem
-pairs of prime number
-egg dropping puzzle
-reverse first k elemnts of queue
-queue reversal
-bit differnece
-min num of swaps required to sort an array
-
 
 // some tope questions companywise
 https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=leftbar-rightbar#amazon
 
-//Target
-1) pre,in,post iterative traversal
-2) bfs without using queue
-4) clockwise spiral traversal of binary tree
-5) reverse clockwise spiral traversal of binary tree
-6) reverse anti clockwise spiral traversal of binary tree
-7) reverse zigzag traversal of binary tree
-8) Level order traversal in spiral form | Using Deque
-
-
-Q-> doubly linkedlist using single pointer
 
 Q-> Difference between Comparator and Comparable. Given a user-defined class Employee and list of employees, 
 sort the list according to the age of employees. What you will use to sort, comparator or comparable and Why? 
@@ -45,40 +20,30 @@ Q-> Internal working of HashMap in java. When to override equals() and when to o
 
 
 /*
+doubly linkedlist using single pointer
+excel sheet problem
+reverse first k elemnts of queue
+minimum swaps to sort an array
+distance between two nodes
+
 https://practice.geeksforgeeks.org/problems/circular-tour/1
 https://practice.geeksforgeeks.org/problems/maximize-number-of-1s/0
-https://www.geeksforgeeks.org/position-of-rightmost-set-bit/
-https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
 https://practice.geeksforgeeks.org/problems/search-in-a-matrix/0
-https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 https://practice.geeksforgeeks.org/problems/stickler-theif/0#:~:text=Stickler%20the%20thief%20wants%20to,maximize%20the%20amount%20he%20loots.
-//delete middle of stack in O(1)
 https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
 https://www.geeksforgeeks.org/painters-partition-problem/
 https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
 https://www.geeksforgeeks.org/minimum-flips-make-1s-left-0s-right-set-2
-
-
-https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
-https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
-https://leetcode.com/problems/rotate-function/
-https://leetcode.com/problems/image-smoother/
-https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
-https://leetcode.com/problems/two-city-scheduling/
-https://leetcode.com/problems/subarray-sums-divisible-by-k/
-https://leetcode.com/problems/max-consecutive-ones-iii/
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
-https://leetcode.com/problems/contiguous-array/
-https://leetcode.com/problems/next-greater-node-in-linked-list/
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+https://www.geeksforgeeks.org/position-of-rightmost-set-bit/
 https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
-https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
-https://leetcode.com/problems/pascals-triangle-ii/
-https://leetcode.com/problems/find-the-shortest-superstring/
-https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-https://leetcode.com/problems/surrounded-regions/
+
+https://leetcode.com/problems/subarray-sums-divisible-by-k/
 https://leetcode.com/problems/maximum-product-subarray/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 https://leetcode.com/problems/shift-2d-grid/
-distance between two nodes 
+
 
 
 */

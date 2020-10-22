@@ -15,7 +15,9 @@ https://leetcode.com/problems/max-consecutive-ones-iii
 https://leetcode.com/problems/binary-subarrays-with-sum
 https://leetcode.com/problems/subarrays-with-k-different-integers
 https://leetcode.com/problems/fruit-into-baskets
-
+Count Number of Nice Subarrays
+Shortest Subarray with Sum at Least K
+Minimum Size Subarray Sum
 
 -----------------------------------------------
 Prefix sum -> 2d matrix (sum of each ractangle) at (i,j)
