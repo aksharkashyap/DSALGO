@@ -46,3 +46,23 @@ https://leetcode.com/problems/minimum-area-rectangle
 https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings
 
 */
+/* some amazing questions
+
+https://www.geeksforgeeks.org/counting-inversions/
+https://www.geeksforgeeks.org/number-swaps-sort-adjacent-swapping-allowed/
+https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-of-first-n-number/?ref=rp
+https://www.geeksforgeeks.org/minimum-swaps-required-group-1s-together/?ref=rp
+https://www.geeksforgeeks.org/minimum-swaps-required-sort-binary-array/?ref=rp
+https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/?ref=rp
+https://www.geeksforgeeks.org/minimum-increment-or-decrement-required-to-sort-the-array-top-down-approach/?ref=rp   
+https://www.geeksforgeeks.org/minimum-number-of-adjacent-swaps-for-arranging-similar-elements-together/?ref=rp
+https://www.geeksforgeeks.org/maximum-number-formed-from-array-with-k-number-of-adjacent-swaps-allowed/?ref=rp
+https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/?ref=rp
+https://www.geeksforgeeks.org/number-of-ways-in-which-an-item-returns-back-to-its-initial-position-in-n-swaps-in-array-of-size-k/?ref=rp
+https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/?ref=rp
+https://www.geeksforgeeks.org/minimum-increment-operations-to-make-array-unique
+https://www.geeksforgeeks.org/minimum-increment-operations-to-make-the-array-in-increasing-order/
+https://www.geeksforgeeks.org/minimum-increment-k-operations-make-elements-equal/
+
+*/
