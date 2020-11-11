@@ -10,17 +10,8 @@ public class CodeChef_test
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
-		//int t = fs.nextInt();
-		//while(t-- > 0){
-		int n = fs.nextInt();
-		int[]arr = arrayInput(fs, 7);
-		int i = 0;
-		while(n > 0){
-			n -= arr[i];
-			if(i == 6 && n<=0){i++;}
-			else i = (i+1) % 7;
-		}
-		print(i);
+		
+		
 
 	}
 	//-------------------------------------------------
@@ -62,6 +53,7 @@ public class CodeChef_test
 		} 
 		int nextInt(){return Integer.parseInt(next());} 
 		long nextLong(){return Long.parseLong(next());} 
+		float nextFloat(){return Float.parseFloat(next());}
 		double nextDouble(){return Double.parseDouble(next());} 
 		String nextLine(){ 
 			String str = ""; 

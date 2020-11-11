@@ -42,7 +42,7 @@ class Codechef
 		return arr;
 	}
 
-	static void ruffleSort(int arr[]){
+	static void sort(int arr[]){
         for(int i = 0; i<arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
             int x = arr[t]; 
@@ -61,9 +61,10 @@ class Codechef
 				catch (IOException e){e.printStackTrace();}} 
 			return st.nextToken(); 
 		} 
-		int nextInt(){return Integer.parseInt(next());} 
-		long nextLong(){return Long.parseLong(next());} 
-		double nextDouble(){return Double.parseDouble(next());} 
+		int nextInt(){return Integer.parseInt(next());} //4 byte
+		long nextLong(){return Long.parseLong(next());} // 8 byte
+		float nextFloat(){return Float.parseFloat(next());} //4 byte (upto 6 or 7 decimal points)
+		double nextDouble(){return Double.parseDouble(next());} //8 byte (upto 15 decimal points)
 		String nextLine(){ 
 			String str = ""; 
 			try{str = br.readLine();} 

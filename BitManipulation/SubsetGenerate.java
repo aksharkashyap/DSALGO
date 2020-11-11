@@ -1,7 +1,7 @@
 package BitManipulation;
-
+//complexity O(n * 2^n)
 class SubsetGenerate{
-
+    
     static void power_set(int[]set, int n){ 
         
         int pow_set_size =  (int) Math.pow(2, n); 
@@ -21,3 +21,20 @@ class SubsetGenerate{
         power_set(arr, n);
     }
 }
+
+/*
+[1,2,3]
+for each number we have 2 choice(include/exlcude) so total 2^n sets will be made
+each set bit will indicate that we must include that corrosponding number
+ 0 0 0
+ 0 0 1
+ 0 1 0 
+ 0 1 1
+ 1 0 0
+ 1 0 1
+ 1 1 0
+ 1 1 1
+
+*/
+
+//for backtracking verion see -> Backtracking folder
