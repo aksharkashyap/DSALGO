@@ -18,8 +18,8 @@ public class MergeSortLinkedList {
   
     Node getMid(Node head){ 
         if (head == null) return head; 
-        Node slow = head, fast = head; 
-        while (fast.next != null && fast.next.next != null) { 
+        Node slow = head, fast = head.next; 
+        while (fast != null && fast.next != null) { 
             slow = slow.next; 
             fast = fast.next.next; 
         } 
@@ -84,16 +84,25 @@ public class MergeSortLinkedList {
 
 
    /*
-    public Node merge_sort(Node head) {
-        if(head==null || head.next==null) return head;  //base cases
-        Node fast = head, mid = head, slow=null;
-        while(fast!=null && fast.next!=null){ //get middle node
-            slow=mid;
-            fast=fast.next.next;
-            mid=mid.next;            
+   public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null) 
+            return head;
+            
+        ListNode prev = head;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        slow.next=null; 
-        Node left = merge_sort(head);
-        Node right = merge_sort(mid);
-        return sorted_merge(left,right);
+        
+        prev.next = null;
+        ListNode firstHalf = sortList(head);
+        ListNode secondHalf = sortList(slow);
+        return merge(firstHalf, secondHalf);
+    }
     }*/
+
+
+

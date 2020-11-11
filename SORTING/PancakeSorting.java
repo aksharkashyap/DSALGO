@@ -1,7 +1,9 @@
 package SORTING;
 import java.util.ArrayList;
 //max 2*n filps
-//start with greatest number and fix it to its correct position by 2 filps (find and flip o,num to take it in front then flip 0 to n to take it to the last)
+//start with greatest number and fix it to its correct position by 2 filps 
+//(find and flip [0,i] to take it in front then flip [0,n-1] to take it to the last)
+
 class PancakeSorting {
 	public ArrayList<Integer> pancakeSort(int[] A) {
 		ArrayList<Integer> list = new ArrayList<>();

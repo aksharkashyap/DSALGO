@@ -7,38 +7,21 @@ import java.io.*;
 public class CodeChef_test
 {   
 
-	static int rem=0,t=0,g=0;
-	static int solve(int a[], int target, int[]ans){
-		if(target == 0){
-			if(t!=g) System.out.println();
-			for(int x : ans) System.out.print(x+" ");
-			return 1;
-		}
-
-		for(int i=0;i<3;i++){
-			if(target - a[i] >= 0){
-				ans[i] += 1; 
-				if(solve(a, target-a[i],ans) == 1) return 1;
-				ans[i] -= 1;
-			}
-		}
-		return -1;
-	}
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
-		
-		int g = fs.nextInt();
-		t = g;
-		while(t-- > 0){
-			int target = fs.nextInt();
-			int arr[] = {3,5,7};
-			int ans[] = {0,0,0};
-			if(solve(arr,target,ans) == -1){
-				if(t!=g) System.out.println();
-				System.out.print(-1);
-			}
+		//int t = fs.nextInt();
+		//while(t-- > 0){
+		int n = fs.nextInt();
+		int[]arr = arrayInput(fs, 7);
+		int i = 0;
+		while(n > 0){
+			n -= arr[i];
+			if(i == 6 && n<=0){i++;}
+			else i = (i+1) % 7;
 		}
+		print(i);
+
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}

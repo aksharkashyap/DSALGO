@@ -1,6 +1,10 @@
 package BitManipulation;
 //bitmasking stuff
-
+//note that if you are performing any operation on int/long etc then it will be performed for all the 32/64 bits in java
+/**
+ * note that some programming languages uses different bit representations like 4/16/32 etc
+ * so output may vary for different languages
+ */
 public class BitMagic {
 
     // check if a number is even or odd
@@ -41,13 +45,13 @@ public class BitMagic {
 
     // Lower to upper case
     static char toUpperCase(char ch){
-        ch = (char) (ch & '_');
+        ch = (char) (ch & '_'); //ch & ~32
         return ch;
     }
 
     //upper to lower
     static char toLowerCase(char ch){
-        ch = (char) (ch | ' ');
+        ch = (char) (ch | ' '); //ch | 32
         return ch;
     }
 
@@ -60,7 +64,7 @@ public class BitMagic {
             return x >> 1;
     }
     
-    //strip last set bit
+    //strip(remove) last set bit
     static int strip_last_set_bit(int x){
         return x & (x-1);
     }
@@ -85,12 +89,18 @@ public class BitMagic {
 
     //unset bit at nth position
     static void clear_bit(int num,int pos){ 
-        num = num & (~(1 << pos)); 
+        num = num & (~(1 << pos)); // ~ indicates toggle
     }   
     //set a bit at nth position  
     static void set_bit(int num,int pos){ 
         num = num | (1 << pos);
-    }   
+    }
+
+    //get last bit of a number
+    static int last_bit(int num){
+        return num & 1;
+    }
+
     public static void main(String[] args) {
         
        count_set_bits(3);

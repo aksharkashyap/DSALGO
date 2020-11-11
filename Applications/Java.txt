@@ -323,7 +323,7 @@ b.idx - a.idx (max priority)
 1) PriorityQueue<TYPE> heap = new PriorityQueue<>() // min heap
 2) PriorityQueue<TYPE> heap = new PriorityQueue<>(Collections.reverseOrder() // maxheap
 3) PriorityQueue<TYPE> heap = new PriorityQueue<>(new Sort()) //custom comparator
-3) PriorityQueue<TYPE> heap = new PriorityQueue<>((String a, String b) -> a.length() - b.length()) //custom comparator example lambda expression
+3) PriorityQueue<TYPE> heap = new PriorityQueue<>((a,b) -> a.length() - b.length()) //custom comparator example lambda expression
 3) PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)-> b.count - a.count); //without type is also acceptable
 4) offer(item)
 5) poll() //returns null if empty
@@ -584,3 +584,30 @@ By mistake if we trying to apply any other modifier then we will get compile tim
 
  // Get the previous or current perfect square (ex 4->2, 5->2)
 prevN = (int)Math.floor(Math.sqrt(x))
+
+//private constructor: Object can only be created inside the class (e.g., when implementing a singleton
+
+#java interview questions{
+    oops,
+    interface, functional interface, marker interface
+    nested class,
+    lambda expression,
+    file handling,
+    threads,
+    generics,
+    serialization and deserialization,
+    jdk,jre,jvm,
+    singleton class
+    diff b/w comparable, comparator,
+    diff b/w c++/java/python
+    exception handling, user defined exception
+    association, aggregation, composition,
+    different types of garbage collector,
+    blank final variable
+    
+}
+
+//when you convert 2d array into a single array (also known as ROW_MAJOR/COL_MAJOR)
+matrix[i][j] becomes arr[i * col_num + j]
+
+//and arr[mid] == matrix[mid/totalColumns][mid%totalColumns]

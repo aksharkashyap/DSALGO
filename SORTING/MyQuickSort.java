@@ -1,4 +1,9 @@
 package SORTING;
+/** 
+ Finding the correct position for the pivot->
+ * all the values which are left to pivot must be <=
+ * all the values which arr right to pivot must be >
+ */
 
 import java.util.*;
 public class MyQuickSort {
