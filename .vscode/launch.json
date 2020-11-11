@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SubsetGenerate",
+            "request": "launch",
+            "mainClass": "BitManipulation.SubsetGenerate",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Atm",
             "request": "launch",
             "mainClass": "Atm",

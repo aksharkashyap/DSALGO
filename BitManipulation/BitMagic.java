@@ -76,7 +76,7 @@ public class BitMagic {
 
     //checking if bit at kth position is set or unset:
     static void isKthBitSet(int n, int k){ 
-        if ((n & (1 << k)) == 1) 
+        if ((n & (1 << k)) > 0) 
             System.out.print("SET"); 
         else
             System.out.print("NOT SET"); 
