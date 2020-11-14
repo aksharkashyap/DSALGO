@@ -42,8 +42,6 @@ class HamiltonianCycle {
             System.out.println("Hamiltonian path doesnt exist");
             str.setLength(str.length()-1);
         }
-            
-        
     }
     public static void main(String[] args) {
         HamiltonianCycle obj = new HamiltonianCycle();
