@@ -5,8 +5,9 @@ https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-directio
 https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/discuss/398951/Beats-100-time-and-beats-100-space.-Best-solution-out-there.-No-binary-search-needed.
     
 //do binary search method
-#increasing subsequence 
+#increasing subsequence (also printing of the LIS in nlogn  )
 https://leetcode.com/problems/longest-increasing-subsequence/solution/
+https://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/
 
 
 #median of two sorted array

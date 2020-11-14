@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeSort2",
+            "request": "launch",
+            "mainClass": "SORTING.MergeSort2",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Inversion_of_Array",
+            "request": "launch",
+            "mainClass": "Inversion_of_Array",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SubsetGenerate",
             "request": "launch",
             "mainClass": "BackTracking.SubsetGenerate",

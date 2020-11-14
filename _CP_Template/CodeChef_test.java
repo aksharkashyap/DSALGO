@@ -10,9 +10,27 @@ public class CodeChef_test
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
-		
-		
+		int n = fs.nextInt();
+		if(n == 0 || n == 1){
+			print(0 +" "+0+" "+ n);
+			return;
+		}
+		List<Long>fib = fibo(n);
+		int size = fib.size();
+		System.out.print(fib.get(size-3) +" " + fib.get(size-3) + " " + fib.get(size-4));
 
+	}
+
+	static List<Long>fibo(int n){
+		List<Long> fib = new ArrayList<>();
+		fib.add(0l);
+		fib.add(1l);
+		long curr = 1l;
+		while(curr < n){
+			curr = fib.get(fib.size()-1) + fib.get(fib.size()-2);
+			fib.add(curr);
+		}
+		return fib;
 	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}
