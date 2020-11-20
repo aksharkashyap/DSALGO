@@ -86,6 +86,6 @@ class IterativeDFS{
 
     //postorder traversl using 1 stack
     static void postOrderTraversal2(TreeNode root){
-
+        if(root == null) return;
     }
 }
