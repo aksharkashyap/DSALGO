@@ -1,3 +1,7 @@
+
+//different questions and solutions of tree
+//https://leetcode.com/discuss/general-discussion/937307/iterative-recursive-dfs-bfs-tree-traversal-inorder-preorder-postorder-levelorder
+
 1) invert a binary tree
 2) Diameter of binary tree
 3) height balanced tree
