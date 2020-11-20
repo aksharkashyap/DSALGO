@@ -17,7 +17,7 @@ class IterativeDFS{
         TreeNode node3 = new TreeNode(3);
         node1.left = node2;
         node1.right = node3;
-        postOrderTraversal(node1);
+        postOrderTraversal2(node1);
     }
     //inorder traversal
     static void inorder(TreeNode root){
@@ -87,5 +87,23 @@ class IterativeDFS{
     //postorder traversl using 1 stack
     static void postOrderTraversal2(TreeNode root){
         if(root == null) return;
+        List<Integer> list = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        while(true){
+            while(root!=null){ //visit left
+                stack.push(root);
+                stack.push(root);
+                root = root.left;
+            }
+            if(stack.isEmpty()) break;
+            root = stack.pop();
+            if(!stack.isEmpty() && stack.peek() == root) root = root.right; //indicates left visited now go to RIGHT
+            else{
+                //left and right both visited now print the root
+                list.add(root.val);
+                root = null; //it is important step (in the next iteration we will pick a topmost node if available)
+            }
+        }
+        System.out.print(list);
     }
 }
