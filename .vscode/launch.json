@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IterativePreInPost",
+            "request": "launch",
+            "mainClass": "TREE.IterativePreInPost",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IterativeDFS",
+            "request": "launch",
+            "mainClass": "TREE.IterativeDFS",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeSort2",
             "request": "launch",
             "mainClass": "SORTING.MergeSort2",
