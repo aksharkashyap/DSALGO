@@ -21,9 +21,6 @@ Q-> Internal working of HashMap in java. When to override equals() and when to o
 
 /*
 doubly linkedlist using single pointer
-excel sheet problem
-reverse first k elemnts of queue
-minimum swaps to sort an array
 distance between two nodes
 
 https://practice.geeksforgeeks.org/problems/circular-tour/1
@@ -63,4 +60,35 @@ https://www.geeksforgeeks.org/minimum-increment-operations-to-make-the-array-in-
 https://www.geeksforgeeks.org/minimum-increment-k-operations-make-elements-equal/
 */
 
+
+-------------
+Todo Topics
+-------------
+
+Pattern Searching -> KMP, Suffix array, LPS Array
+
+dp bitmasking, digit dp, sqrt decomposition, Quick Select
+
+Union Find, Quick sort and merge sort on Doubly linked list
+
+Recursion - Tower of Hanoi
+
+Implement hashing with load factor
+
+Prefix to postfix/infix —vice varsa
+
+https://www.geeksforgeeks.org/advanced-data-structures/
+
+Segment tree
+Segment tree - sum , min , xor, product
+BIT / FENWICK 
+B+
+AVL
+Red black tree
+Trie
+Binomial heap,
+FiIBONACCI heap
+splay tree
+suffix array
+gcd/lcm/primality test
 

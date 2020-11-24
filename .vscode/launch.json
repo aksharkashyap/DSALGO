@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - KthSmallestInTwoSorted",
+            "request": "launch",
+            "mainClass": "ArrayMatriX.KthSmallestInTwoSorted",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlterantePostiveNegativeest",
+            "request": "launch",
+            "mainClass": "ArrayMatriX.AlterantePostiveNegativeest",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IterativePreInPost",
             "request": "launch",
             "mainClass": "TREE.IterativePreInPost",
