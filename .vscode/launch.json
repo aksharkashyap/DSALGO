@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - KthSmallestInTwoSorted",
             "request": "launch",
+            "mainClass": "KthSmallestInTwoSorted",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KthSmallestInTwoSorted",
+            "request": "launch",
             "mainClass": "ArrayMatriX.KthSmallestInTwoSorted",
             "projectName": "VisualStudio_47de3b05"
         },

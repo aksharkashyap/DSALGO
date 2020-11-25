@@ -1,58 +1,42 @@
-/*package whatever //do not write package name here */
+class KthSmallestInTwoSorted{
+    public static int findKthSmallestElement(int[] A, int[] B, int k){
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+        int lenA = A.length, lenB = B.length;
 
-class GFG {
-    
-    static int solve(int[]A,int[]B,int m, int n, int k){
-        int ptr1=0,ptr2=0;
-       // System.out.print(Arrays.toString(B));
-        while(ptr1 < m && ptr2 < n){
-            
-            if(A[ptr1] <= B[ptr2]){ 
-                k--;
-               // System.out.print(A[ptr1]+" ");
-                if(k == 0) return A[ptr1];
-                ptr1++;
-                
+        if(lenA + lenB < k) return -1;
+
+        int iMin = 0;
+        int iMax = Math.min(A.length, k-1); //because i has to be in the first array only (i is been calculated using iMin and iMax)
+
+        int i = 0, j = 0;
+
+        while (iMin <= iMax) {
+            i = (iMin + iMax) / 2; //index of the first array
+            j = k - 1 - i; /* 
+                    (1) -1 because of zero based index (indx of 2nd array)
+                    (2) k-i (doing this ensure it -> total element(i+j) should not be > k-1) [ hence it must hold, i+j == k-1]
+                    because beyond that answer never lies,so no point to search
+            */
+            if (B[j - 1] > A[i]) {
+                // i is too small, must increase it
+                iMin = i + 1;
+            } else if (i > 0 && A[i - 1] > B[j]) {
+                // i is too big, must decrease it
+                iMax = i - 1;
+            } else {
+                // i is perfect
+               return (B[j]);
             }
-            else{
-                k--;
-              //  System.out.print(B[ptr2] +" ");
-                if(k == 0) return B[ptr2];
-                ptr2++;
-            }
-        }
-        
-        while(ptr1 < m){
-            k--;
-            if(k == 0) return A[ptr1];
-            ptr1++;
-        }
-        while(ptr2 < n){
-            k--;
-            if(k == 0) return B[ptr2];
-            ptr2++;
         }
         return -1;
     }
-    
-	public static void main (String[] args) {
-	    Scanner sc = new Scanner(System.in);
-	    int t = sc.nextInt();
-	    while(t-- > 0){
-	        int n,m,k;
-	        n = sc.nextInt();
-	        m = sc.nextInt();
-	        k = sc.nextInt();
-	        int[]B = new int[n];
-	        int[]A = new int[m];
-	        for(int i=0;i<n;i++){ B[i] = sc.nextInt(); }
-	        for(int i=0;i<m;i++){ A[i] = sc.nextInt(); }
-	        int ans = solve(A,B,m,n,k);
-	        System.out.println(ans);
-	    }
-	}
+
+    public static void main(String[] args){
+        int a[] = { 1, 2, 3, 6 }; 
+        int b[] = { 4, 6, 8, 10 };
+        int alen = a.length;
+        int blen = b.length;
+        int smallest = findKthSmallestElement(a,b,5);
+        System.out.println("Kth smallest element is : " + smallest);
+    }
 }
