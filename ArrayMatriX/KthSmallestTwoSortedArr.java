@@ -6,23 +6,31 @@ package ArrayMatriX;
  * [finding the element that would be at the k’th position from start of the final(merged) sorted array]
  */
 
+ /**
+  * In order to be kth smallest element, index i and j have to satisfy two conditions:
+    A[i] >= B[j-1] and B[j] >= A[i-1] (criss cross condition that ensures that answer will always min(A[i],B[j]))
+    i+j  =  k-1 or j = k-1-i
+  */
+
 class KthSmallestInTwoSorted{
     public static double findKthSmallestElement(int[] A, int[] B, int k){
 
-        int lenA = A.length;
-        int lenB = B.length;
+        int lenA = A.length, lenB = B.length;
 
         if(lenA + lenB < k) return -1;
 
         int iMin = 0;
-        int iMax = Integer.min(A.length, k-1);
+        int iMax = Math.min(A.length, k-1); //because i has to be in the first array only (i is been calculated using iMin and iMax)
 
-        int i = 88;
-        int j = 0;
+        int i = 0, j = 0;
 
         while (iMin <= iMax) {
-            i = (iMin + iMax) / 2;
-            j = k - 1 - i; // because of zero based index
+            i = (iMin + iMax) / 2; //index of the first array
+            j = k - 1 - i; /* 
+                    (1) -1 because of zero based index (indx of 2nd array)
+                    (2) k-i (doing this ensure it -> total element(i+j) should not be > k-1) [ hence it must hold, i+j == k-1]
+                    because beyond that answer never lies,so no point to search
+            */
             if (B[j - 1] > A[i]) {
                 // i is too small, must increase it
                 iMin = i + 1;
@@ -31,7 +39,7 @@ class KthSmallestInTwoSorted{
                 iMax = i - 1;
             } else {
                 // i is perfect
-               return Integer.min(A[i], B[j]);
+               return Math.min(A[i], B[j]);
             }
         }
         return -1;

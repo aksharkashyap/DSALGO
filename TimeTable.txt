@@ -1,14 +1,24 @@
----------------------August-----------------------
-7.30 to 8.30 InterviewBit
-8.30 to 9.30 Os / Networks / Puzzle
-10 to 11 SQL / DBMS 
-11 to 12 Java OOPS / generics / file handling / exception handling / Threads / stringbuffer vs builder / serialization / multithreading
 --------------------------------------------------
-2 to 3 Eco902
-3 to 5 Android  
+7.30 to 9.30 Gate //2hr
+10 to 11 Gate // 1hr
+11 to 11.45 Algorithm revisit
+--------------------------------------------------
+2 to 5 DSA problems from sheet
 --------------------------------------------------
 6.30 to 7.30 Codeforces 
-7.30 to 9 Leetcode MOCK
-10 to 12 HR Questions / Coding sheet revise (and some algos and tricks)
+7.30 to 8.30 Leetcode MOCK / InterviewBit
+8.30 to 9 Coding sheet revise (and some algos and tricks)
+10 to 11 HR Questions
 --------------------------------------------------
 
+
+----Some java topics----
+Java OOPS / 
+generics / 
+file handling / 
+exception handling / 
+Threads / 
+stringbuffer vs builder / 
+serialization / 
+multithreading
+-------------------------
