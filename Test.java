@@ -1,42 +1,26 @@
-class KthSmallestInTwoSorted{
-    public static int findKthSmallestElement(int[] A, int[] B, int k){
+import java.util.Arrays;
 
-        int lenA = A.length, lenB = B.length;
-
-        if(lenA + lenB < k) return -1;
-
-        int iMin = 0;
-        int iMax = Math.min(A.length, k-1); //because i has to be in the first array only (i is been calculated using iMin and iMax)
-
-        int i = 0, j = 0;
-
-        while (iMin <= iMax) {
-            i = (iMin + iMax) / 2; //index of the first array
-            j = k - 1 - i; /* 
-                    (1) -1 because of zero based index (indx of 2nd array)
-                    (2) k-i (doing this ensure it -> total element(i+j) should not be > k-1) [ hence it must hold, i+j == k-1]
-                    because beyond that answer never lies,so no point to search
-            */
-            if (B[j - 1] > A[i]) {
-                // i is too small, must increase it
-                iMin = i + 1;
-            } else if (i > 0 && A[i - 1] > B[j]) {
-                // i is too big, must decrease it
-                iMax = i - 1;
-            } else {
-                // i is perfect
-               return (B[j]);
-            }
-        }
-        return -1;
+class Test {
+    public static void main(String[] args) {
+        int[] arr = {1,2,2,2,3,8,10};
+        int ans = upper_bound(arr, 0, arr.length-1,3);
+        
     }
-
-    public static void main(String[] args){
-        int a[] = { 1, 2, 3, 6 }; 
-        int b[] = { 4, 6, 8, 10 };
-        int alen = a.length;
-        int blen = b.length;
-        int smallest = findKthSmallestElement(a,b,5);
-        System.out.println("Kth smallest element is : " + smallest);
+    
+    static int upper_bound(int[]m,int start,int end, int val){
+        while(start <= end){
+            int mid = start + (end-start)/2;
+            if(m[mid] <= val) start = mid+1;
+            else end = mid - 1;
+        }
+        return start;
     }
 }
+
+/**
+ * (1) find min(from 1st column of every row) and 
+ * max(from last column of every row) element of MATRIX
+ * (2) BinarySearch every row[i] for count of how many elements are less than mid
+ * (3) if(count < r*c+1/2) min = mid +1
+ * (4) else max = mid
+ */
