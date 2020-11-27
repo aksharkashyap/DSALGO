@@ -22,3 +22,16 @@ stringbuffer vs builder /
 serialization / 
 multithreading
 -------------------------
+
+/**
+step 1:
+add some tree and linkedlist famous questions on excel sheet so that i can revise quickly
+complete the DSA sheet
+comepelte the InterviewBit questions 
+
+step 2:
+daily revise DSA sheet with approach thinking and implementing if doubt
+revise imp algos like hashing, kmp
+solve Codeforces and codechef daily
+give mock 
+*/
