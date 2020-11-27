@@ -37,4 +37,23 @@ class Tree{
         root.data = updatedLeft + updatedRight + originalLeft + originalRight; //update current root
         return root_val;  // send root's previous value for parent
     }
+
+
+    //method 2
+    int sumTree(Node node){ 
+        // Base case 
+        if (node == null) 
+            return 0; 
+   
+        // Store the old value 
+        int old_val = node.data; 
+   
+        // Recursively call for left and right subtrees and store the sum 
+        // as new value of this node 
+        node.data = sumTree(node.left) + sumTree(node.right); 
+   
+        // Return the sum of values of nodes in left and right subtrees 
+        // and old_value of this node 
+        return node.data + old_val; 
+    } 
 }
