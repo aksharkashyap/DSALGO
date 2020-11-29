@@ -23,10 +23,9 @@ For example, the following tree
 */
 class Tree{
     public void toSumTree(Node root){
-         //add code here.
          solve(root);
     }
-    
+    //method 1 
     int solve(Node root){
         if(root == null) return 0;
         int originalLeft = solve(root.left); //to store original(given)value of left child

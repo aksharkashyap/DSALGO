@@ -1,26 +1,30 @@
 import java.util.Arrays;
 
-class Test {
+class Test{
+
+    //O(m*n)
+    //linear search(arr2) * insertion sort (arr1)
     public static void main(String[] args) {
-        int[] arr = {1,2,2,2,3,8,10};
-        int ans = upper_bound(arr, 0, arr.length-1,3);
-        
+        int[] A = {20,25,40,55,90};
+        int[] B = {2,3,4,5,6};
+        int m = A.length, n = B.length;
+        merge(A,B,m,n);
+        System.out.print(Arrays.toString(A));
+        System.out.print(Arrays.toString(B));
     }
-    
-    static int upper_bound(int[]m,int start,int end, int val){
-        while(start <= end){
-            int mid = start + (end-start)/2;
-            if(m[mid] <= val) start = mid+1;
-            else end = mid - 1;
+
+    static void merge(int[]A, int[]B, int m, int n){
+
+        for(int i=n-1; i>=0;i--){
+            int last = A[m-1];
+            int j = m-2;
+            for(;j>=0 && A[j] >= B[i];j--){
+                A[j+1] = A[j];
+            }
+            if(j != m-2 || last > B[i]){
+                A[j+1] = B[i];
+                B[i] = last;
+            }
         }
-        return start;
     }
 }
-
-/**
- * (1) find min(from 1st column of every row) and 
- * max(from last column of every row) element of MATRIX
- * (2) BinarySearch every row[i] for count of how many elements are less than mid
- * (3) if(count < r*c+1/2) min = mid +1
- * (4) else max = mid
- */
