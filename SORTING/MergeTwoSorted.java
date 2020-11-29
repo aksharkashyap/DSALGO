@@ -15,6 +15,15 @@ class MergeTwoSorted{
         System.out.print(Arrays.toString(B));
     }
 
+    /*First we have to traverse the array1 and then compare with the first element of array2. 
+    If it is less than array1 then swap we swap both.
+ 
+    After swaping we are going to sort the array2 again so that smallest element of the array2 
+    comes at first position and we can again swap with the array1
+
+    To sort the array2 we will store the first element of array2 in a variable and and left shift all the element and store
+    the first element in array2 in the last.
+*/
     static void merge2(int[]arr1,int[]arr2,int m, int n){
 
         // traverse the array1 and if arr2 first element is less than arr1 then swap
