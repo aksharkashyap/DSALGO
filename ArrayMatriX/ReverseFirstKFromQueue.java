@@ -1,6 +1,9 @@
-import java.util.*;
+package ArrayMatriX;
+import java.util.Stack;
+import java.util.Queue;
+import java.util.LinkedList;
 
-class Test{
+class ReverseFirstKFromQueue{
 
     public static void main(String[] args) {
         //Input

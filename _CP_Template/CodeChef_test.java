@@ -11,27 +11,23 @@ public class CodeChef_test
 	{
 		FastReader fs = new FastReader();
 		int n = fs.nextInt();
-		if(n == 0 || n == 1){
-			print(0 +" "+0+" "+ n);
-			return;
+		int[]arr = arrayInput(fs, n);
+		int zero=0, five=0;
+		for(int v : arr){
+			if(v==0) zero++;
+			else five++;
 		}
-		List<Long>fib = fibo(n);
-		int size = fib.size();
-		System.out.print(fib.get(size-3) +" " + fib.get(size-3) + " " + fib.get(size-4));
-
+		if(zero == 0) print(-1);
+		else if(five < 9) print(0);
+		else{
+			five = five - (five % 9);
+			StringBuilder sb = new StringBuilder("");
+			for(int i = five; i>0; i--){sb.append("5");}
+			for(int i = zero; i>0; i--){sb.append("0");}
+			print(sb);
+		}
 	}
 
-	static List<Long>fibo(int n){
-		List<Long> fib = new ArrayList<>();
-		fib.add(0l);
-		fib.add(1l);
-		long curr = 1l;
-		while(curr < n){
-			curr = fib.get(fib.size()-1) + fib.get(fib.size()-2);
-			fib.add(curr);
-		}
-		return fib;
-	}
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}
 	static void print(long n){System.out.println(n);}
