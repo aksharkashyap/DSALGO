@@ -44,12 +44,12 @@ class DoublyLinkedList{
     increaseSize();
   }
 
-  Node getFirst(){
-    return size() == 0 ? null : HEAD.next;
+  int getFirst(){
+    return size() == 0 ? null : HEAD.next.data;
   }
 
-  Node getLast(){
-    return size() == 0 ? null : TAIL.prev;
+  int getLast(){
+    return size() == 0 ? null : TAIL.prev.data;
   } 
 
   void addLast(int data){
@@ -63,6 +63,29 @@ class DoublyLinkedList{
     increaseSize();
   }
 
+  int removeFirst(){
+    if(size() == 0) throw null;
+    Node firstNode = HEAD.next;
+    firstNode.next.prev = HEAD;
+    firstNode.prev = null; // removing first elements back reference
+    HEAD.next = firstNode.next; // change first node
+    firstNode.next = null; // removing old first nodes next reference 
+    decreaseSize();
+    return firstNode.data;
+
+  }
+
+  int removeLast(){
+    if(size() == 0) throw null;
+    Node lastNode = TAIL.prev;
+    lastNode.prev.next = TAIL;
+    lastNode.next = null;
+    TAIL.prev = lastNode.prev;
+    lastNode.prev = null;
+    decreaseSize();
+    return lastNode.data;
+  }
+
   void remove(Node node){
     if(size() == 0 || node == null) return;
     node.prev.next = node.next;
@@ -71,12 +94,14 @@ class DoublyLinkedList{
     decreaseSize();
   }
 
-  void iterator(Node node){
+  void iterator(){
+    Node node = HEAD.next;
     if(size() == 0 || node == null) return;
     while(node.next!=null){
       System.out.print(node.data+" ");
       node = node.next;
     }
+    System.out.println();
   }
 }
 
@@ -92,17 +117,22 @@ class MYDLL{
         }
         //print items 
         System.out.println("Print item:");
-        DLL.iterator(DLL.getFirst());
+        DLL.iterator();
+        
         //size before removal
-        System.out.println("\nSize: " + DLL.size());
+        System.out.println("Size: " + DLL.size());
+
         //Remove the last item
-        DLL.remove(DLL.getLast());
+        DLL.removeLast();
     
         //After remove
-        System.out.println("\nAfter removing the last item:");
-        DLL.iterator(DLL.getFirst());
+        System.out.println("After removing the last item:");
+        DLL.iterator();
     
         //size after removal
-        System.out.println("\nSize after removal: " + DLL.size());
+        System.out.println("Size after removal: " + DLL.size());
+
+        System.out.println("Remove Last: " + DLL.removeLast());
+        System.out.println("Remove First: " + DLL.removeFirst());
       }
 }
