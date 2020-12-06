@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Dijsktra_dial",
+            "request": "launch",
+            "mainClass": "GRAPH.Dijsktra_dial",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MYDLL",
             "request": "launch",
             "mainClass": "TREE.MYDLL",
