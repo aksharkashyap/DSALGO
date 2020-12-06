@@ -1,4 +1,9 @@
 package GRAPH;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
 class Dijsktra{
     
     int getMinVertex(int dist[],boolean visited[],int V){
@@ -54,4 +59,77 @@ class Dijsktra{
        int src = 0;
        t.dijsktra(graph,V,src);
    }
+
+   //adjacency list
+   static void dijsktra_algo(List<List<int[]>> graph,int n, int src){
+    boolean[]vis = new boolean[n];
+    int[]dist = new int[n];
+    Arrays.fill(dist,Integer.MAX_VALUE);
+    dist[src] = 0;
+
+    for(int i=1;i<n;i++){
+        //pick min distance vertex
+        int min_dist_vertex=-1;
+        int minVal = Integer.MAX_VALUE;
+        for(int j=0;j<n;j++){
+            if(!vis[j] && dist[j] <= minVal){
+                minVal = dist[j];
+                min_dist_vertex = j;
+            }
+        }
+        vis[min_dist_vertex] = true;
+        //relax neighbours
+        int destination, path;
+        for(int[] dest_pairs : graph.get(min_dist_vertex)){
+            destination = dest_pairs[0];
+            if(vis[destination]) continue;
+            path = dest_pairs[1];
+            if(dist[min_dist_vertex] != Integer.MAX_VALUE && dist[destination] > path + dist[min_dist_vertex]){
+                dist[destination] = path + dist[min_dist_vertex];
+            }
+        }
+    }
+ }
+
+
+ //using priority queue ElogV
+
+
+ static class Pair{
+    int vertex;
+    int distance;
+    Pair(int vertex, int distance){
+        this.vertex = vertex;
+        this.distance = distance;
+    }	
+}
+
+ static void dijsktra_pq(List<List<int[]>> graph,int n, int src){
+    boolean[]vis = new boolean[n];
+    int[] dist = new int[n];
+    Arrays.fill(dist,Integer.MAX_VALUE);
+
+    PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)-> a.distance - b.distance);
+    dist[src] = 0;
+    pq.offer(new Pair(src,0));
+    
+    while(pq.size()>0){
+        //pick min distance vertex
+        int min_dist_vertex = pq.poll().vertex;
+        vis[min_dist_vertex] = true;
+        //relax neighbours
+        int destination, path;
+
+        for(int[] dest_pairs : graph.get(min_dist_vertex)){
+            destination = dest_pairs[0];
+            if(vis[destination]) continue;
+            path = dest_pairs[1];
+            if(dist[min_dist_vertex] != Integer.MAX_VALUE && dist[destination] > path + dist[min_dist_vertex]){
+                dist[destination] = path + dist[min_dist_vertex];
+            }
+            pq.offer(new Pair(destination, dist[destination]));
+        
+        }
+     }
+    }
 }

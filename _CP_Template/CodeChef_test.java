@@ -10,23 +10,99 @@ public class CodeChef_test
     public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader fs = new FastReader();
-		int n = fs.nextInt();
-		int[]arr = arrayInput(fs, n);
-		int zero=0, five=0;
-		for(int v : arr){
-			if(v==0) zero++;
-			else five++;
-		}
-		if(zero == 0) print(-1);
-		else if(five < 9) print(0);
-		else{
-			five = five - (five % 9);
-			StringBuilder sb = new StringBuilder("");
-			for(int i = five; i>0; i--){sb.append("5");}
-			for(int i = zero; i>0; i--){sb.append("0");}
-			print(sb);
-		}
+		//int t = fs.nextInt();
+		//while(t-- > 0){
+			solve(fs);
+		//}
+			
 	}
+
+	static void solve(FastReader fs){
+		int n = fs.nextInt(); //num of cities
+		int m = fs.nextInt(); //roads
+		int q = fs.nextInt(); //queries
+
+		List<List<int[]>> graph = new ArrayList<>();
+
+		for(int i=0;i<n;i++) graph.add(new ArrayList<>());
+
+		int a,b,L;
+		for(int i=0;i<m;i++){
+			a = fs.nextInt();
+			b = fs.nextInt();
+			L = fs.nextInt();
+			graph.get(a).add(new int[]{b,L});
+			graph.get(b).add(new int[]{a,L});
+			/**
+			 * connect A-B and B-A
+			 * L is distance
+			 */
+		}
+		int[]srcs = new int[q];
+		for(int i=0;i<q;i++){
+			srcs[i] = fs.nextInt();
+		}
+		int src_city;
+		StringBuilder sb = new StringBuilder("");
+		for(int i=0;i<q;i++){
+			src_city = srcs[i];
+			int[] ans = compute(graph,n,src_city);
+			sb.append(ans[0]).append(" ").append(ans[1]).append("\n");
+		}
+		print(sb);
+	}
+
+	static class Pair{
+		int vertex;
+		int distance;
+		Pair(int vertex, int distance){
+			this.vertex = vertex;
+			this.distance = distance;
+		}	
+	}
+
+	static int[] compute(List<List<int[]>> graph,int n, int src){
+		boolean[]vis = new boolean[n];
+		int[] dist = new int[n];
+		Arrays.fill(dist,Integer.MAX_VALUE);
+
+		PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)-> a.distance - b.distance);
+		dist[src] = 0;
+		pq.offer(new Pair(src,0));
+		
+		while(pq.size()>0){
+			//pick min distance vertex
+			int min_dist_vertex = pq.poll().vertex;
+			vis[min_dist_vertex] = true;
+			//relax neighbours
+			int destination, path;
+
+			for(int[] dest_pairs : graph.get(min_dist_vertex)){
+				destination = dest_pairs[0];
+				if(vis[destination]) continue;
+				path = dest_pairs[1];
+				if(dist[min_dist_vertex] != Integer.MAX_VALUE && dist[destination] > path + dist[min_dist_vertex]){
+					dist[destination] = path + dist[min_dist_vertex];
+				}
+				pq.offer(new Pair(destination, dist[destination]));
+			
+			}
+		}
+
+		int maxans = Integer.MIN_VALUE;
+		for(int i=0;i<n;i++){
+			if(dist[i] != Integer.MAX_VALUE 
+				&& maxans < dist[i]) maxans = dist[i];
+		}
+		int count = 0;
+		for(int i=0;i<n;i++){
+			if(dist[i] == maxans) count++;
+		}
+
+		return new int[]{maxans,count};
+	}
+	
+
 
 	//-------------------------------------------------
 	static void print(int n){System.out.println(n);}
@@ -47,7 +123,7 @@ public class CodeChef_test
 		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
 		return arr;
 	}
-	static void sort(int arr[]){
+	static void ruffleSort(int arr[]){
         for (int i = 0; i < arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
             int x = arr[t]; 

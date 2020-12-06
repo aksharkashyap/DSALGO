@@ -121,10 +121,13 @@ StringBuilder - mutable
 18) substring(int start,int end)
 19) toString()
 20) trimToSize() //Attempts to reduce storage used for the character sequence.
-22) equals()
+22) equals() // compare two objects same or not
 23) sb.getChars(srcBegin, srcEnd, dst, dstBegin)
 24) Pattern.compile(" ").split(myStringBuilder)
 25) sb1.compareTo(sb2) == 0)  //return true
+
+Note: for stringbuilder donot use equals(), because it checks objects not data
+to check equality of two string datas, use compareTo() instead
 -------------
 String -immutable
 -------------
