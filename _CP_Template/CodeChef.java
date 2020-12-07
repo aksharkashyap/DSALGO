@@ -4,10 +4,14 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
+class CodeChef
 {   
-    static void solve(int arr[], int n){
+    static void solve(){
+		StringBuilder output = new StringBuilder();
 
+
+
+		print(output);
     }
 
     public static void main (String[] args) throws java.lang.Exception
@@ -15,20 +19,18 @@ class Codechef
     	FastReader fs = new FastReader(); 
 		int t = fs.nextInt(); 
 		while (t-- > 0) 
-		{ 	int n = fs.nextInt(); 
-		    int arr[] = arrayInput(fs, n);
-			solve(arr,arr.length);
+		{ 	
+			solve();
+			pw.flush();
+			pw.close();
 		} 
 	}
 	//-------------------------------------------------
-	static void print(int n){System.out.println(n);}
-	static void print(long n){System.out.println(n);}
-	static void print(double n){System.out.println(n);}
-	static void print(StringBuilder s){System.out.println(s);}
-	static void print(String s){System.out.println(s);}
+	static void print(StringBuilder s){pw.println(s);}
 	static final int MOD = (int) 1e9+7;
 	static final int INT_MAX = Integer.MAX_VALUE;
 	static final int INT_MIN = Integer.MIN_VALUE;
+	static PrintWriter pw = new PrintWriter(System.out);
 
 	static void swap(int[]arr, int a, int b){
 		int temp = arr[a];
@@ -42,7 +44,7 @@ class Codechef
 		return arr;
 	}
 
-	static void sort(int arr[]){
+	static void ruffleSort(int arr[]){
         for(int i = 0; i<arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
             int x = arr[t]; 
