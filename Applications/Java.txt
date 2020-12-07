@@ -357,14 +357,14 @@ TreeSet - O(logN) all operations
 1) Its a sorted set by default based on the natural order(1/A/a, 2/B/b, 3/C/c...)
 2) TreeSet<T> ts = new TreeSet<T>(); 
 3) TreeSet ts = new TreeSet(Comparator comp); // we can specify custom sorting order
-4) first()
-4) last()
+4) first() //first element of treeset
+4) last() //last element of treeset
 5) add()
-6) addAll()
+6) addAll() //add the collection to treeset
 7) isEmpty()
 8) clear()
 9) clone()
-10) contains()
+10) contains() 
 11) remove()
 12) size()
 13) ts.tailSet(Object element) // returns treeset having val >= element
@@ -375,8 +375,9 @@ TreeSet - O(logN) all operations
 17) pollFirst()
 18) pollLast()
 19) subSet(low, high); //returns subset of a given range 
-20) ts.higher(num) // gives least greater value than specified number or null 
-21) floor(num) // returns greatest val less than or equals to given num or throw exception nullpointer
+20) ts.higher(num) // gives just greater value than specified number or null 
+20) ts.lower(num) // gives just smaller value than specified number or null 
+21) floor(num) // returns greatest val less than or equals to given num or null
 22) ceil(num)  // returns greatest val greater than or equals
 23) Set<String> hashSetToTreeSet = new TreeSet<>(setobj); //hashset to treeset
 
