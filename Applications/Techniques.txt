@@ -188,3 +188,11 @@ i) different type of traversal techniques will help alot (refer GFG)
 ii) hight of a skewed tree will be O(n)
 iii) hight of binary tree will be O(n) because in the worst case it can become skewed 
 iv) height of a self balanced tree O(logn) because it never becomes skewed 
+
+
+------------
+16) Math 
+-------------
+(a) find how many odd and evens from [1,n]
+even -> n / 2
+odd -> n - (n/2)

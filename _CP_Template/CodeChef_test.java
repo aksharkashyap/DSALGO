@@ -4,44 +4,44 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class CodeChef_Test
-{   
-    static void solve(){
-		StringBuilder output = new StringBuilder();
+class CodeChef_test
+{   static StringBuilder output;
+	
+    static void solve() throws IOException{
 
-
-
-		print(output);
-    }
-
-    public static void main (String[] args) throws java.lang.Exception
+ 	}
+ 
+	public static void main (String[] args) throws java.lang.Exception
 	{
-    	FastReader fs = new FastReader(); 
-		int t = fs.nextInt(); 
+		fs = new FastReader();
+		output = new StringBuilder();
+		int t = fs.scanInt(); 
 		while (t-- > 0) 
 		{ 	
 			solve();
-			pw.flush();
-		} 
+			output.append("\n");
+		}
+		print(output);
+		pw.flush();
 		pw.close();
 	}
 	//-------------------------------------------------
+	static int[] arrayInput(int n) throws IOException{
+		int[] arr = new int[n];
+		for(int i=0;i<n;i++) arr[i] = fs.scanInt();
+		return arr;
+	}
 	static void print(StringBuilder s){pw.println(s);}
 	static final int MOD = (int) 1e9+7;
 	static final int INT_MAX = Integer.MAX_VALUE;
 	static final int INT_MIN = Integer.MIN_VALUE;
+	static FastReader fs;
 	static PrintWriter pw = new PrintWriter(System.out);
 
 	static void swap(int[]arr, int a, int b){
 		int temp = arr[a];
 		arr[a] = arr[b];
 		arr[b] = temp;
-	}
-    
-	static int[] arrayInput(FastReader fs, int n) throws IOException{
-		int[] arr = new int[n];
-		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
-		return arr;
 	}
 
 	static void ruffleSort(int arr[]){
@@ -52,85 +52,74 @@ class CodeChef_Test
             arr[i] = x; 
 		}
 		Arrays.sort(arr);
-	}
-
-	static class FastReader{ 
-		final private int BUFFER_SIZE = 1 << 16; 
-		private DataInputStream din; 
-		private byte[] buffer; 
-		private int bufferPointer, bytesRead; 
-		public FastReader(){ 
-			din = new DataInputStream(System.in); 
-			buffer = new byte[BUFFER_SIZE]; 
-			bufferPointer = bytesRead = 0; 
-		} 
-		public FastReader(String file_name) throws IOException{ 
-			din = new DataInputStream(new FileInputStream(file_name)); 
-			buffer = new byte[BUFFER_SIZE]; 
-			bufferPointer = bytesRead = 0; 
-		} 
-		public String readLine() throws IOException{ 
-			byte[] buf = new byte[64]; // line length 
-			int cnt = 0, c; 
-			while ((c = read()) != -1){ 
-				if (c == '\n') break; 
-				buf[cnt++] = (byte) c; 
-			} 
-			return new String(buf, 0, cnt); 
-		} 
-		public int nextInt() throws IOException{ 
-			int ret = 0; 
-			byte c = read(); 
-			while (c <= ' ') c = read(); 
-			boolean neg = (c == '-'); 
-			if (neg) c = read(); 
-			do{ 
-				ret = ret * 10 + c - '0'; 
-			} while ((c = read()) >= '0' && c <= '9'); 
-			if (neg) return -ret; 
-			return ret; 
-		} 
-		public long nextLong() throws IOException{ 
-			long ret = 0; 
-			byte c = read(); 
-			while (c <= ' ') c = read(); 
-			boolean neg = (c == '-'); 
-			if (neg) c = read(); 
-			do { 
-				ret = ret * 10 + c - '0'; 
-			}while ((c = read()) >= '0' && c <= '9'); 
-			if (neg) return -ret; 
-			return ret; 
-		} 
-		public double nextDouble() throws IOException{ 
-			double ret = 0, div = 1; 
-			byte c = read(); 
-			while (c <= ' ') c = read(); 
-			boolean neg = (c == '-'); 
-			if (neg) c = read(); 
-			do { 
-				ret = ret * 10 + c - '0'; 
-			}while ((c = read()) >= '0' && c <= '9'); 
-			if (c == '.'){ 
-				while ((c = read()) >= '0' && c <= '9') 
-				{ ret += (c - '0') / (div *= 10);} 
-			} 
-			if (neg) return -ret; 
-			return ret; 
-		} 
-		private void fillBuffer() throws IOException{ 
-			bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE); 
-			if (bytesRead == -1) buffer[0] = -1; 
-		} 
-		private byte read() throws IOException{ 
-			if (bufferPointer == bytesRead) fillBuffer(); 
-			return buffer[bufferPointer++]; 
-		} 
-		public void close() throws IOException{ 
-			if (din == null) return; 
-			din.close(); 
-		} 
-	}
+	} 
+    //--------reader section-----------------
+	static class FastReader{
+		private byte[] buf=new byte[1024];
+		private int index;
+		private InputStream in;
+		private int total;
+		public FastReader(){in=System.in;}
+		public int scan()throws IOException{
+			if(total<0) throw new InputMismatchException();
+			if(index>=total){
+				index=0; total=in.read(buf);
+				if(total<=0) return -1;
+			}
+			return buf[index++];
+		}
+		public int scanInt()throws IOException{
+			int integer=0;
+			int n=scan();
+			while(isWhiteSpace(n)) n=scan();
+			int neg=1;
+			if(n=='-'){ neg=-1; n=scan();}
+			while(!isWhiteSpace(n)){
+				if(n>='0'&&n<='9'){
+					integer*=10; integer+=n-'0';
+					n=scan();
+				}
+				else throw new InputMismatchException();
+			}
+			return neg*integer;
+		}
+		public double scanDouble()throws IOException{
+			double doub=0; int n=scan();
+			while(isWhiteSpace(n))
+			n=scan();
+			int neg=1;
+			if(n=='-'){ neg=-1; n=scan();}
+			while(!isWhiteSpace(n)&&n!='.'){
+				if(n>='0'&&n<='9'){
+					doub*=10; doub+=n-'0'; n=scan();
+				}
+				else throw new InputMismatchException();
+			}
+			if(n=='.'){
+				n=scan();
+				double temp=1;
+				while(!isWhiteSpace(n)){
+					if(n>='0'&&n<='9'){
+						temp/=10; doub+=(n-'0')*temp; n=scan();
+					}
+					else throw new InputMismatchException();
+				}
+			}
+			return doub*neg;
+		}
+		public String scanString()throws IOException
+		{
+			StringBuilder sb=new StringBuilder();
+			int n=scan();
+			while(isWhiteSpace(n)) n=scan();
+			while(!isWhiteSpace(n)){
+				sb.append((char)n); n=scan();
+			}
+			return sb.toString();
+		}
+		private boolean isWhiteSpace(int n){
+			if(n==' '||n=='\n'||n=='\r'||n=='\t'||n==-1)return true;
+			return false;
+		}
+	}	
 }
-
-//fast reader

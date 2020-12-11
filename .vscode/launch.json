@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CodeChef_test",
+            "request": "launch",
+            "mainClass": "CodeChef_test",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CodeChef",
+            "request": "launch",
+            "mainClass": "_CP_Template.CodeChef",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CodeChef_Test",
+            "request": "launch",
+            "mainClass": "_CP_Template.CodeChef_Test",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestClass",
             "request": "launch",
             "mainClass": "TestClass",
