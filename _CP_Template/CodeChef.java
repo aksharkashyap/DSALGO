@@ -15,7 +15,7 @@ class CodeChef
 	{
 		fs = new FastReader();
 		output = new StringBuilder();
-		int t = fs.scanInt(); 
+		int t = fs.nextInt(); 
 		while (t-- > 0) 
 		{ 	
 			solve();
@@ -28,7 +28,7 @@ class CodeChef
 	//-------------------------------------------------
 	static int[] arrayInput(int n) throws IOException{
 		int[] arr = new int[n];
-		for(int i=0;i<n;i++) arr[i] = fs.scanInt();
+		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
 		return arr;
 	}
 	static void print(StringBuilder s){pw.println(s);}
@@ -68,7 +68,7 @@ class CodeChef
 			}
 			return buf[index++];
 		}
-		public int scanInt()throws IOException{
+		public int nextInt()throws IOException{
 			int integer=0;
 			int n=scan();
 			while(isWhiteSpace(n)) n=scan();
@@ -83,7 +83,7 @@ class CodeChef
 			}
 			return neg*integer;
 		}
-		public double scanDouble()throws IOException{
+		public double nextDouble()throws IOException{
 			double doub=0; int n=scan();
 			while(isWhiteSpace(n))
 			n=scan();
