@@ -1,7 +1,6 @@
 package _CP_Template;
 
 import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 class CodeChef
@@ -83,6 +82,21 @@ class CodeChef
 			}
 			return neg*integer;
 		}
+		public long nextLong()throws IOException{
+			long ll=0l;
+			int n=scan();
+			while(isWhiteSpace(n)) n=scan();
+			int neg=1;
+			if(n=='-'){ neg=-1; n=scan();}
+			while(!isWhiteSpace(n)){
+				if(n>='0'&&n<='9'){
+					ll*=10; ll+=n-'0';
+					n=scan();
+				}
+				else throw new InputMismatchException();
+			}
+			return neg*ll;
+		}
 		public double nextDouble()throws IOException{
 			double doub=0; int n=scan();
 			while(isWhiteSpace(n))
@@ -107,7 +121,7 @@ class CodeChef
 			}
 			return doub*neg;
 		}
-		public String scanString()throws IOException
+		public String nextString()throws IOException
 		{
 			StringBuilder sb=new StringBuilder();
 			int n=scan();

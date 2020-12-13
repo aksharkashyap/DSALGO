@@ -1,7 +1,6 @@
 package _CP_Template;
 
 import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 class CodeChef_test
@@ -122,7 +121,7 @@ class CodeChef_test
 			}
 			return doub*neg;
 		}
-		public String scanString()throws IOException
+		public String nextString()throws IOException
 		{
 			StringBuilder sb=new StringBuilder();
 			int n=scan();
