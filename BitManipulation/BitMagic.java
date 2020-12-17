@@ -101,12 +101,16 @@ public class BitMagic {
         return num & 1;
     }
     
-    //getting most significant bit and its position(leftmost set bit)
+    //getting most significant bit and its position(leftmost set bit) log base 2(n)
     static void msb(int n){
        //msb position 
        int k = (int)(Math.log(n) / Math.log(2));
        //the value of the number with set bit at k-th position 
        int value_at_kth_pos = (int)(Math.pow(2, k)); 
+    }
+    //least significant bit
+    static int lsb(int n){
+        return n &(-n);
     }
 
     public static void main(String[] args) {

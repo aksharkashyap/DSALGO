@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BinaryIndexedTree",
+            "request": "launch",
+            "mainClass": "SegmentTree.BinaryIndexedTree",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CodeChef_test",
             "request": "launch",
             "mainClass": "CodeChef_test",

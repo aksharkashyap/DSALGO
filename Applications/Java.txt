@@ -56,7 +56,7 @@ Character
 19) (char) (ch & ~32)  // Lower case English alphabet to upper case
 19) (char) (ch & '_')   // lower to uper
 20) if((ch & 32) == 0)  // 
-21) 'val' - '0' // char to integer
+21) (ch - '0') // char to integer
 
 ----------------
 Integer : java.lang.Integer.func_name()

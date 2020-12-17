@@ -1,5 +1,6 @@
 package SegmentTree;
 
+//segment tree size -> 4*n aprox
 public class SegmentTree {
         int[] tree;
         int maxsize;

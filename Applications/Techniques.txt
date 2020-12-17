@@ -180,7 +180,10 @@ iii) prefix sum of +ve numbers gives a sorted sequence (useful for binary search
 ------------------
 i) if strings are given then you can map them to integer for simple calculation
 ii asking for merging/ some common relation -> dfs,unionfind,scc may be applied
-
+iii) if they are asking for lexographically smallest path (in bfs/dijsktra) use parent array to keep track of route
+     also to get the lexographically sorted path, sort the edges first before applying the algorithm
+     for(List<Integer> list : edges) Collections.sort(list);
+     
 ------------------
 15) Tree
 ------------------
@@ -196,3 +199,15 @@ iv) height of a self balanced tree O(logn) because it never becomes skewed
 (a) find how many odd and evens from [1,n]
 even -> n / 2
 odd -> n - (n/2)
+
+
+----------------
+17) Segment Tree 
+----------------
+
+(i) Range update query in O(1) with condition that all the update quries are performed first 
+    before any other query
+lecture : https://www.youtube.com/watch?v=i7xZ4Yd_jN8
+practice problem : https://www.hackerrank.com/challenges/crush/problem
+
+(ii) lazy propogation -> range update query [logn]

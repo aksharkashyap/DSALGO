@@ -1,5 +1,6 @@
 package SegmentTree;
-
+//segment tree size -> 4*n aprox
+//tutorial : /https://www.youtube.com/watch?v=-dUiRtJ8ot0
 class ST {
 
     int[] segT,nums;
@@ -24,19 +25,19 @@ class ST {
         segT[idx] = segT[2*idx+1] + segT[2*idx+2];
     }
     
-    public void update(int i, int val) {
+    public void point_update(int i, int val){ //update the single cell in O(logn) time
         int diff = val - nums[i];
         nums[i] = val;
-        updateUtil(0,0,nums.length-1,diff,i);
+        point_update(0,0,nums.length-1,diff,i);
     }
     
-    void updateUtil(int idx, int left, int right, int diff,int i){
+    void point_update(int idx, int left, int right, int diff,int i){
         if (i < left || i > right) return; 
         segT[idx] += diff;
         if(left>=right) return;
         int mid = left + (right-left)/2;
-        updateUtil(2*idx+1,left,mid,diff,i);
-        updateUtil(2*idx+2,mid+1,right,diff,i);
+        point_update(2*idx+1,left,mid,diff,i);
+        point_update(2*idx+2,mid+1,right,diff,i);
     }
     
     public int sumRange(int i, int j) {
