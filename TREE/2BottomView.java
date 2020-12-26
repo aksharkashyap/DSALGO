@@ -66,3 +66,46 @@ class BottomView {
         System.out.print(tree.list);
     }
 }
+
+
+// efficient using BFS
+
+class BVEfficient
+{
+ 
+    // Method that returns the bottom view.
+    public ArrayList <Integer> bottomView(Node root)
+    {
+    // Code here
+        ArrayList<Integer> list = new ArrayList<>();
+        if(root == null) return list;
+        Map<Integer,Integer> map = new TreeMap<>();
+        
+        Queue<pair> Q = new LinkedList<>();
+        Q.offer(new pair(root,0));
+        while(Q.size()>0){
+            pair p = Q.poll();
+            map.put(p.d, p.node.data);
+            if(p.node.left != null){
+                Q.offer(new pair(p.node.left,p.d-1));
+            }
+            if(p.node.right != null){
+                Q.offer(new pair(p.node.right,p.d+1));
+            }
+        }
+        
+        for(int v : map.values()){
+            list.add(v);
+        }
+        return list;
+    }
+    
+    class pair{
+        int d;
+        Node node;
+        pair(Node node, int d){
+            this.d = d;
+            this.node = node;
+        }
+    }
+}

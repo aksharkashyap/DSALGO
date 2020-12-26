@@ -23,15 +23,24 @@ serialization /
 multithreading
 -------------------------
 
-/**
-step 1:
-add some tree and linkedlist famous questions on excel sheet so that i can revise quickly
-complete the DSA sheet
-comepelte the InterviewBit questions 
 
-step 2:
-daily revise DSA sheet with approach thinking and implementing if doubt
-revise imp algos like hashing, kmp
-solve Codeforces and codechef daily
-give mock 
-*/
+---------------
+Gate 
+---------------
+
+-----January--------
+Theory of computation
+Compiler design
+------Fabruary---------
+Digital Logic
+Dbms
+-------March-------
+COD
+computer networks 
+-----April----------
+Maths
+------15 days----------
+C Programming
+------15 days----------
+Aptitude + English Revise
+

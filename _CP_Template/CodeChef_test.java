@@ -3,24 +3,31 @@ package _CP_Template;
 import java.util.*;
 import java.io.*;
 
-class CodeChef_test
-{   static StringBuilder output;
+public class CodeChef_test
+{   static StringBuilder out;
 	
     static void solve() throws IOException{
-
+		int a,b,c;
+		a = fs.nextInt();
+		b = fs.nextInt();
+		c = fs.nextInt();
+		if(((a+b+c) % 9 != 0) || (Math.min(a,(Math.min(b,c))) < (a+b+c))){
+			out.append("no");
+		}
+		else out.append("yes");
  	}
  
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		fs = new FastReader();
-		output = new StringBuilder();
+		out = new StringBuilder();
 		int t = fs.nextInt(); 
 		while (t-- > 0) 
 		{ 	
 			solve();
-			output.append("\n");
+			out.append("\n");
 		}
-		print(output);
+		print(out);
 		pw.flush();
 		pw.close();
 	}

@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 class CodeChef
-{   static StringBuilder output;
+{   static StringBuilder out;
 	
     static void solve() throws IOException{
 
@@ -13,14 +13,14 @@ class CodeChef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		fs = new FastReader();
-		output = new StringBuilder();
+		out = new StringBuilder();
 		int t = fs.nextInt(); 
 		while (t-- > 0) 
 		{ 	
 			solve();
-			output.append("\n");
+			out.append("\n");
 		}
-		print(output);
+		print(out);
 		pw.flush();
 		pw.close();
 	}
