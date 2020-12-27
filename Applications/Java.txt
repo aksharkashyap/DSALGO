@@ -623,3 +623,6 @@ matrix[i][j] becomes arr[i * col_num + j]
 
 // log2(N) in java (int)(Math.log(N) / Math.log(2))
 
+
+//after reading nextInt() from scanner , if you want to read nextLine(), it will create some problem 
+so just use extra readLine() just after the nextInt() to move the cursor to the nextLine
