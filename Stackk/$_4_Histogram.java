@@ -110,7 +110,7 @@ class Histogram{
     }
 
     public static void main(String[] args) {
-        int arr[]={6,2,5,4,5,1,6};
+        int arr[]={2,1,5,6,2,3};
         solve_brute_force(arr, arr.length);
         solve_stack(arr, arr.length);
         
