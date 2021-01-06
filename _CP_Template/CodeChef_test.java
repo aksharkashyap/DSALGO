@@ -5,17 +5,40 @@ import java.io.*;
 
 public class CodeChef_test
 {   static StringBuilder out;
-	
+
     static void solve() throws IOException{
-		int a,b,c;
-		a = fs.nextInt();
-		b = fs.nextInt();
-		c = fs.nextInt();
-		if(((a+b+c) % 9 != 0) || (Math.min(a,(Math.min(b,c))) < (a+b+c))){
-			out.append("no");
+		int n = fs.nextInt();
+		int k = fs.nextInt(); //height of the wall 
+		long[] height = arrayInput(n); // i boxes with height[i]
+		ruffleSort(height);
+		int blocks = 0;
+		long sumA = 0l, sumB = 0l;
+		int i = n - 1;
+		for(; i>=0; i--){
+			if(sumA < sumB){
+				sumA += height[i];
+			}
+			else{
+				sumB += height[i];
+			}
+			blocks++;
+			if(sumA >= k  || sumB >= k) break;
 		}
-		else out.append("yes");
- 	}
+		System.out.print(sumA +" "+ sumB+" "); 	
+		for(; i>=0; i--){
+			if(sumA < k) {
+				sumA += height[i];
+				blocks++;
+			}
+			else if(sumB < k){
+				sumB += height[i];
+				blocks++;
+			}
+			if(sumA >=k && sumB >= k){out.append(blocks); return;}
+		}
+		out.append(-1);
+	}
+	 
  
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -32,9 +55,9 @@ public class CodeChef_test
 		pw.close();
 	}
 	//-------------------------------------------------
-	static int[] arrayInput(int n) throws IOException{
-		int[] arr = new int[n];
-		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
+	static long[] arrayInput(int n) throws IOException{
+		long[] arr = new long[n];
+		for(int i=0;i<n;i++) arr[i] = fs.nextLong();
 		return arr;
 	}
 	static void print(StringBuilder s){pw.println(s);}
@@ -50,10 +73,10 @@ public class CodeChef_test
 		arr[b] = temp;
 	}
 
-	static void ruffleSort(int arr[]){
+	static void ruffleSort(long arr[]){
         for(int i = 0; i<arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
-            int x = arr[t]; 
+            long x = arr[t]; 
             arr[t] = arr[i]; 
             arr[i] = x; 
 		}
