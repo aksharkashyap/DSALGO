@@ -7,36 +7,7 @@ public class CodeChef_test
 {   static StringBuilder out;
 
     static void solve() throws IOException{
-		int n = fs.nextInt();
-		int k = fs.nextInt(); //height of the wall 
-		long[] height = arrayInput(n); // i boxes with height[i]
-		ruffleSort(height);
-		int blocks = 0;
-		long sumA = 0l, sumB = 0l;
-		int i = n - 1;
-		for(; i>=0; i--){
-			if(sumA < sumB){
-				sumA += height[i];
-			}
-			else{
-				sumB += height[i];
-			}
-			blocks++;
-			if(sumA >= k  || sumB >= k) break;
-		}
-		System.out.print(sumA +" "+ sumB+" "); 	
-		for(; i>=0; i--){
-			if(sumA < k) {
-				sumA += height[i];
-				blocks++;
-			}
-			else if(sumB < k){
-				sumB += height[i];
-				blocks++;
-			}
-			if(sumA >=k && sumB >= k){out.append(blocks); return;}
-		}
-		out.append(-1);
+		
 	}
 	 
  
@@ -67,8 +38,8 @@ public class CodeChef_test
 	static FastReader fs;
 	static PrintWriter pw = new PrintWriter(System.out);
 
-	static void swap(int[]arr, int a, int b){
-		int temp = arr[a];
+	static void swap(long[]arr, int a, int b){
+		long temp = arr[a];
 		arr[a] = arr[b];
 		arr[b] = temp;
 	}
