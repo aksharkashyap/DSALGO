@@ -1,5 +1,7 @@
 package Recursion;
 import java.util.*;
+
+//O(n^2) time 
 class RevereseStack{
     
     static void reverse_stack(Stack<Integer> stack){

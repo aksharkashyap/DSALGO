@@ -1,51 +1,36 @@
 package Recursion;
-
 import java.util.Stack;
-import java.util.Arrays;
-import java.util.ListIterator;
-class SortStack{
 
-    static void solve(Stack<Integer> stack){
-        if(stack.empty()) return;
-        int temp = stack.pop();
-        solve(stack);
-        helper(stack,temp);
-        
+//O(n^2)
+class SortStack{    
+    static void sort(Stack<Integer> stack){
+        if(stack.size() == 0 ) return;
+        int x = stack.pop();
+        sort(stack);
+        helper(stack, x);
     }
 
-    static void helper(Stack<Integer> stack, int x){
-        if(stack.empty()) stack.push(x);
+    static void helper(Stack<Integer> stack, int val){
+        if(stack.size() == 0){
+            stack.push(val);
+        }
+        else if(stack.peek() < val){
+            int x = stack.pop();
+            helper(stack, val);
+            stack.push(x);
+        }
         else{
-            int temp = stack.peek();
-            if(x < temp){
-                stack.pop();
-                helper(stack, x);
-                stack.push(temp);
-            }
-            
-            else stack.push(x);
+            stack.push(val);
         }
     }
 
-    static void printStack(Stack<Integer> s) 
-    { 
-       ListIterator<Integer> lt = s.listIterator(); 
-         
-       // forwarding 
-       while(lt.hasNext()) 
-           lt.next(); 
-         
-       // printing from top to bottom 
-       while(lt.hasPrevious()) 
-           System.out.print(lt.previous()+" "); 
-    }
 
     public static void main(String[] args) {
+        int[]arr = {1,6,5,4,5};
         Stack<Integer> stack = new Stack<>();
-        int arr[] = {6,5,3,4,6,1};
-        for(int i : arr) stack.push(i);
-        solve(stack);
-        System.out.println(Arrays.toString(stack.toArray()));
+        for(int v : arr) stack.push(v);
+        sort(stack);
+        while(stack.size()>0) System.out.print(stack.pop()+" ");
     }
     
 }

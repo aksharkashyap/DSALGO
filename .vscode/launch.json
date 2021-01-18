@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortStack",
+            "request": "launch",
+            "mainClass": "Recursion.SortStack",
+            "projectName": "VisualStudio_47de3b05"
+        },
+        {
+            "type": "java",
             "name": "Launch Result",
             "request": "launch",
             "mainClass": "Result",

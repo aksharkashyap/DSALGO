@@ -3,11 +3,11 @@ package _CP_Template;
 import java.util.*;
 import java.io.*;
 
-public class CodeChef_test
+class CodeChef_test
 {   static StringBuilder out;
 
-    static void solve() throws IOException{
-		
+	static void solve() throws IOException{
+			
 	}
 	 
  
@@ -45,15 +45,15 @@ public class CodeChef_test
 	}
 
 	static void ruffleSort(long arr[]){
-        for(int i = 0; i<arr.length; i++){ 
-            int t = (int) Math.random() * arr.length; 
-            long x = arr[t]; 
-            arr[t] = arr[i]; 
-            arr[i] = x; 
+		for(int i = 0; i<arr.length; i++){ 
+			int t = (int) Math.random() * arr.length; 
+			long x = arr[t]; 
+			arr[t] = arr[i]; 
+			arr[i] = x; 
 		}
 		Arrays.sort(arr);
 	} 
-    //--------reader section-----------------
+	//--------reader section-----------------
 	static class FastReader{
 		private byte[] buf=new byte[1024];
 		private int index;
