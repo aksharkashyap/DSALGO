@@ -29,14 +29,13 @@ Gate
 ---------------
 
 -----January--------
-Theory of computation
-Compiler design
-------Fabruary---------
-Digital Logic
-Dbms
--------March-------
 COD
+------Fabruary---------
+Dbms
 computer networks 
+-------March-------
+Digital Logic
+Compiler design
 -----April----------
 Maths
 ------15 days----------
