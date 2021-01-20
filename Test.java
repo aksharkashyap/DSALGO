@@ -3,33 +3,31 @@ import java.io.*;
 
 class Test{
 
-    static void sort(Stack<Integer> stack){
-        if(stack.size() == 0 ) return;
-        int x = stack.pop();
-        sort(stack);
-        helper(stack, x);
-    }
-
-    static void helper(Stack<Integer> stack, int val){
-        if(stack.size() == 0){
-            stack.push(val);
-        }
-        else if(stack.peek() < val){
-            int x = stack.pop();
-            helper(stack, val);
-            stack.push(x);
-        }
-        else{
-            stack.push(val);
-        }
-    }
-
 
     public static void main(String[] args) {
-        int[]arr = {1,6,5,4,5};
+        int[] arr = {11,12,13,14,15,16,17,18,19,20};
+        Queue<Integer> Q = new LinkedList<>();
+        for(int v : arr) Q.offer(v);
+        int size = Q.size();
+        int half = size / 2;
         Stack<Integer> stack = new Stack<>();
-        for(int v : arr) stack.push(v);
-        sort(stack);
-        while(stack.size()>0) System.out.print(stack.pop()+" ");
+        for(int i=0;i<half;i++){
+            insertAtBottom(stack,Q.poll());
+        }
+        for(int i=0;i<half;i++){
+            Q.offer(stack.pop());
+            Q.offer(Q.poll());
+        }
+        while(Q.size()>0) System.out.println(Q.poll());
+    }
+
+    static void insertAtBottom(Stack<Integer> stack, int val){
+        if(stack.size() == 0){
+            stack.push(val);
+            return;
+        }
+        int x = stack.pop();
+        insertAtBottom(stack, val);
+        stack.push(x);
     }
 }
