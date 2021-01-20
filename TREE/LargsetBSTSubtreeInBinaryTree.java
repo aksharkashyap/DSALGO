@@ -1,7 +1,12 @@
 package TREE;
 
+/*Tushar roy video
+Return the size of the largest sub-tree which is also a BST
+https://youtu.be/4fiDs7CCxkc
+*/
+
 class LargsetBSTSubtreeInBinaryTree{
-    // Return the size of the largest sub-tree which is also a BST
+    
     static int largestBst(Node root)
     {
         int[] ans = go(root);
@@ -14,7 +19,7 @@ class LargsetBSTSubtreeInBinaryTree{
 
         int[]left = go(root.left);
         int[]right = go(root.right);
-        
+
         if(left[0]==0 || right[0]==0 || root.data <= left[3] || root.data >= right[2]) 
             return new int[]{0,Math.max(left[1],right[1]),Integer.MAX_VALUE,Integer.MIN_VALUE};
 
