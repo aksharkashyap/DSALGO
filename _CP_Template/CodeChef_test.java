@@ -7,7 +7,29 @@ class CodeChef_test
 {   static StringBuilder out;
 
 	static void solve() throws IOException{
-			
+			String str = fs.nextString();
+			char[]arr = {  '@', '#', '%', '&', '?' };
+			Set<Character> set = new HashSet<>();
+			for(char ch : arr) set.add(ch);
+			if(str.length() < 10){
+				pw.println("NO");
+				return;
+			}
+			boolean lower=false,upper=false,digit=false,sp=false;
+			for(int i=1; i<str.length()-1;i++){
+				char ch = str.charAt(i);
+				if(set.contains(ch)) sp = true;
+				else if(Character.isLowerCase(ch)) lower = true;
+				else if(Character.isUpperCase(ch)) upper = true;
+				else if(Character.isDigit(ch)) digit = true;
+			}
+			if(Character.isLowerCase(str.charAt(0))) lower = true;
+			if(lower && upper && digit && sp){
+				pw.println("YES");
+			}
+			else{
+				pw.println("NO");
+			}
 	}
 	 
  
@@ -19,7 +41,6 @@ class CodeChef_test
 		while (t-- > 0) 
 		{ 	
 			solve();
-			out.append("\n");
 		}
 		print(out);
 		pw.flush();
