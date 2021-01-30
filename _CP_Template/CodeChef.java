@@ -18,35 +18,32 @@ class CodeChef
 		while (t-- > 0) 
 		{ 	
 			solve();
-			out.append("\n");
 		}
-		print(out);
 		pw.flush();
 		pw.close();
 	}
 	//-------------------------------------------------
-	static int[] arrayInput(int n) throws IOException{
-		int[] arr = new int[n];
-		for(int i=0;i<n;i++) arr[i] = fs.nextInt();
+	static long[] arrayInput(int n) throws IOException{
+		long[] arr = new long[n];
+		for(int i=0;i<n;i++) arr[i] = fs.nextLong();
 		return arr;
 	}
-	static void print(StringBuilder s){pw.println(s);}
 	static final int MOD = (int) 1e9+7;
 	static final int INT_MAX = Integer.MAX_VALUE;
 	static final int INT_MIN = Integer.MIN_VALUE;
 	static FastReader fs;
 	static PrintWriter pw = new PrintWriter(System.out);
 
-	static void swap(int[]arr, int a, int b){
-		int temp = arr[a];
+	static void swap(long[]arr, int a, int b){
+		long temp = arr[a];
 		arr[a] = arr[b];
 		arr[b] = temp;
 	}
 
-	static void ruffleSort(int arr[]){
+	static void ruffleSort(long arr[]){
         for(int i = 0; i<arr.length; i++){ 
             int t = (int) Math.random() * arr.length; 
-            int x = arr[t]; 
+            long x = arr[t]; 
             arr[t] = arr[i]; 
             arr[i] = x; 
 		}
