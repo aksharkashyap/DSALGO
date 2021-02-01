@@ -43,6 +43,20 @@ public class BitMagic {
         return e==0 ? true : false;
     }
 
+    static int whichPowerOf2(int x){
+        if(!isPowerof2(x)) {
+            return -1;
+        }
+        int power = 0;
+        while(x>0){
+            int last = x & 1;
+            if(last != 0) break;
+            x = x >> 1;
+            power++;
+        }
+        return power;
+    }
+
     // Lower to upper case
     static char toUpperCase(char ch){
         ch = (char) (ch & '_'); //ch & ~32
