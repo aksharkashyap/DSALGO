@@ -1,9 +1,6 @@
 package _CP;
-
-import java.io.*; 
-import java.lang.Math; 
   
-class PF3{ 
+class PrimeFactos{ 
     // A function to print all prime factors of a given number n 
     public static void primeFactors(int n) 
     { 

@@ -18,7 +18,7 @@ convex hull
 Pigeonhole principle
 inclusion exclusion principle
 sweep line algorithm
-
+Euler toteint
 
 Must Know : Algorithms  src: https://www.geeksforgeeks.org/math-in-competitive-programming/?ref=leftbar-rightbar
 

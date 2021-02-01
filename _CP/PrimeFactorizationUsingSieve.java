@@ -3,11 +3,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Prime Factorization using Sieve O(log n) for multiple queries
+
 class PfSieve{
 
     int[]spf = new int[100001];
 
-     //sieve of smallest prime factors
+    //sieve of smallest prime factors
     //time -> nloglogn
     void sieve_spf(){
         int n = spf.length;

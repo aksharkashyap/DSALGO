@@ -60,3 +60,14 @@ class EulerTotient2{
     } 
 } 
 
+
+
+/*Interesting facts
+
+1) For a prime number p, Φ(p) is p-1. For example Φ(5) is 4, Φ(7) is 6 and Φ(13) is 12. This is obvious, gcd of all numbers from 1 to p-1 will be 1 because p is a prime.
+2) For two numbers a and b, if gcd(a, b) is 1, then Φ(ab) = Φ(a) * Φ(b). For example Φ(5) is 4 and Φ(6) is 2, so Φ(30) must be 8 as 5 and 6 are relatively prime. 
+3) For any two prime numbers p and q, Φ(pq) = (p-1)*(q-1). This property is used in RSA algorithm. 
+4) If p is a prime number, then Φ(pk) = pk – pk-1. This can be proved using Euler’s product formula.
+5) Sum of values of totient functions of all divisors of n is equal to n.
+6) Number of generators of a finite cyclic group under modulo n addition is Φ(n).
+*/
