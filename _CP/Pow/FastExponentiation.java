@@ -1,4 +1,4 @@
-package _CP;
+package _CP.Pow;
 
 class ModularFastExponentiation{
     //complexity : logn

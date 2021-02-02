@@ -1,4 +1,4 @@
-package _CP;
+package _CP.Sieve;
 import java.util.Arrays;
 //n(log(logn))
 class SieveOfErato{

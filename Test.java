@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.math.*;
 
 class Main
 {   static StringBuilder out;
@@ -47,6 +48,12 @@ class Main
         }
         Arrays.sort(arr);
     } 
+    static boolean isPrimeProbable(BigInteger bi){
+        return bi.isProbablePrime(10);
+    }
+    static BigInteger nextProbablePrime(BigInteger bi){
+        return bi.nextProbablePrime();
+    }
     //--------reader section-----------------
     static class FastReader{
         private byte[] buf=new byte[1024];

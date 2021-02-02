@@ -1,4 +1,4 @@
-package _CP;
+package _CP.Pow;
 
 class PowModular {
     /* Iterative Function to calculate (x^y)%p in O(log y) */

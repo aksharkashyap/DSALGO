@@ -1,7 +1,7 @@
 package _CP_Template;
-
 import java.util.*;
 import java.io.*;
+import java.math.*;
 
 class Codechef
 {   static StringBuilder out;
@@ -48,7 +48,13 @@ class Codechef
             arr[i] = x; 
         }
         Arrays.sort(arr);
-    } 
+    }
+    static boolean isPrimeProbable(BigInteger bi){
+        return bi.isProbablePrime(10);
+    }
+    static BigInteger nextProbablePrime(BigInteger bi){
+        return bi.nextProbablePrime();
+    }
     //--------reader section-----------------
     static class FastReader{
         private byte[] buf=new byte[1024];

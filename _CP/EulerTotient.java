@@ -3,12 +3,11 @@ package _CP;
 /*Euler’s Totient function Φ (n) for an input n is the count of numbers in {1, 2, 3, …, n} 
 that are relatively prime to n, i.e., the numbers whose GCD (Greatest Common Divisor) with n is 1. */
 
-//works well with single function call
-import java.util.*; 
-
+//works well for single or very less queries
+//time - O(sqrt(n))
 class EulerTotient1 {
 
-    int phi(int n) {
+    int phi(int n){
         int result = n;
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
@@ -23,41 +22,28 @@ class EulerTotient1 {
 }
 
 
-//efficiently compute values of euler totient function for multiple function calls. 
+//For multiple queries -> O(1) phi
+//preprocessing O(nlog(logn))
+
 class EulerTotient2{ 
-    static int MAX = 100001; 
-    static List<Integer> p = new ArrayList<>(); 
+    static int MAX_N = 1000000;
+    static long phi[] = new long[MAX_N+1]; 
+    static void phi_precompute(){
+        for (int i = 1; i <= MAX_N; i++) phi[i] = i;
+        for (int p = 2; p <= MAX_N; p++) { 
+            if (phi[p] == p) { 
+                phi[p] = p - 1; 
+                for (int i = 2 * p; i <= MAX_N; i += p){ 
+                    phi[i] = (phi[i] / p) * (p - 1); 
+                } 
+            } 
+        } 
+    }
 
-    static void sieve(){ 
-        int[] isPrime=new int[MAX+1]; 
-	    for (int i = 2; i<= MAX; i++){
-		    if (isPrime[i] == 0){ 
-			    p.add(i);
-			    for (int j = 2; i * j<= MAX; j++) isPrime[i * j]= 1; 
-		    } 
-	    } 
-    } 
-
-    static int phi(int n){ 
-	    int res = n; 
-	    // this loop runs sqrt(n / ln(n)) times 
-	    for (int i=0; p.get(i)*p.get(i) <= n; i++){ 
-		    if (n % p.get(i)== 0){ 
-			    // subtract multiples of p[i] from r 
-			    res -= (res / p.get(i));
-			    // Remove all occurrences of p[i] in n 
-			    while (n % p.get(i)== 0) n /= p.get(i); 
-		} 
-	    } 
-	    // when n has prime factor greater than sqrt(n) 
-	    if (n > 1) res -= (res / n);
-	    return res; 
-    } 
-
-    public static void main(String[] args){ 
-	    sieve(); // preprocess all prime numbers upto 10 ^ 5 
-	    System.out.println(phi(11));
-    } 
+    public static void main(String[] args){
+        phi_precompute(); //upto 10^6
+        System.out.println(phi[4]);
+    }
 } 
 
 
