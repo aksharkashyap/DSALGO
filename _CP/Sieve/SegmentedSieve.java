@@ -18,6 +18,7 @@ class SS{
     static void simpleSeive(int LIMIT){//calculate primes till root(R)
         boolean[] bool_prime = new boolean[LIMIT+1]; int size=0;
         Arrays.fill(bool_prime,true);
+        bool_prime[0] = bool_prime[1] = false;
         for(int i=2; i<=LIMIT;i++){
             if(!bool_prime[i]) continue;
             for(int j = i*i; j<=LIMIT; j+=i) bool_prime[j] = false;

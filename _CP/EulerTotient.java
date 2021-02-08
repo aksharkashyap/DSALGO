@@ -7,7 +7,7 @@ that are relatively prime to n, i.e., the numbers whose GCD (Greatest Common Div
 //time - O(sqrt(n))
 class EulerTotient1 {
 
-    int phi(int n){
+    static int phi(int n){
         int result = n;
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {

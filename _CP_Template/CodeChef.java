@@ -55,6 +55,7 @@ class Codechef
     static BigInteger nextProbablePrime(BigInteger bi){
         return bi.nextProbablePrime();
     }
+
     //--------reader section-----------------
     static class FastReader{
         private byte[] buf=new byte[1024];
