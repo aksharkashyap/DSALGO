@@ -19,7 +19,15 @@ java features /
 Synchronization /
 jvm, jdk, jre, jit
 advantage of packages
+
+[
 generics wildcard -  https://www.geeksforgeeks.org/wildcards-in-java/
+
+- upper bound (parameter in a function) eg -> List< ? extends Number> numbers (used to get values)
+- lower bound eg -> List< ? super Number> numbers (used to put values)
+- unbounded eg -> List<?> numbers
+
+]
 
 [var type
 In Java 10, the var keyword allows local variable type inference, 
