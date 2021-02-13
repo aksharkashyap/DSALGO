@@ -12,15 +12,6 @@
 --------------------------------------------------
 
 
-----Some java topics----
-Java OOPS / 
-generics / 
-file handling / 
-exception handling / 
-Threads / 
-stringbuffer vs builder / 
-serialization / 
-multithreading
 -------------------------
 
 
