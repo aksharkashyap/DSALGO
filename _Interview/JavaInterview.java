@@ -5,7 +5,25 @@ Interview java topics
 Java OOPS /
 file handling / 
 exception handling / 
-Wrapper class, Premitive v/s Non-premitive
+
+Wrapper class[
+    wrapper class in Java provides the mechanism to convert primitive into object and object into primitive using
+    autoboxing and unboxing.
+
+    Autoboxing:
+
+    The automatic conversion of primitive data type into its corresponding wrapper class is known as autoboxing
+    int a = 5;
+    Integer x = a;
+
+    Unboxing:
+    
+    The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
+    Integer x = new Integer(5);
+    int a = x;
+]
+
+Premitive v/s Non-premitive
 Threads / 
 stringbuffer vs builder / 
 inner classes / 
@@ -13,12 +31,50 @@ collection framework /
 concurrent collection /
 interfaces and abstract classes /
 nested interfaces /
-marker interface /
+
+marker interface[
+    It is an empty interface (no field or methods). 
+    Examples of marker interface are Serializable, Clonnable and Remote interface. 
+    All these interfaces are empty interfaces.
+]
+
 c++ v/s python v/s java 
 java features /
 Synchronization /
 jvm, jdk, jre, jit
 advantage of packages
+lambda expression,
+diff b/w c++/java/python
+user defined exception
+association, aggregation, composition,
+different types of garbage collector,
+
+singleton class
+[
+     must read -> https://www.geeksforgeeks.org/singleton-class-java/
+     a singleton class is a class that can have only one object (an instance of the class) at a time.
+     After first time, if we try to instantiate the Singleton class, 
+     the new variable also points to the first instance created.
+
+     To design a singleton class:
+       a) Make constructor as private.
+       b) Write a static method that has return type object of this singleton class
+]
+
+blank final variable
+[
+    -A blank instance level final variable cannot be left uninitialized.
+
+    -The blank Instance level final variable must be initialized in each constructor.
+
+    -The blank Instance level final variable cannot be initialized in class methods.
+
+    -A blank static final variable cannot be left uninitialized.
+
+    -The static final variable must be initialized in a static block.
+
+    -A static final variable cannot be initialized in constructor or class methods.
+]
 
 [
 generics wildcard -  https://www.geeksforgeeks.org/wildcards-in-java/
@@ -159,3 +215,4 @@ git handbook
 https://guides.github.com/introduction/git-handbook/
 
 */
+

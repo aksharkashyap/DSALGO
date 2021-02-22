@@ -33,8 +33,6 @@ class RabinKarp{
 			if(i<N-M) hash_n = ((hash_n - txt.charAt(i)*h) *ALPHA +txt.charAt(i+M))%q;	
 			if(hash_n <0) hash_n += q; //if negative then make it positive
 		}
-
-
 	}
 
 
@@ -46,10 +44,10 @@ class RabinKarp{
 		int power_of_p = 1;
 		int MOD = (int) 1e9+9;
 		int str_hash = 0, pat_hash = 0;
-
+		//Hash Function eg: (a * 53^0) + (b * 53^1) + (c * 53^2) + .... 
 		for(int i=0;i<n;i++){
-			str_hash = (str_hash + (str.charAt(i)-'a'+1) * power_of_p) % MOD;
-			pat_hash = (pat_hash + (pat.charAt(i)-'a'+1) * power_of_p) % MOD;
+			str_hash = (str_hash + ((str.charAt(i)-'a'+1) * power_of_p) % MOD) % MOD;
+			pat_hash = (pat_hash + ((pat.charAt(i)-'a'+1) * power_of_p) % MOD) % MOD;
 			if(i<n-1) power_of_p = (p * power_of_p ) % MOD;
 		}
 
@@ -63,14 +61,14 @@ class RabinKarp{
 			if(i+n < m){
 				str_hash = (str_hash - (str.charAt(i)-'a'+1)) % MOD; //remove left
 				str_hash = (str_hash / p ) % MOD; // shift power 
-				str_hash = (str_hash + (str.charAt(i+n)-'a'+1) * power_of_p) % MOD; // add right
+				str_hash = (str_hash + ((str.charAt(i+n)-'a'+1) * power_of_p) % MOD) % MOD; // add right
 			}
 			if(str_hash < 0) str_hash += MOD;
 		}
 	}
 
 	public static void main(String[] args) {
-		String txt = "superhero"; 
+		String txt = "supersupersuperssupersuper"; 
         String pat = "super"; 
         int q = 101; // A prime number 
 		search(pat, txt, q);

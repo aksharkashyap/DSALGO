@@ -1,3 +1,11 @@
+------------
+Type conversions
+------------
+1) int x = (int) y_long_type; //explicit (narrowing)
+2) implicit order (widenning)
+    i) byte -> short -> int -> long -> float -> double
+    ii) char -> int ......
+
 -------------
 Arrays
 -------------
@@ -14,10 +22,8 @@ Arrays
 6) Arrays.compare([]a,[]b) //compares to array lexographically
 7) Arrays.copyOf([],new_length)
 8) Arrays.copyOfRange([],start,end)
-9) Arrays.deepEquals([],[])
 10) Arrays.mismatch([],[]) //returns the index of 1st mismatched element
 11) Arrays.equals([],[]) //compare two array
-12) Arrays.parallelSort([]obj) // sort the array using parallel sort
 13) Arrays.copyOf(matrix,m*n); //clone a 2d array
 
 -------------
@@ -116,7 +122,6 @@ StringBuilder - mutable
 13) insert(int indx, datatype c) //insert the value at perticular pos and shift the rest values
 14) replace(start,end,String new_str)
 15) setCharAt(int index, char ch)
-16) subSequence(int start, int end) //returns CharSequence
 17) substring(int start)
 18) substring(int start,int end)
 19) toString()
@@ -360,7 +365,6 @@ TreeSet - O(logN) all operations
 4) first() //first element of treeset
 4) last() //last element of treeset
 5) add()
-6) addAll() //add the collection to treeset
 7) isEmpty()
 8) clear()
 9) clone()
@@ -596,25 +600,7 @@ prevN = (int)Math.floor(Math.sqrt(x))
 
 //private constructor: Object can only be created inside the class (e.g., when implementing a singleton
 
-#java interview questions{
-    oops,
-    interface, functional interface, marker interface
-    nested class,
-    lambda expression,
-    file handling,
-    threads,
-    generics,
-    serialization and deserialization,
-    jdk,jre,jvm,
-    singleton class
-    diff b/w comparable, comparator,
-    diff b/w c++/java/python
-    exception handling, user defined exception
-    association, aggregation, composition,
-    different types of garbage collector,
-    blank final variable
-    
-}
+
 
 //when you convert 2d array into a single array (also known as ROW_MAJOR/COL_MAJOR)
 matrix[i][j] becomes arr[i * col_num + j]

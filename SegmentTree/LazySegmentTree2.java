@@ -2,6 +2,7 @@ package SegmentTree;
 ////segment tree size -> 4*n aprox
 //tutorial : https://www.youtube.com/watch?v=rwXVCELcrqU&t=458s
 //range update in O(logn)
+
 class LazySegmentTree2 
 { 
 	final int MAX = 1000;	 // Max tree size 

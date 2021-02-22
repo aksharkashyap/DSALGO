@@ -2,16 +2,287 @@
 Remember these stuffs
 ----------
 1) for(auto &x : myvector) cout<<x
+5) int val = atoi("100"); //convert string to int (c only)
+6) int val = stoi(str, start_indx, base) //string to int (works for both c/c++)
+6) itoa(val,char *arr,base) //integer to string
+6) swap(a,b)
+7) pair<int,int> p = make_pair(a,b)
+8) int x = ch - '0' // char to int conversion
+9) long l = (long) x // explicit type casting 
+10) implicit type casting (promotion order)
+    bool -> char -> short int -> int -> unsigned int -> long -> unsigned long -> 
+    long long -> unsigned long long -> float -> double -> long double
 
-2) vector<int>::iterator it; //declare
-   for(it = v.begin(); it<v.end(); it++) cout<< *it;
+10) signed -> both +ve/-ve will be accepted
+10) unsigned -> only +ve will ve accepted otherwise undefined behavior
 
-3) sort(v.begin(),v.end())
+--------------------
+11) sizes 32bit os 
+--------------------
+char -> 1 byte -> %c
+int -> 2 byte (16bit os) / 4 byte (32bit os) -> %d 
+long -> 8 byte -> %l / ld / li 
+float -> 4 byte -> %f
+double -> 8 byte -> %lf 
+long double -> 16 byte (32bitos) / 10 byte( 16bit os) -> %Lf
+long long int -> 8 byte -> %lld
 
-4) v.size()
+12) 'long' and "long int" are at least 32 bits.
+13) 'long long' and "long long int" are at least 64 bits.
 
-5) stlib.h
-   i) int val = atoi("100"); //convert string to int
-   ii) itoa(val,char *arr,base) //integer to string
+-------------
+14) C++ style - better for comptitive programming  | <cstdint>
+------------- 
+std::int8_t   # exactly  8 bits
+std::int16_t  # exactly 16 bits
+std::int32_t  # exactly 32 bits
+std::int64_t  # exactly 64 bits
+
+-------------------------
+Stl-Algorithms
+-------------------------
+1) binary_search(first_iterator, last_iterator, x) – Tests whether x exists in sorted vector or not.
+2) lower_bound(first_iterator, last_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value not less than ‘x’.
+3) upper_bound(first_iterator, last_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value greater than ‘x’
+4) sort(first_iterator, last_iterator) – sort the given vector.
+5) reverse(first_iterator, last_iterator) – reverse a vector.
+6) *max_element (first_iterator, last_iterator) – find the maximum element of a vector.
+7) *min_element (first_iterator, last_iterator) – find the minimum element of a vector.
+8) accumulate(first_iterator, last_iterator, initial value of sum) – summation of vector elements
+9) erase(unique(arr.begin(),arr.end()),arr.end()) – erases the duplicate occurrences in sorted vector
+10) next_permutation(first_iterator, last_iterator) – modifies the vector to its next permutation.
+11) prev_permutation(first_iterator, last_iterator) – modifies the vector to its previous permutation.
+12) distance(vect.begin(), max_element(vect.begin(), vect.end())) -Distance between first to max element
 
 
+-------------------------
+Stl-Iterators
+-------------------------
+vector<int>::iterator it; //declare
+for(it = v.begin(); it<v.end(); it++) cout<< *it;
+
+1. begin() :- return the beginning position of the container.
+2. end() :- return the after end position of the container.
+3. advance(itr,3) :- increment the iterator position till the specified number 
+4. next(itr,2) :- returns the new iterator that the iterator would point after advancing the given positions 
+5. prev(itr,3) :- returns the new iterator that the iterator would point after decrementing the given positions
+
+-------------------------
+Stl-Containers common methods
+-------------------------
+
+1) int a.size()
+2) bool a.empty()
+3) void a.clear()
+4) void a.swap(b)
+
+-------------------------
+priority_queue
+-------------------------
+priority_queue<int,greater<int>> pq; //min heap
+priority_queue<int> pq // max heap
+priority_queue<int,compare> pq; //custom compare
+1) void push(x)
+2) void pop()
+3) <T> top()
+
+-------------------------
+deque
+-------------------------
+deque<int> d;
+1) void push_front()
+2) void push_back()
+3) void pop_front()
+4) void pop_back()
+5) <T> front()
+6) <T> back()
+7) iterator insert(itr,item)
+7) iterator insert(itr,size_type,item) //fill 
+8) iterator erase(iterator)
+9) iterator erase(itr start, itr end) // erase from start to end
+9) <T> at(pos)
+-------------------------
+queue
+-------------------------
+note- iterator dont work here
+queue<int> q;
+1) push()
+2) pop()
+3) front()
+4) back()
+
+-------------------------
+list -> doubly linkedlist
+-------------------------
+advance(it, 2); //advances itr by 2
+list<int> list;
+1) push_front(), pop_front()
+2) push_back(), pop_back()
+3) front()
+4) back()
+5) insert(itr,item)
+6) erase(itr)
+7) remove(x) //remove all occurance of x
+8) list.reverse()
+9) list.merge(list2)
+10) list.sort()
+11) list.unique(optional_compare_predicate) //Removes all duplicate consecutive elements from the list It works only on sorted list..
+12) list1.splice(iterator position, list2) /// transfer all the elements of list2 to list1 
+
+-------------------------
+unordered_map
+-------------------------
+unordered_map<int,int> umap;
+umap[key] = value
+1) find(key) // returns itr.end() if key not found
+2) umap.count(key) // 1 if key is present
+3) umap.at(key) //gives reference of value, so it can also be used to update the key 
+4) umap.erase(key)
+5) umap1.swap(umap2) //swap contents
+6) umap1 == umap2 //compares equality
+
+-------------------------
+unordered_set
+-------------------------
+unordered_set<int> uset;
+1) find(value) // returns itr.end() if item not found
+2) uset.count(value) // 1 if value is present
+3) uset.insert(value)
+4) uset.erase(value)
+5) uset1 == uset2 //compares equality
+
+-------------------------
+set - sorted order (balanced tree) O(logn)
+-------------------------
+set<int> s1 //increasing order 
+set<int, greater<int> > s; //decreasing order
+1) find(val) / returns itr.end() if item not found
+2) count(val) //1 if val is present
+3) lower_bound(val)
+4) upper_bound(val)
+5) insert(val)
+6) erase(val)
+
+-------------------------
+map - sorted order (balanced tree) O(logn)
+-------------------------
+map<int,int> map;
+map[key] = value
+1) find(key) // returns itr.end() if key not found
+2) map.count(key) // 1 if key is present
+3) map.at(key) //gives reference of value, so it can also be used to update the key 
+4) map.erase(key)
+4) map.erase(start_itr, end_itr) 
+5) map1.swap(umap2) //swap contents
+6) map1 == umap2 //compares equality
+7) iterator lower_bound(val)
+8) iterator lower_bound(val)
+
+-------------------------
+multiset -allows duplicates - O(logn)
+-------------------------
+multiset<int> mset;
+1) find(val) / returns itr.end() if item not found
+2) count(val) //1 if val is present
+3) lower_bound(val)
+4) upper_bound(val)
+5) insert(val)
+6) erase(val) // erase all instance of the given value 
+7) erase(mset.find(val)) //erase 1 instance of the given value
+
+-------------------------
+unordered_multimap - allows duplicates  O(1)
+-------------------------
+unordered_multimap<int,int> ummp;
+1) insert({{key,value},{key,value},{},{},....{}})
+2) find(key) //returns iterator to key
+3) count(key) //count number of entries of given key
+4) erase(itr/key/range)
+
+-------------------------
+unordered_multiset - allows duplicates  O(1)
+-------------------------
+unordered_multiset<int> mset;
+1) find(val) / returns itr.end() if item not found
+2) count(val) //1 if val is present
+3) insert(val)
+4) erase(val) // erase all instance of the given value 
+5) erase(mset.find(val)) //erase 1 instance of the given value
+
+
+-------------------------
+vector
+-------------------------
+vector<int> v
+1) push_back()
+2) insert(itr,item)
+3) erase(itr)
+4) <T> at(indx)
+5) <T> front()
+6) <T> back()
+7) data() // returns pointer to the first element 
+
+-------------------------
+stack
+-------------------------
+stack<int> s
+1) void push(x)
+2) void pop()
+3) <T> top()
+
+
+-------------------------
+Math <cmath> (math.h) {all return double value}
+-------------------------
+1) exp(), exp2()
+2) log() //natural, log10(), log2()
+6) pow(), sqrt(), cbrt(), hypo(x,y)
+7) ceil(), floor()
+8) fmod() // mod 
+9) abs()
+10) MAX_INT, MIN_INT
+
+
+-------------------------
+Character <cctype> (ctype.h)
+-------------------------
+1) isalnum()
+2) isalpha()
+3) isblank()
+4) isdigit()
+5) islower(), isupper()
+6) tolower(), toupper()
+7) isspace()
+
+-------------------------
+string
+-------------------------
+1) size()
+2) front(), back()
+4) at(pos)
+6) push_back(), pop_back()
+7) insert(pos,str)
+8) insert(pos,str,subpos,sublen) //inserts a substring of str
+9) append(str)
+10) append(str,subpos,sublen)  //appends at last a substring of str
+11) erase (const_iterator p); //get the iterator by str.begin() or str.end()
+12) erase (const_iterator start, const_iterator end);
+13) replace (pos,len,str)
+14) replace (pos,len,str,subpos,sublen) //replace with substring of str
+15) find(str2) //returns the position of the first occurance. If no matches then returns string::npos.
+16) rfind(str2) //returns the pos of the last occurance of str2. If no matches then returns string::npos.
+17) s1.compare(s2) // 0 if equal, < 0 if s1 is shorter or unmatched char of s1 is smaller than s2 
+18) string s = str.substr(start,end) //end is optional
+19) str.copy(dest,size,pos)
+
+
+-------------------------
+char array
+-------------------------
+	
+1) strcpy(s1, s2) :- Copies string s2 into string s1.
+2)	strcat(s1, s2) :- Concatenates string s2 onto the end of string s1.
+3)	strlen(s1) :- Returns the length of string s1.
+4)	strcmp(s1, s2) :- Returns 0 if s1 and s2 are the same; less than 0 if s1<s2; greater than 0 if s1>s2.
+5)	strchr(s1, ch) :- Returns a pointer to the first occurrence of character ch in string s1.
+6)	strstr(s1, s2) :- Returns a pointer to the first occurrence of string s2 in string s1.

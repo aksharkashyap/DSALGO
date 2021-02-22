@@ -1,36 +1,26 @@
+---------------------10 hr-----------------------------
+8 to 10 am // GATE
+10 to 12 pm // Codeforces / capstone
+2 to 4 pm // Project finish kro capstone
+4 to 5 pm // class 
+5 to 7 pm // Break 
+7 to 9 pm // Gate / Contest
+10:30 to 11.30 pm // Leetcode/Codechef/Hackererath
 --------------------------------------------------
-7.30 to 9.30 Gate //2hr
-10 to 11 Gate // 1hr
-11 to 11.45 Algorithm revisit
---------------------------------------------------
-2 to 5 DSA problems from sheet
---------------------------------------------------
-6.30 to 7.30 Codeforces 
-7.30 to 8.30 Leetcode MOCK / InterviewBit
-8.30 to 9 Coding sheet revise (and some algos and tricks)
-10 to 11 HR Questions
---------------------------------------------------
-
-
--------------------------
-
 
 ---------------
 Gate 
 ---------------
-
------January--------
-COD
-------Fabruary---------
-Dbms
-computer networks 
--------March-------
-Digital Logic
-Compiler design
------April----------
-Maths
-------15 days----------
-C Programming
-------15 days----------
+COD - make it easy #padhai (vinay mishra)
+Digital Electronics - https://www.youtube.com/playlist?list=PLhuphP2dsOLgQM2fWLW7RpjnLSeZI9tIF 
+computer networks - vinay mishra unacademy
+Dbms - vinay mishrea unacademy, well academy
+----------------------
+Discrete maths - https://www.youtube.com/playlist?list=PLJ1skzAkluEw93YLKGnoAqw0y8rXsreii
+Linear algebra - calculas - https://www.youtube.com/playlist?list=PLs5_Rtf2P2r5Z9eX1nZ1BwjYCVBQjibN8
+Probability and Statistics - https://www.youtube.com/watch?v=hk1nxGJ-ExI&list=PLs5_Rtf2P2r5Z9eX1nZ1BwjYCVBQjibN8&index=81&ab_channel=KreatryxGATE-EE%2CECE%2CIN
+--------------
+Compiler design - vinary mishra unacademy
+C Programming - vinary mishra unacademy
 Aptitude + English Revise
 

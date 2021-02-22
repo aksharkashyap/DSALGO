@@ -1,5 +1,7 @@
 package _CP;
 //euclid method
+//O(log(min(a,b)))
+
 class GCD_LCM_Two{
     
     static int gcd(int a, int b){

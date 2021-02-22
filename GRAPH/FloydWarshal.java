@@ -4,6 +4,8 @@ package GRAPH;
  * or negative edge weights (but with no negative cycles). It does so by comparing all possible paths 
  * through the graph between each pair of vertices and that too with O(V^3) comparisons in a graph.
  * 
+ * The problem is to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
+ * 
  * DP SOlution
  */
 
