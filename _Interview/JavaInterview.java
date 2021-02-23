@@ -2,6 +2,11 @@
 -------------------------
 Interview java topics
 -------------------------
+memory management[
+    Java Heap Space is used throughout the application, but Stack is only used for the method — or methods — currently running. 
+    The Heap Space contains all objects are created, but Stack contains any reference to those objects. 
+    Objects stored in the Heap can be accessed throughout the application
+]
 Java OOPS /
 file handling / 
 exception handling / 
