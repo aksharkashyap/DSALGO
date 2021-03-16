@@ -23,4 +23,12 @@ exception handling
 Templates
 Struct vs union
 microproessor
+
+
+Pointers
+
+1) mycode school
+2) https://www.youtube.com/watch?v=LPABbqfElA8&t=405s&ab_channel=GATEBOOKVIDEOLECTURES
+https://www.geeksforgeeks.org/const-qualifier-in-c/
+https://www.geeksforgeeks.org/c-multiple-choice-questions/
 */

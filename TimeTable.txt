@@ -1,11 +1,8 @@
 ---------------------10 hr-----------------------------
-8 to 10 am // GATE
-10 to 12 pm // Codeforces / capstone
-2 to 4 pm // Project finish kro capstone
-4 to 5 pm // class 
-5 to 7 pm // Break 
-7 to 9 pm // Gate / Contest
-10:30 to 11.30 pm // Leetcode/Codechef/Hackererath
+3 hr class
+5 hr capstone
+7 to 8 pm : binarysearch virtual contest 
+8 to 9 pm : resume related stuff (mysql,java, projects,networks,os,dbms) improvement
 --------------------------------------------------
 
 ---------------
@@ -24,3 +21,23 @@ Compiler design - vinary mishra unacademy
 C Programming - vinary mishra unacademy
 Aptitude + English Revise
 
+
+
+//---------networks placement book chapters to read-------
+2.2 to 2.5  osi and tcp/ip, addressing [29,50]
+19.1 to 19.2 ipv4 and ipv6  [549,573]
+23.1 to 23.3 tcp udp    [703,735]
+25.1 to 25.5 name space, dns   [798,808]
+27.1 to 27.3 www and http   [851,870]
+
+
+/* Revise before interview
+0-1 bfs 
+bfs,dfs,topological sort
+graph algos 
+segment tree
+union find 
+sieve of erato
+standard tree questions
+some more standard algos 
+*/
